@@ -1,0 +1,23 @@
+○openweathermapのAPPIDを取得してください。
+ https://openweathermap.org/appid
+ https://home.openweathermap.org/users/sign_up
+
+○Weather999.javaの193行目の*****をopenweathermapで取得したAPPID(API key)に変えてください。
+
+○org.apache.commons.ioをダウンロードしてください。
+ https://commons.apache.org/proper/commons-io/download_io.cgi
+ commons-io-2.6-bin.zipをダウンロードし展開し、その中のcommons-io-2.6.jarを展開してください。orgという名前のフォルダーをWeather999の直下に配置してください。
+
+○Weather999.javaをコンパイルしてください。このとき文字コードのエラーが出るかもしれません。その場合は -encoding UTF-8   というオプションをつけてください。
+
+○mainメソッドはWeather999クラスにあります。
+
+○第一引数でCSVファイルを指定してください。
+
+○第二引数以降で列名を指定してください。列名は複数指定できます。ただし列名は"気温","風速","天気","気圧","湿度","降水量","国","日の出","日の入り"のみです。
+
+○コマンドの例：     java Weather999 asia.csv 国 天気 気圧            (まずはasia.csvや9.csvなどの都市の数が少ないcsvファイルを指定することをオススメします。)
+
+○ 指定した列名の順番にソートされます。
+
+○ CSVファイルはあらかじめ用意してありますが、自分で作成、編集することができます。

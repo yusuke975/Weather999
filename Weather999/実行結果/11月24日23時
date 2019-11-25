@@ -1,0 +1,1007 @@
+現在南米、やアフリカが日中ということもあり、南米やアフリカの暑さが目立ちます。
+以下実行結果です。
+
++----------------------------------------+
+|   |       都市名        |   気温  |  国  |
++----------------------------------------+
+|  1|             Yakutsk|  -34.00|    RU|
+|  2|         Ulaanbaatar|  -26.00|    MN|
+|  3|          Hall Beach|  -24.00|    CA|
+|  4|      Berens Landing|  -19.00|    CA|
+|  5|        Fort Simpson|  -19.00|    CA|
+|  6|             Aklavik|  -18.00|    CA|
+|  7|             Xinqing|  -17.35|    CN|
+|  8|           Hepingjie|  -17.23|    CN|
+|  9|          Nianzishan|  -16.68|    CN|
+| 10|        Tsiigehtchic|  -16.30|    CA|
+| 11|            Wangqing|  -15.38|    CN|
+| 12|         Novosibirsk|  -14.00|    RU|
+| 13|              Tulita|  -12.06|    CA|
+| 14|        Rankin Inlet|  -12.00|    CA|
+| 15|         Shuangcheng|  -12.00|    CN|
+| 16|              Ozerki|  -12.00|    RU|
+| 17|            Paulatuk|  -11.41|    CA|
+| 18|             Wrigley|  -11.39|    CA|
+| 19|            Voronino|  -11.06|    RU|
+| 20|        Norman Wells|  -11.00|    CA|
+| 21|        Xinglongshan|  -11.00|    CN|
+| 22|           Malinovka|  -10.98|    RU|
+| 23|             Wuchang|  -10.61|    CN|
+| 24|            Pershino|  -10.20|    RU|
+| 25|              Astana|  -10.00|    KZ|
+| 26|       Colville Lake|   -9.00|    CA|
+| 27|              Xifeng|   -8.70|    CN|
+| 28|              Soroki|   -8.31|    RU|
+| 29|           Avsyunino|   -8.00|    RU|
+| 30|     Lesnaya Vtoraya|   -8.00|    RU|
+| 31|            Mazikino|   -8.00|    RU|
+| 32|         Midyashkino|   -8.00|    RU|
+| 33|         Murzanayevo|   -8.00|    RU|
+| 34|            Ponarino|   -8.00|    RU|
+| 35|           Todymvazh|   -8.00|    RU|
+| 36|Verkhniye Shelabolki|   -8.00|    RU|
+| 37|             Tahltan|   -7.90|    CA|
+| 38|            Davydovo|   -7.47|    RU|
+| 39|     Fort Resolution|   -7.16|    CA|
+| 40|             McBride|   -6.92|    CA|
+| 41|              Victor|   -6.75|    US|
+| 42|           Hay River|   -6.00|    CA|
+| 43|         Zavolzhskiy|   -5.74|    RU|
+| 44|              Moscow|   -5.36|    RU|
+| 45|            Zaytsevo|   -5.36|    RU|
+| 46|              Walden|   -5.18|    US|
+| 47|          Fort Liard|   -5.12|    CA|
+| 48|        Lappeenranta|   -5.03|    FI|
+| 49|           Normandin|   -5.00|    CA|
+| 50|          Baryshikha|   -5.00|    RU|
+| 51|           Tyukhtovo|   -4.95|    RU|
+| 52|           Byl’tsino|   -4.91|    RU|
+| 53|              Kin’ya|   -4.91|    RU|
+| 54|       Staryy Potash|   -4.91|    RU|
+| 55|         Plyasitsyno|   -4.85|    RU|
+| 56|              Yerovo|   -4.84|    RU|
+| 57|              Gogino|   -4.80|    RU|
+| 58|         Ratnitskoye|   -4.78|    RU|
+| 59|            Korikovo|   -4.65|    RU|
+| 60|     Novaya Derevnya|   -4.59|    RU|
+| 61|          Perkhurovo|   -4.59|    RU|
+| 62|           Xingcheng|   -4.51|    CN|
+| 63|           Kumokhino|   -4.45|    RU|
+| 64|             Fengrun|   -4.44|    CN|
+| 65|                Guye|   -4.44|    CN|
+| 66|         Komsomolets|   -4.13|    RU|
+| 67|            Sosnovka|   -4.13|    RU|
+| 68|               Minsk|   -4.00|    BY|
+| 69|         Podbolotnya|   -4.00|    RU|
+| 70|          Kokhonovka|   -3.80|    BY|
+| 71|        Moiseyevichi|   -3.80|    BY|
+| 72|      Shawinigan-Sud|   -3.80|    CA|
+| 73|                Male|   -3.80|    UA|
+| 74|            Molotino|   -3.74|    BY|
+| 75|            Asbestos|   -3.74|    CA|
+| 76|        Chesterville|   -3.74|    CA|
+| 77|            Zagor’ye|   -3.71|    RU|
+| 78|             Il’inka|   -3.70|    RU|
+| 79|         Louiseville|   -3.69|    CA|
+| 80|         Bobovishchi|   -3.65|    BY|
+| 81|              Weedon|   -3.59|    CA|
+| 82|            La Tuque|   -3.32|    CA|
+| 83|            Slasteny|   -3.00|    BY|
+| 84|             Iisalmi|   -3.00|    FI|
+| 85|             Kajaani|   -3.00|    FI|
+| 86|              Fokino|   -3.00|    RU|
+| 87|           Waswanipi|   -2.93|    CA|
+| 88|          Sanikiluaq|   -2.92|    CA|
+| 89|                Kiev|   -2.91|    UA|
+| 90|      Uzhanka-Vel’ka|   -2.65|    BY|
+| 91|             Carlyle|   -2.56|    CA|
+| 92|              Alfred|   -2.55|    CA|
+| 93|              Ungava|   -2.54|    CA|
+| 94|       Haley Station|   -2.53|    CA|
+| 95|        Saint-Jerome|   -2.46|    CA|
+| 96|          Saint John|   -2.43|    CA|
+| 97|              Thurso|   -2.43|    CA|
+| 98|               Oxbow|   -2.41|    CA|
+| 99|              Ottawa|   -2.39|    CA|
+|100|          Pojanluoma|   -2.32|    FI|
+|101|           Beachburg|   -2.12|    CA|
+|102|       Fenelon Falls|   -2.10|    CA|
+|103|           Pyongyang|   -2.10|    KP|
+|104|             Tallinn|   -2.06|    EE|
+|105|              Rexton|   -2.00|    CA|
+|106|          Richibucto|   -2.00|    CA|
+|107|       Saint-Antoine|   -2.00|    CA|
+|108|             Polevoy|   -2.00|    RU|
+|109|          Hudson Bay|   -1.94|    CA|
+|110|           Lachenaie|   -1.92|    CA|
+|111|         Springville|   -1.88|    US|
+|112|         Grand Forks|   -1.77|    US|
+|113|                Riga|   -1.67|    LV|
+|114|                Amos|   -1.60|    CA|
+|115|             Vilnius|   -1.59|    LT|
+|116|      Otterburn Park|   -1.55|    CA|
+|117|               Nokia|   -1.54|    FI|
+|118|      Hwanghae-bukto|   -1.51|    KP|
+|119|        North Portal|   -1.51|    US|
+|120|          La Prairie|   -1.50|    CA|
+|121|              Garson|   -1.47|    CA|
+|122|          Waterville|   -1.43|    US|
+|123|         Hameenlinna|   -1.34|    FI|
+|124|            Ormstown|   -1.31|    CA|
+|125|      Pointe-Calumet|   -1.21|    CA|
+|126|          Port Perry|   -1.17|    CA|
+|127|              Roblin|   -1.17|    CA|
+|128|            Espanola|   -1.11|    CA|
+|129|            Dubrovki|   -1.11|    RU|
+|130|     Buffalo Narrows|   -1.00|    CA|
+|131|          Cornwallis|   -1.00|    CA|
+|132|           Englehart|   -1.00|    CA|
+|133|      Iroquois Falls|   -1.00|    CA|
+|134|          Schumacher|   -1.00|    CA|
+|135|             Bishkek|   -1.00|    KG|
+|136|        Wejsuny Małe|   -1.00|    PL|
+|137|            Arapahoe|   -1.00|    US|
+|138|              Roseau|   -1.00|    US|
+|139|           Sundridge|   -0.92|    CA|
+|140|              Porvoo|   -0.88|    FI|
+|141|               Sibbo|   -0.88|    FI|
+|142|               Lohja|   -0.78|    FI|
+|143|         Temiscaming|   -0.76|    CA|
+|144|      Lincoln County|   -0.76|    US|
+|145|               Espoo|   -0.73|    FI|
+|146|            Helsinki|   -0.73|    FI|
+|147|          Nurmijarvi|   -0.73|    FI|
+|148|         Kirkkonummi|   -0.72|    FI|
+|149|              Aylmer|   -0.71|    CA|
+|150|           Gananoque|   -0.59|    CA|
+|151|           Big River|   -0.57|    CA|
+|152|             Estevan|   -0.52|    CA|
+|153|        Russellville|   -0.51|    US|
+|154|              Raisio|   -0.48|    FI|
+|155|             Kaarina|   -0.47|    FI|
+|156|           Shelburne|   -0.43|    CA|
+|157|        Caledon East|   -0.38|    CA|
+|158|           Jakobstad|   -0.29|    FI|
+|159|             Russell|   -0.28|    US|
+|160|              Harrow|   -0.27|    CA|
+|161|               Madoc|   -0.19|    CA|
+|162|              Dillon|   -0.13|    US|
+|163|            Sylvania|   -0.11|    US|
+|164|    Washington Mills|   -0.11|    US|
+|165|            Prescott|   -0.08|    US|
+|166|        Grand Valley|   -0.03|    CA|
+|167|             Farnham|   -0.02|    CA|
+|168|        Ciechanowiec|   -0.01|    PL|
+|169|            Hardrock|    0.00|    CA|
+|170|            Rockford|    0.04|    US|
+|171|               Allan|    0.18|    CA|
+|172|             Dundurn|    0.18|    CA|
+|173|              Hanley|    0.18|    CA|
+|174|              Warman|    0.18|    CA|
+|175|               Eston|    0.22|    CA|
+|176|               Keene|    0.27|    US|
+|177|         Tupper Lake|    0.31|    US|
+|178|           Kerrobert|    0.32|    CA|
+|179|             Oneonta|    0.33|    US|
+|180|            Radville|    0.36|    CA|
+|181|            Kanczuga|    0.37|    PL|
+|182|                Stow|    0.37|    US|
+|183|            Mitchell|    0.40|    US|
+|184|             Chicago|    0.41|    US|
+|185|             Tianjin|    0.45|    CN|
+|186|         Ticonderoga|    0.45|    US|
+|187|              Morris|    0.49|    US|
+|188|              Sutton|    0.53|    US|
+|189|              Virden|    0.54|    CA|
+|190|              Wilkie|    0.54|    CA|
+|191|        Lac La Biche|    0.58|    CA|
+|192|               Viola|    0.65|    US|
+|193|           Chengyang|    0.71|    CN|
+|194|             Tarrant|    0.71|    US|
+|195|               Ozark|    0.72|    US|
+|196|           Dunnville|    0.74|    CA|
+|197|           Reykjavik|    0.83|    IS|
+|198|          Moundville|    0.86|    US|
+|199|             Beijing|    0.89|    CN|
+|200|             Xicheng|    0.90|    CN|
+|201|         Warrensburg|    0.93|    US|
+|202|         Elliot Lake|    1.00|    CA|
+|203|            Gore Bay|    1.00|    CA|
+|204|      Little Current|    1.00|    CA|
+|205|            Ashgabat|    1.00|    TM|
+|206|          Brookville|    1.00|    US|
+|207|       Voorheesville|    1.00|    US|
+|208|            Tashkent|    1.00|    UZ|
+|209|                Hede|    1.09|    SE|
+|210|              Vernon|    1.14|    CA|
+|211|            Fonthill|    1.16|    CA|
+|212|            Unadilla|    1.20|    US|
+|213|            Hancheng|    1.21|    CN|
+|214|        Stewartville|    1.24|    US|
+|215|          Priceville|    1.25|    CA|
+|216|              Walton|    1.25|    US|
+|217|             Macklin|    1.27|    CA|
+|218|          Trout Lake|    1.27|    US|
+|219|                Hope|    1.39|    US|
+|220|              Biggar|    1.42|    CA|
+|221|             Valatie|    1.52|    US|
+|222|            Chisinau|    1.53|    MD|
+|223|              Warsaw|    1.57|    PL|
+|224|              Wodąca|    1.60|    PL|
+|225|             Wyoming|    1.60|    US|
+|226|       Paradise Cove|    1.67|    CA|
+|227|            Rosetown|    1.67|    CA|
+|228|          Wampsville|    1.75|    US|
+|229|         Lorne Beach|    1.76|    CA|
+|230|             Munford|    1.78|    US|
+|231|         Trumansburg|    1.78|    US|
+|232|              Lively|    1.80|    US|
+|233|              Alpine|    1.81|    US|
+|234|             Wanakah|    1.88|    US|
+|235|           Town Line|    1.99|    US|
+|236|         Gravelbourg|    2.00|    CA|
+|237|        Manitouwadge|    2.00|    CA|
+|238|         Meadow Lake|    2.00|    CA|
+|239|           Schreiber|    2.00|    CA|
+|240|         Terrace Bay|    2.00|    CA|
+|241|            Dushanbe|    2.00|    TJ|
+|242|             Everard|    2.02|    CA|
+|243|          Montevideo|    2.13|    US|
+|244|             Tillson|    2.35|    US|
+|245|          Assiniboia|    2.41|    CA|
+|246|         North River|    2.45|    CA|
+|247|            Valhalla|    2.55|    SE|
+|248|               Piuka|    2.57|    JP|
+|249|            Hubbards|    2.59|    CA|
+|250|                Oslo|    2.62|    NO|
+|251|            McConnel|    2.79|    CA|
+|252|          Queensland|    2.81|    CA|
+|253|             Red Bay|    2.86|    US|
+|254|             Tbilisi|    3.00|    GE|
+|255|       Village Green|    3.02|    US|
+|256|            Piedmont|    3.04|    US|
+|257|             Karleby|    3.11|    SE|
+|258|            Wallkill|    3.12|    US|
+|259|           Sulligent|    3.19|    US|
+|260|              Newton|    3.27|    US|
+|261|            Feicheng|    3.33|    CN|
+|262|           Stockholm|    3.35|    SE|
+|263|       Muscle Shoals|    3.40|    US|
+|264|             Yerevan|    3.44|    AM|
+|265|    Wappingers Falls|    3.46|    US|
+|266|               Hixon|    3.54|    CA|
+|267|         Rogersville|    3.57|    US|
+|268|          Vails Gate|    3.74|    US|
+|269|       Phil Campbell|    3.81|    US|
+|270|           Southside|    3.83|    US|
+|271|   Dąbrowa Tarnowska|    3.89|    PL|
+|272|           Millhaven|    3.90|    US|
+|273|    Powiat dąbrowski|    4.00|    PL|
+|274|        Philadelphia|    4.02|    US|
+|275|         Walton Park|    4.07|    US|
+|276|         Mount Olive|    4.16|    US|
+|277|              Wright|    4.17|    US|
+|278|             Moulton|    4.18|    US|
+|279|         Maple Creek|    4.19|    CA|
+|280|             Thimphu|    4.31|    BT|
+|281|             Bedford|    4.46|    US|
+|282|          Scottsboro|    4.63|    US|
+|283|             Roanoke|    4.64|    US|
+|284|   Owens Cross Roads|    4.69|    US|
+|285|             Haizhou|    4.73|    CN|
+|286|           Stevenson|    4.75|    US|
+|287|              Shelby|    4.79|    US|
+|288|             Dushevo|    4.84|    BG|
+|289|              Austin|    4.86|    US|
+|290|             Thiells|    4.90|    US|
+|291|           Verplanck|    4.91|    US|
+|292|               Cabri|    5.00|    CA|
+|293|           Gull Lake|    5.00|    CA|
+|294|               Gaomi|    5.00|    CN|
+|295|          Alexandria|    5.00|    RO|
+|296|           Bucharest|    5.01|    RO|
+|297|              Ampere|    5.05|    US|
+|298|            Griswold|    5.15|    US|
+|299|              Marlow|    5.19|    DE|
+|300|               Sofia|    5.24|    BG|
+|301|             Whitney|    5.24|    US|
+|302|      Valley Cottage|    5.35|    US|
+|303|                Biei|    5.44|    JP|
+|304|         Upper Nyack|    5.46|    US|
+|305|          New Market|    5.51|    US|
+|306|          Rainsville|    5.57|    US|
+|307|             Clifton|    5.62|    US|
+|308|         Sardis City|    5.64|    US|
+|309|           Tarrytown|    5.65|    US|
+|310|          Barrington|    5.71|    US|
+|311|                Mita|    5.74|    PE|
+|312|        Rainbow City|    5.74|    US|
+|313|              Steele|    5.77|    US|
+|314|          Rutherford|    5.78|    US|
+|315|             Warwick|    5.78|    US|
+|316|             Sumiton|    5.80|    US|
+|317|          Washington|    5.83|    US|
+|318|        Mount Vernon|    5.94|    US|
+|319|      Sylvan Springs|    5.94|    US|
+|320|      Pleasant Grove|    5.95|    US|
+|321|          North Bibb|    6.00|    US|
+|322|            Cochrane|    6.07|    CL|
+|323|          Rock Creek|    6.09|    US|
+|324|            Ohatchee|    6.10|    US|
+|325|              Berlin|    6.11|    DE|
+|326|       Lake Cowichan|    6.13|    CA|
+|327|           Odenville|    6.13|    US|
+|328|           Pell City|    6.13|    US|
+|329|      Mount Crawford|    6.18|    US|
+|330|              Prague|    6.26|    CZ|
+|331|                Saks|    6.26|    US|
+|332|           Sylacauga|    6.32|    US|
+|333|              Tehran|    6.37|    IR|
+|334|            New York|    6.39|    US|
+|335|         Herluflille|    6.44|    DK|
+|336|          Copenhagen|    6.45|    DK|
+|337|              Reform|    6.50|    DE|
+|338|            Tuckahoe|    6.65|    US|
+|339|               Seoul|    6.71|    KR|
+|340|              Nassau|    6.72|    AT|
+|341|    Upper Brookville|    6.73|    US|
+|342|             Houston|    6.81|    US|
+|343|             Rødklit|    6.95|    DK|
+|344|  University Gardens|    7.10|    US|
+|345|             Huilong|    7.14|    CN|
+|346|Huoqiu Chengguanzhen|    7.16|    CN|
+|347|               Peelo|    7.21|    NL|
+|348|              Duobao|    7.22|    CN|
+|349|         Seryui-dong|    7.37|    KR|
+|350|              Mosses|    7.39|    US|
+|351|                 Opp|    7.42|    US|
+|352|           Woodfield|    7.42|    US|
+|353|       Roberts Creek|    7.43|    CA|
+|354|              Zagreb|    7.67|    HR|
+|355|         Robertsdale|    7.68|    US|
+|356|          Smoke Rise|    7.68|    US|
+|357|        Orange Beach|    7.72|    US|
+|358|           Thomaston|    7.72|    US|
+|359|        Wading River|    7.72|    US|
+|360|        New Brockton|    7.75|    US|
+|361|        Spanish Fort|    7.76|    US|
+|362|           Tallassee|    7.76|    US|
+|363|            Haejeong|    7.77|    KR|
+|364|           Pike Road|    7.80|    US|
+|365|             Slocomb|    7.83|    US|
+|366|       Union Springs|    7.87|    US|
+|367|        Schiltigheim|    7.90|    FR|
+|368|            Fukagawa|    7.94|    JP|
+|369|            Moseushi|    7.94|    JP|
+|370|           Guangshui|    7.95|    CN|
+|371|            Sulechow|    7.95|    PL|
+|372|                Baku|    8.00|    AZ|
+|373|           Kalinovka|    8.00|    AZ|
+|374|         Wervershoof|    8.10|    NL|
+|375|            Rehobeth|    8.10|    US|
+|376|               Tulle|    8.11|    FR|
+|377|              Fuyang|    8.14|    CN|
+|378|      Smiths Station|    8.17|    US|
+|379|      Gemeente Veere|    8.21|    NL|
+|380|             Limoges|    8.23|    FR|
+|381|      Pont-a-Mousson|    8.23|    FR|
+|382|             Algiers|    8.26|    US|
+|383|            Aberdeen|    8.31|    US|
+|384|              Durham|    8.35|    GB|
+|385|              Vienna|    8.38|    AT|
+|386|              Fushan|    8.38|    CN|
+|387|            Selestat|    8.40|    FR|
+|388|         Saint-Avold|    8.48|    FR|
+|389|           Kingstown|    8.48|    GB|
+|390|              Pinson|    8.49|    FR|
+|391|               Sagae|    8.54|    JP|
+|392|           Riverside|    8.55|    US|
+|393|            Conmurra|    8.59|    AU|
+|394|      Saint George's|    8.60|    GB|
+|395|           Sheffield|    8.60|    GB|
+|396|              Dublin|    8.63|    IE|
+|397|             Panmure|    8.65|    AU|
+|398|             Muroran|    8.65|    JP|
+|399|       Sarreguemines|    8.67|    FR|
+|400|          Bratislava|    8.67|    SK|
+|401|              Rennes|    8.68|    FR|
+|402|             Orzesze|    8.72|    PL|
+|403|             Preston|    8.73|    GB|
+|404|                Edam|    8.76|    NL|
+|405|              Vienne|    8.77|    FR|
+|406|              Fuling|    8.79|    CN|
+|407|               Vaduz|    8.82|    AT|
+|408|           Edinburgh|    8.84|    GB|
+|409|           Wendouree|    8.87|    AU|
+|410|               Nancy|    8.88|    FR|
+|411|               Nhill|    8.89|    AU|
+|412|          Terryville|    8.89|    US|
+|413|           Eganstown|    8.91|    AU|
+|414|               Rodez|    8.91|    FR|
+|415|          Venissieux|    8.96|    FR|
+|416|           Ipyang-ni|    8.98|    KR|
+|417|              Cawdor|    8.99|    GB|
+|418|      Allendale East|    9.00|    AU|
+|419|           Chongqing|    9.00|    CN|
+|420|            Hanchuan|    9.00|    CN|
+|421|             Hechuan|    9.00|    CN|
+|422|             Huangpi|    9.00|    CN|
+|423|               Wuhan|    9.00|    CN|
+|424| Tassin-la-Demi-Lune|    9.00|    FR|
+|425|           Wattrelos|    9.08|    BE|
+|426|           Tourcoing|    9.08|    FR|
+|427|             Trappes|    9.08|    FR|
+|428|           Amsterdam|    9.09|    NL|
+|429|               Kabul|    9.10|    AF|
+|430|Verrieres-le-Buisson|    9.10|    FR|
+|431|    Saint-Cyr-lEcole|    9.11|    FR|
+|432|             Plaisir|    9.12|    FR|
+|433|              Thiais|    9.12|    FR|
+|434|   Vigneux-sur-Seine|    9.12|    FR|
+|435|         Villemomble|    9.12|    FR|
+|436|           Vincennes|    9.12|    FR|
+|437|      Viry-Chatillon|    9.12|    FR|
+|438|     Vitry-sur-Seine|    9.12|    FR|
+|439|                Orly|    9.14|    FR|
+|440|         Ris-Orangis|    9.14|    FR|
+|441|              Poissy|    9.15|    FR|
+|442|              Sceaux|    9.15|    FR|
+|443|        Sucy-en-Brie|    9.15|    FR|
+|444|  Verneuil-sur-Seine|    9.15|    FR|
+|445|             Taverny|    9.16|    FR|
+|446|          Llandegfan|    9.17|    GB|
+|447|             Noisiel|    9.18|    FR|
+|448|               Paris|    9.18|    FR|
+|449|             Puteaux|    9.18|    FR|
+|450|         Romainville|    9.18|    FR|
+|451|     Rueil-Malmaison|    9.18|    FR|
+|452|           Sarcelles|    9.18|    FR|
+|453|              Sevran|    9.18|    FR|
+|454|              Stains|    9.18|    FR|
+|455|            Suresnes|    9.18|    FR|
+|456|          Villepinte|    9.18|    FR|
+|457|       Saint-Gratien|    9.19|    FR|
+|458|             Sannois|    9.19|    FR|
+|459|        Sartrouville|    9.19|    FR|
+|460|  Tremblay-en-France|    9.19|    FR|
+|461|           Wasquehal|    9.19|    FR|
+|462|              Tabilk|    9.20|    AU|
+|463|          Luxembourg|    9.20|    LU|
+|464|             Maybole|    9.22|    GB|
+|465|      Roissy-en-Brie|    9.23|    FR|
+|466|          Northfield|    9.23|    GB|
+|467|               Duyun|    9.30|    CN|
+|468|              Saumur|    9.30|    FR|
+|469|              Senlis|    9.32|    FR|
+|470|             Szczyrk|    9.33|    PL|
+|471|              Gaoyou|    9.35|    CN|
+|472|          Pine Level|    9.36|    US|
+|473|            Brussels|    9.38|    BE|
+|474|               Sedan|    9.40|    FR|
+|475|              Gaogou|    9.43|    CN|
+|476|         Stuart Mill|    9.44|    AU|
+|477|               Rouen|    9.49|    FR|
+|478|             San’gok|    9.58|    KR|
+|479|              Apsley|    9.62|    AU|
+|480|              Milino|    9.67|    BG|
+|481|           San Diego|    9.73|    US|
+|482|        Sevinghausen|    9.87|    DE|
+|483|                Vila|    9.95|    IT|
+|484|           Ljubljana|    9.95|    SI|
+|485|                Bern|   10.09|    CH|
+|486|        Casale Litta|   10.12|    IT|
+|487|        Valenciennes|   10.20|    FR|
+|488|             Cardiff|   10.21|    GB|
+|489|                Bath|   10.24|    GB|
+|490|           Hongjiang|   10.25|    CN|
+|491|             Chengdu|   10.29|    CN|
+|492|       Colonia Valle|   10.34|    MX|
+|493|          Dos Ejidos|   10.35|    MX|
+|494|            Taggerty|   10.38|    AU|
+|495|            Sunagawa|   10.39|    JP|
+|496|            Gevenich|   10.41|    DE|
+|497|            Budapest|   10.43|    HU|
+|498|              London|   10.50|    GB|
+|499|         Mexico City|   10.50|    MX|
+|500|             Parkham|   10.55|    GB|
+|501|          Gormandale|   10.56|    AU|
+|502|            Soissons|   10.63|    FR|
+|503|          Daylesford|   10.64|    AU|
+|504|                Date|   10.69|    JP|
+|505|                Yuni|   10.69|    JP|
+|506|             Phoenix|   10.69|    US|
+|507|             Sapporo|   10.72|    JP|
+|508|              Widley|   10.74|    GB|
+|509|         Point Clear|   10.81|    GB|
+|510|                Lyal|   10.88|    AU|
+|511|          Forest Row|   10.89|    GB|
+|512|           Adaminaby|   11.00|    AU|
+|513|           Ironmungy|   11.00|    AU|
+|514|           Seisan-ri|   11.00|    KR|
+|515|    Andorra la Vella|   11.05|    FR|
+|516|            Powranna|   11.06|    AU|
+|517|             Morioka|   11.11|    JP|
+|518|              Madrid|   11.12|    ES|
+|519|    Gilchrist County|   11.15|    US|
+|520|        Willow Grove|   11.19|    AU|
+|521|             Xiaoshi|   11.20|    CN|
+|522|           Hachinohe|   11.22|    JP|
+|523|          San Marino|   11.22|    US|
+|524|              Monaco|   11.24|    FR|
+|525|              Jeetho|   11.41|    AU|
+|526|              Bekkai|   11.46|    JP|
+|527|              Nemuro|   11.46|    JP|
+|528|               Busan|   11.50|    KR|
+|529|    Saint Peter Port|   11.51|    GG|
+|530|             Akkeshi|   11.54|    JP|
+|531|          Tokusan-ri|   11.55|    KR|
+|532|       Diamond Creek|   11.60|    AU|
+|533|         Los Angeles|   11.63|    US|
+|534|                Reze|   11.67|    FR|
+|535|            Cockatoo|   11.70|    AU|
+|536|          Strathewen|   11.73|    AU|
+|537|            Shiogama|   11.74|    JP|
+|538|          Wonga Park|   11.77|    AU|
+|539|            Boolarra|   11.78|    AU|
+|540|            Myrniong|   11.82|    AU|
+|541|          Port Louis|   11.82|    FR|
+|542|           Matsumoto|   11.90|    JP|
+|543|              Bogota|   12.00|    CO|
+|544|               Fukui|   12.00|    JP|
+|545|            Changjon|   12.00|    KR|
+|546|         Changsal-li|   12.00|    KR|
+|547|             Yach’on|   12.00|    KR|
+|548|            Hakodate|   12.12|    JP|
+|549|             Niigata|   12.14|    JP|
+|550|            Shiojiri|   12.15|    JP|
+|551|             Nagaoka|   12.19|    JP|
+|552|               Burra|   12.22|    AU|
+|553|             Lochiel|   12.22|    AU|
+|554|             Undalya|   12.22|    AU|
+|555|              Skopje|   12.22|    MK|
+|556|            Belgrade|   12.28|    RS|
+|557|             Komatsu|   12.34|    JP|
+|558|            Huangshi|   12.35|    CN|
+|559|    State of Manipur|   12.42|    IN|
+|560|            Takayama|   12.43|    JP|
+|561|               Ezhou|   12.49|    CN|
+|562|           Huanggang|   12.49|    CN|
+|563|           Huangzhou|   12.49|    CN|
+|564|                Naha|   12.50|    CN|
+|565|              Haimen|   12.51|    CN|
+|566|              Yamada|   12.60|    JP|
+|567|         Fukuchiyama|   12.63|    JP|
+|568|                Ueda|   12.66|    JP|
+|569|              Aomori|   12.67|    JP|
+|570|              Nagano|   12.67|    JP|
+|571|               Hakui|   12.73|    JP|
+|572|            Kanazawa|   12.73|    JP|
+|573|              Toyama|   12.77|    JP|
+|574|              Takata|   12.78|    JP|
+|575|             Tsuruga|   12.78|    JP|
+|576|              Numata|   12.81|    JP|
+|577|             Gaoping|   12.82|    CN|
+|578|            Marugame|   12.88|    JP|
+|579|             Kanonji|   12.92|    JP|
+|580|           Shimonita|   12.98|    JP|
+|581|            Kamaishi|   12.99|    JP|
+|582|           Motomachi|   13.00|    JP|
+|583|                Saku|   13.01|    JP|
+|584|               Quito|   13.04|    EC|
+|585|            Yamagata|   13.07|    JP|
+|586|            Yonezawa|   13.07|    JP|
+|587|              Ankara|   13.07|    TR|
+|588|            Shanghai|   13.11|    CN|
+|589|         Nakatsugawa|   13.15|    JP|
+|590|      Blue Mountains|   13.16|    NZ|
+|591|              Tivoli|   13.18|    IT|
+|592|            Castries|   13.20|    FR|
+|593|               Niimi|   13.23|    JP|
+|594|            Huangmei|   13.24|    CN|
+|595|               Kyoto|   13.24|    JP|
+|596|              Pessac|   13.27|    FR|
+|597|          Wellington|   13.27|    NZ|
+|598|         Cherrapunji|   13.29|    IN|
+|599|            Mercunda|   13.33|    AU|
+|600|           Kashiwara|   13.33|    JP|
+|601|                Seki|   13.33|    JP|
+|602|              Sendai|   13.33|    JP|
+|603|             Tsuyama|   13.33|    JP|
+|604|             Axedale|   13.34|    AU|
+|605|              Larino|   13.34|    IT|
+|606|             Okayama|   13.34|    JP|
+|607|           Kurashiki|   13.36|    JP|
+|608|               Nikko|   13.36|    JP|
+|609|            Yabutani|   13.43|    JP|
+|610|         Addis Ababa|   13.47|    ET|
+|611|                Rome|   13.48|    IT|
+|612|           Amagasaki|   13.48|    JP|
+|613|               Osaka|   13.48|    JP|
+|614|        Vatican City|   13.48|    VA|
+|615|           Fukushima|   13.49|    JP|
+|616|            Blenheim|   13.57|    NZ|
+|617|                Otsu|   13.58|    JP|
+|618|                Kobe|   13.59|    JP|
+|619|                Nara|   13.76|    JP|
+|620|                 Tsu|   13.78|    JP|
+|621|           Yokkaichi|   13.80|    JP|
+|622|               Namie|   13.87|    JP|
+|623|               Chizu|   13.89|    JP|
+|624|              Wakasa|   13.89|    JP|
+|625|               Akita|   14.00|    JP|
+|626|              Matsue|   14.00|    JP|
+|627|         Sakaiminato|   14.00|    JP|
+|628|           Takamatsu|   14.00|    JP|
+|629|              Himeji|   14.01|    JP|
+|630|              Elmore|   14.05|    AU|
+|631|          Ishinomaki|   14.07|    JP|
+|632|            Wakayama|   14.11|    JP|
+|633|            Takasago|   14.12|    JP|
+|634|           Tokushima|   14.12|    JP|
+|635|         Ballendella|   14.19|    AU|
+|636|         Carag Carag|   14.22|    AU|
+|637|              Nagoya|   14.22|    JP|
+|638|               Aysha|   14.42|    SY|
+|639|               Yuasa|   14.62|    JP|
+|640|           Bujumbura|   14.71|    BI|
+|641|              Toyota|   14.75|    JP|
+|642|          Porepunkah|   14.90|    AU|
+|643|              Oberon|   15.00|    AU|
+|644|         San Antonio|   15.00|    CL|
+|645|            Hangzhou|   15.00|    CN|
+|646|              Alaior|   15.00|    ES|
+|647|            Maebashi|   15.00|    JP|
+|648|           Kathmandu|   15.00|    NP|
+|649|           Copeville|   15.02|    AU|
+|650|Karoonda East Murray|   15.02|    AU|
+|651|             Colombo|   15.29|    BR|
+|652|           O’Connell|   15.36|    AU|
+|653|              Lerida|   15.42|    AU|
+|654|              Takado|   15.42|    JP|
+|655|               Yaren|   15.51|    TR|
+|656|              Baldry|   15.56|    AU|
+|657|       Tallygaroopna|   15.56|    AU|
+|658|                 Aso|   15.56|    JP|
+|659|              Hamada|   15.56|    JP|
+|660|          Yatsushiro|   15.56|    JP|
+|661|          Quandialla|   15.65|    AU|
+|662|             Okazaki|   15.65|    JP|
+|663|            Valletta|   15.68|    MT|
+|664|                Sado|   15.69|    PT|
+|665|            Canberra|   15.75|    AU|
+|666|           Matsuyama|   15.81|    JP|
+|667|           Pemberton|   15.82|    AU|
+|668|         Mount Perry|   15.86|    AU|
+|669|           Hiroshima|   15.88|    JP|
+|670|            Shizuoka|   15.96|    JP|
+|671|             Tottori|   15.98|    JP|
+|672|            Sarajevo|   16.00|    BA|
+|673|      Guatemala City|   16.00|    GT|
+|674|                Toba|   16.00|    JP|
+|675|              Lisbon|   16.02|    PT|
+|676|            Hastings|   16.05|    NZ|
+|677|         Boyup Brook|   16.11|    AU|
+|678|          Bridgetown|   16.11|    AU|
+|679|                Kofu|   16.17|    JP|
+|680|           Mullalyup|   16.32|    AU|
+|681|        McLaren Flat|   16.33|    AU|
+|682|            Kumamoto|   16.40|    JP|
+|683|             Crudine|   16.43|    AU|
+|684|              Beirut|   16.46|    LB|
+|685|           Hamamatsu|   16.49|    JP|
+|686|              Thames|   16.50|    NZ|
+|687|             Iwakuni|   16.53|    JP|
+|688|           Islamabad|   16.54|    PK|
+|689|           Podgorica|   16.63|    ME|
+|690|             Tawonga|   16.67|    AU|
+|691|               Hioki|   16.67|    JP|
+|692|           Kagoshima|   16.67|    JP|
+|693|            Miyazaki|   16.67|    JP|
+|694|             Satsuma|   16.67|    JP|
+|695|            Takaharu|   16.67|    JP|
+|696|              Todaka|   16.67|    JP|
+|697|           Yamaguchi|   16.70|    JP|
+|698|             Nobeoka|   16.72|    JP|
+|699|                Mito|   16.73|    JP|
+|700|             Tsutsui|   16.74|    JP|
+|701|             Tripoli|   16.82|    GR|
+|702|              Hokota|   16.94|    JP|
+|703|              Athens|   16.95|    GR|
+|704|          Landervale|   17.00|    AU|
+|705|               Butia|   17.00|    BR|
+|706|               Ibate|   17.00|    BR|
+|707|          Utsunomiya|   17.00|    JP|
+|708|            Damascus|   17.00|    SY|
+|709|              Walcha|   17.03|    AU|
+|710|             Alliste|   17.06|    IT|
+|711|              Fukaya|   17.21|    JP|
+|712|               Asahi|   17.23|    JP|
+|713|               Tunis|   17.35|    TN|
+|714|            Woolomin|   17.41|    AU|
+|715|              La Paz|   17.42|    MX|
+|716|            Gundagai|   17.43|    AU|
+|717|               Rabat|   17.45|    MA|
+|718|            Hirokawa|   17.49|    JP|
+|719|           Old Junee|   17.51|    AU|
+|720|              Illabo|   17.53|    AU|
+|721|               Junee|   17.53|    AU|
+|722|              Kurume|   17.55|    JP|
+|723|             Dazaifu|   17.63|    JP|
+|724|             Fukuoka|   17.64|    JP|
+|725|               Soeda|   17.64|    JP|
+|726|              Miyako|   17.65|    JP|
+|727|              Quaama|   17.66|    AU|
+|728|               Sueca|   17.66|    ES|
+|729|            Kilkivan|   17.70|    AU|
+|730|         Shimonoseki|   17.72|    JP|
+|731|              Mannen|   17.78|    JP|
+|732|            Yusuhara|   17.78|    JP|
+|733|          Yerrinbool|   17.84|    AU|
+|734|              Wajima|   17.84|    JP|
+|735|              Narita|   17.86|    JP|
+|736|        Vila Conrado|   17.89|    BR|
+|737|         Greigs Flat|   18.00|    AU|
+|738|              Guilin|   18.00|    CN|
+|739|              Havana|   18.00|    CU|
+|740|                Saga|   18.03|    JP|
+|741|              Otsuki|   18.05|    JP|
+|742|         Casa Branca|   18.07|    BR|
+|743|             Shimoda|   18.08|    JP|
+|744|         Lilli Pilli|   18.13|    AU|
+|745|               Sanaa|   18.13|    YE|
+|746|          Shuangyang|   18.21|    CN|
+|747|             Saitama|   18.21|    JP|
+|748|         Medlow Bath|   18.23|    AU|
+|749|            Menangle|   18.23|    AU|
+|750|               Tokyo|   18.25|    JP|
+|751|     Sackville Reach|   18.28|    AU|
+|752|              Sasebo|   18.28|    JP|
+|753|            Blaxland|   18.29|    AU|
+|754|            Kawasaki|   18.30|    JP|
+|755|            Kawatana|   18.30|    JP|
+|756|            Nagasaki|   18.31|    JP|
+|757|             Maroota|   18.32|    AU|
+|758|               Chiba|   18.33|    JP|
+|759|          Sagamihara|   18.41|    JP|
+|760|           Nishihara|   18.42|    JP|
+|761|           Hiratsuka|   18.44|    JP|
+|762|              Atsugi|   18.46|    JP|
+|763|            Kisarazu|   18.46|    JP|
+|764|          Embu Guacu|   18.50|    BR|
+|765|            Yokohama|   18.51|    JP|
+|766|            Uenohara|   18.55|    JP|
+|767|            Yamakita|   18.58|    JP|
+|768|           Yatsuzawa|   18.65|    JP|
+|769|         Tegucigalpa|   18.93|    HN|
+|770|           Jacutinga|   19.00|    BR|
+|771|               Amman|   19.00|    JO|
+|772|Itapecerica da Serra|   19.03|    BR|
+|773|     Taboao da Serra|   19.04|    BR|
+|774|               Atami|   19.04|    JP|
+|775|             Gaozhou|   19.08|    CN|
+|776|           Huaicheng|   19.16|    CN|
+|777|            Takanabe|   19.34|    JP|
+|778|               Bobin|   19.46|    AU|
+|779|             Wingham|   19.47|    AU|
+|780|         Port Moonta|   19.48|    AU|
+|781|             Ungarie|   19.55|    AU|
+|782|             Izuhara|   19.62|    JP|
+|783|              Moroni|   19.71|    GR|
+|784|           Jerusalem|   19.78|    PS|
+|785|              Samson|   19.86|    AU|
+|786|             Kwinana|   19.90|    AU|
+|787|             Wellard|   19.90|    AU|
+|788|              Geurie|   20.00|    AU|
+|789|            Duartina|   20.00|    BR|
+|790|                 Itu|   20.00|    BR|
+|791|            Macatuba|   20.00|    BR|
+|792|             Pirajui|   20.00|    BR|
+|793|            Qinggang|   20.00|    CN|
+|794|             Isomura|   20.00|    JP|
+|795|                Lima|   20.00|    PE|
+|796|              Asmara|   20.01|    ER|
+|797|             Guiping|   20.15|    CN|
+|798|        Paraisopolis|   20.21|    BR|
+|799|         Perwillowen|   20.24|    AU|
+|800|              Kuwait|   20.31|    PE|
+|801|             Huazhou|   20.33|    CN|
+|802|                Taga|   20.39|    ID|
+|803|  Aracoiaba da Serra|   20.56|    BR|
+|804|           Naypyidaw|   20.56|    MM|
+|805|     Telegraph Point|   20.57|    AU|
+|806|           Tintenbar|   20.60|    AU|
+|807|            Clybucca|   20.66|    AU|
+|808|          Mogi Guacu|   20.68|    BR|
+|809|           Aparecida|   20.75|    BR|
+|810|             Encheng|   20.76|    CN|
+|811|              Kigali|   20.78|    RW|
+|812|         Serra Negra|   20.83|    BR|
+|813|            Ilhabela|   20.91|    BR|
+|814|       Mount Edwards|   20.94|    AU|
+|815|            Woodford|   20.94|    AU|
+|816|              Tirana|   21.00|    AL|
+|817|              Haikou|   21.00|    CN|
+|818|                Suva|   21.00|    FJ|
+|819|             Lucknow|   21.00|    IN|
+|820|             Baghdad|   21.00|    IQ|
+|821|              Riyadh|   21.00|    SA|
+|822|              Protea|   21.00|    ZA|
+|823|            Tyagarah|   21.04|    AU|
+|824|             Nairobi|   21.18|    KE|
+|825|        Buenos Aires|   21.28|    AR|
+|826|           Terranora|   21.31|    AU|
+|827|          Bowraville|   21.32|    AU|
+|828|      Nambucca Shire|   21.32|    AU|
+|829|              Moreno|   21.34|    AR|
+|830|       Millaa Millaa|   21.38|    AU|
+|831|             Orleans|   21.42|    BR|
+|832|           Itinga II|   21.55|    BR|
+|833|           New Delhi|   21.77|    IN|
+|834|            Santiago|   21.89|    PH|
+|835|            San Jose|   21.97|    HN|
+|836|          Coolgardie|   22.00|    AU|
+|837|           Dalysford|   22.00|    AU|
+|838|           Ituverava|   22.00|    BR|
+|839|        Miguelopolis|   22.00|    BR|
+|840|         Morro Agudo|   22.00|    BR|
+|841|            Orlandia|   22.00|    BR|
+|842|            Huicheng|   22.00|    CN|
+|843|        Antananarivo|   22.00|    MG|
+|844|            Lilongwe|   22.00|    MW|
+|845|             Kampala|   22.00|    UG|
+|846|              Taipei|   22.05|    TW|
+|847|              Quarai|   22.10|    BR|
+|848|             Labelle|   22.26|    US|
+|849|           Chavantes|   22.31|    BR|
+|850|              Ipaucu|   22.31|    BR|
+|851|               Tully|   22.36|    AU|
+|852|      Rio dos Cedros|   22.38|    BR|
+|853|               Dhaka|   22.48|    IN|
+|854|      Miguel Pereira|   22.54|    BR|
+|855|             Tarzali|   22.55|    AU|
+|856|               Praia|   22.55|    BR|
+|857|              Malabo|   22.62|    CD|
+|858|          Guapimirim|   22.63|    BR|
+|859|              Viamao|   22.71|    BR|
+|860|          Candelaria|   22.78|    PH|
+|861|        San Salvador|   22.86|    SV|
+|862|           Cape Town|   22.89|    ZA|
+|863|        Aldeia Velha|   23.00|    BR|
+|864|         Campo Limpo|   23.00|    BR|
+|865|               Hanoi|   23.00|    VN|
+|866|            Shenzhen|   23.07|    CN|
+|867|           Bengaluru|   23.07|    IN|
+|868|            Belmopan|   23.10|    BZ|
+|869|              Foshan|   23.18|    CN|
+|870|           Hazledean|   23.21|    AU|
+|871|              Harare|   23.23|    ZW|
+|872|           Vientiane|   23.32|    LA|
+|873|       Campos Gerais|   23.89|    BR|
+|874|               Young|   23.89|    UY|
+|875|               Cairo|   23.94|    EG|
+|876|              Lusaka|   23.99|    ZM|
+|877|             Chabana|   24.00|    JP|
+|878|            Nakanoku|   24.00|    JP|
+|879|        Port Moresby|   24.00|    PG|
+|880|             Honiara|   24.00|    SB|
+|881|               Humen|   24.01|    CN|
+|882|              Zamami|   24.20|    JP|
+|883|                 Ayr|   24.44|    AU|
+|884|            Shimochi|   24.46|    JP|
+|885|              Guiren|   24.52|    TW|
+|886|           Thornwood|   24.52|    ZA|
+|887|            Ishigaki|   24.57|    JP|
+|888|            Taketomi|   24.57|    JP|
+|889|              Manama|   24.69|    AE|
+|890|           Singapore|   24.86|    MY|
+|891|    Fitzroy Crossing|   24.93|    AU|
+|892|       Santo Domingo|   24.93|    DO|
+|893|           Abu Dhabi|   25.00|    AE|
+|894|             Iveragh|   25.00|    AU|
+|895|           Auriflama|   25.00|    BR|
+|896|            Buritama|   25.00|    BR|
+|897|             Lavínia|   25.00|    BR|
+|898|            Freetown|   25.00|    BS|
+|899|             Managua|   25.00|    NI|
+|900|              Muscat|   25.00|    OM|
+|901|            Djibouti|   25.18|    DJ|
+|902|                Doha|   25.36|    QA|
+|903|           Mogadishu|   25.84|    SO|
+|904|            Palotina|   26.00|    BR|
+|905|      Port-au-Prince|   26.00|    HT|
+|906|            Melekeok|   26.00|    PW|
+|907|              Dodoma|   26.00|    TZ|
+|908|             Caracas|   26.02|    VE|
+|909|           Guiricema|   26.11|    BR|
+|910|  Petrolina de Goias|   26.14|    BR|
+|911|         Halls Creek|   26.35|    AU|
+|912|             Mbabane|   26.80|    SZ|
+|913|             Yaounde|   26.89|    CM|
+|914|                Dili|   27.09|    TL|
+|915|            Paicandu|   27.34|    BR|
+|916|               Goias|   27.35|    BR|
+|917|            Itaberai|   27.35|    BR|
+|918|        Kuala Lumpur|   27.36|    MY|
+|919|            Carolina|   27.59|    PR|
+|920|              Panama|   27.62|    PA|
+|921|              Manila|   27.67|    PH|
+|922|             Ipameri|   27.71|    BR|
+|923|            Coruripe|   27.73|    BR|
+|924|          Taiobeiras|   27.78|    BR|
+|925|            Kingston|   27.89|    JM|
+|926|                Ipua|   27.99|    BR|
+|927|              Bangui|   28.00|    CF|
+|928|           Cebu City|   28.00|    PH|
+|929|            Funafuti|   28.00|    TV|
+|930|             Realeza|   28.20|    BR|
+|931|           Ladysmith|   28.29|    ZA|
+|932|             Jakarta|   28.33|    ID|
+|933| Bandar Seri Begawan|   28.37|    BN|
+|934|          Resplendor|   28.38|    BR|
+|935|            Isisford|   28.44|    AU|
+|936|            Victoria|   28.45|    BN|
+|937|   Cruzeiro do Oeste|   28.86|    BR|
+|938|                Moju|   29.00|    BR|
+|939|              Majuro|   29.00|    MH|
+|940|             Bangkok|   29.18|    TH|
+|941|          Basseterre|   29.64|    TT|
+|942|       Port of Spain|   29.66|    TT|
+|943|              Maputo|   29.79|    MZ|
+|944|            Sea View|   29.82|    TZ|
+|945|        Bady Bassitt|   29.87|    BR|
+|946|             Adavale|   29.94|    AU|
+|947|              Luanda|   30.00|    AO|
+|948|            Brasilia|   30.00|    BR|
+|949|          Camaragibe|   30.00|    BR|
+|950|      Campo do Brito|   30.00|    BR|
+|951|          Libreville|   30.00|    GA|
+|952|          Georgetown|   30.00|    GY|
+|953|               Kochi|   30.00|    IN|
+|954|              Maseru|   30.00|    LS|
+|955|            Asuncion|   30.00|    PY|
+|956|          Paramaribo|   30.07|    SR|
+|957|           Porangatu|   30.11|    BR|
+|958|             Conakry|   30.14|    GN|
+|959|             Caapora|   30.45|    BR|
+|960|          Itapissuma|   30.56|    BR|
+|961|                Jaru|   30.65|    BR|
+|962|       Tupi Paulista|   30.68|    BR|
+|963|         Meekatharra|   31.00|    AU|
+|964|               Accra|   31.00|    GH|
+|965|                Lome|   31.00|    GH|
+|966|          Phnom Penh|   31.00|    KH|
+|967|            Monrovia|   31.00|    LR|
+|968|               Dakar|   31.34|    SN|
+|969|         Minas Novas|   31.46|    BR|
+|970|         Brazzaville|   31.47|    CD|
+|971|            Kinshasa|   31.49|    CD|
+|972|        Yamoussoukro|   31.85|    CI|
+|973|          Porto-Novo|   32.00|    BJ|
+|974|                Oshi|   32.00|    NG|
+|975|       Rosario Oeste|   32.66|    BR|
+|976|            Gaborone|   33.00|    BW|
+|977|          Nouakchott|   33.00|    MR|
+|978|            Khartoum|   33.00|    SD|
+|979|              Banjul|   33.74|    GM|
+|980|               Abuja|   34.00|    NG|
+|981|                Apia|   34.00|    NG|
+|982|    Sao Joao Batista|   34.12|    BR|
+|983|               Picui|   34.66|    BR|
+|984|               Dasha|   34.66|    NG|
+|985|            Windhoek|   34.75|    NA|
+|986|             Coroata|   34.89|    BR|
+|987|              Bamako|   36.00|    ML|
+|988|            Amontada|   36.06|    BR|
+|989|           N'Djamena|   37.00|    TD|
+|990|          Entre Rios|   37.46|    BR|
+|991|       Major Isidoro|   37.48|    BR|
+|992|         Ouagadougou|   37.49|    BF|
+|993|              Tarawa|   37.53|    NG|
+|994|          Cercadinho|   37.74|    BR|
+|995|              Bissau|   37.98|    GW|
+|996|          Cajazeiras|   38.73|    BR|
+|997|      Tobias Barreto|   38.96|    BR|
+|998|              Niamey|   40.00|    NE|
+|999|     Delmiro Gouveia|   45.01|    BR|
++----------------------------------------+
+11月24日 22:58現在の情報

@@ -1,0 +1,1008 @@
+java Weather999 999.csv 気圧 国  を13:00(日本時間)に実行した場合です。
+気圧が低い順に並び変えられています。
+以下が実行結果です。
+
++--------------------------------------+
+|   |       都市名        | 気圧  |  国  |
++--------------------------------------+
+|  1|   Dąbrowa Tarnowska|   979|    PL|
+|  2|    Powiat dąbrowski|   979|    PL|
+|  3|       Paradise Cove|   990|    CA|
+|  4|              Dublin|   992|    IE|
+|  5|              Tabilk|   993|    AU|
+|  6|       Tallygaroopna|   993|    AU|
+|  7|           Kingstown|   994|    GB|
+|  8|          Llandegfan|   994|    GB|
+|  9|         North River|   995|    CA|
+| 10|              Durham|   995|    GB|
+| 11|           Edinburgh|   995|    GB|
+| 12|             Maybole|   995|    GB|
+| 13|             Preston|   995|    GB|
+| 14|          Yerrinbool|   996|    AU|
+| 15|             Cardiff|   996|    GB|
+| 16|              Walden|   996|    US|
+| 17|                Bath|   997|    GB|
+| 18|              Cawdor|   997|    GB|
+| 19|          Northfield|   997|    GB|
+| 20|      Saint George's|   997|    GB|
+| 21|           Sheffield|   997|    GB|
+| 22|         Lilli Pilli|   998|    AU|
+| 23|            Menangle|   998|    AU|
+| 24|            Blaxland|   999|    AU|
+| 25|         Greigs Flat|   999|    AU|
+| 26|             Maroota|   999|    AU|
+| 27|         Medlow Bath|   999|    AU|
+| 28|              Quaama|   999|    AU|
+| 29|     Sackville Reach|   999|    AU|
+| 30|              London|   999|    GB|
+| 31|         Point Clear|   999|    GB|
+| 32|              Widley|   999|    GB|
+| 33|    Saint Peter Port|   999|    GG|
+| 34|          Trout Lake|   999|    US|
+| 35|             Everard|  1000|    CA|
+| 36|            Hardrock|  1000|    CA|
+| 37|      Iroquois Falls|  1000|    CA|
+| 38|        Manitouwadge|  1000|    CA|
+| 39|           Schreiber|  1000|    CA|
+| 40|          Schumacher|  1000|    CA|
+| 41|         Terrace Bay|  1000|    CA|
+| 42|          Forest Row|  1000|    GB|
+| 43|             Parkham|  1000|    GB|
+| 44|        Ciechanowiec|  1000|    PL|
+| 45|               Bobin|  1001|    AU|
+| 46|              Oberon|  1001|    AU|
+| 47|           O’Connell|  1001|    AU|
+| 48|     Telegraph Point|  1001|    AU|
+| 49|             Wingham|  1001|    AU|
+| 50|         Elliot Lake|  1001|    CA|
+| 51|            Gore Bay|  1001|    CA|
+| 52|      Little Current|  1001|    CA|
+| 53|          Port Louis|  1001|    FR|
+| 54|           Adaminaby|  1002|    AU|
+| 55|           Ironmungy|  1002|    AU|
+| 56|            Powranna|  1002|    AU|
+| 57|           Englehart|  1002|    CA|
+| 58|            Espanola|  1002|    CA|
+| 59|         Wervershoof|  1002|    NL|
+| 60|             Bedford|  1002|    US|
+| 61|            Canberra|  1003|    AU|
+| 62|            Clybucca|  1003|    AU|
+| 63|           Wattrelos|  1003|    BE|
+| 64|         Lorne Beach|  1003|    CA|
+| 65|              Rennes|  1003|    FR|
+| 66|           Tourcoing|  1003|    FR|
+| 67|        Valenciennes|  1003|    FR|
+| 68|           Wasquehal|  1003|    FR|
+| 69|           Amsterdam|  1003|    NL|
+| 70|                Edam|  1003|    NL|
+| 71|      Gemeente Veere|  1003|    NL|
+| 72|              Lively|  1003|    US|
+| 73|            Piedmont|  1003|    US|
+| 74|             Crudine|  1004|    AU|
+| 75|              Lerida|  1004|    AU|
+| 76|            Brussels|  1004|    BE|
+| 77|           Sundridge|  1004|    CA|
+| 78|         Temiscaming|  1004|    CA|
+| 79|                Reze|  1004|    FR|
+| 80|               Rouen|  1004|    FR|
+| 81|              Athens|  1004|    GR|
+| 82|             Alliste|  1004|    IT|
+| 83|               Peelo|  1004|    NL|
+| 84|            Asuncion|  1004|    PY|
+| 85|              Alpine|  1004|    US|
+| 86|              Austin|  1004|    US|
+| 87|           Southside|  1004|    US|
+| 88|             Wyoming|  1004|    US|
+| 89|              Tirana|  1005|    AL|
+| 90|          Bowraville|  1005|    AU|
+| 91|      Nambucca Shire|  1005|    AU|
+| 92|             Tawonga|  1005|    AU|
+| 93|            Woolomin|  1005|    AU|
+| 94|                Amos|  1005|    CA|
+| 95|        Grand Valley|  1005|    CA|
+| 96|          Priceville|  1005|    CA|
+| 97|          Sanikiluaq|  1005|    CA|
+| 98|           Shelburne|  1005|    CA|
+| 99|             Noisiel|  1005|    FR|
+|100|                Orly|  1005|    FR|
+|101|               Paris|  1005|    FR|
+|102|             Plaisir|  1005|    FR|
+|103|              Poissy|  1005|    FR|
+|104|             Puteaux|  1005|    FR|
+|105|         Ris-Orangis|  1005|    FR|
+|106|         Romainville|  1005|    FR|
+|107|     Rueil-Malmaison|  1005|    FR|
+|108|    Saint-Cyr-lEcole|  1005|    FR|
+|109|       Saint-Gratien|  1005|    FR|
+|110|             Sannois|  1005|    FR|
+|111|           Sarcelles|  1005|    FR|
+|112|        Sartrouville|  1005|    FR|
+|113|              Sceaux|  1005|    FR|
+|114|               Sedan|  1005|    FR|
+|115|              Senlis|  1005|    FR|
+|116|              Sevran|  1005|    FR|
+|117|              Stains|  1005|    FR|
+|118|        Sucy-en-Brie|  1005|    FR|
+|119|            Suresnes|  1005|    FR|
+|120|             Taverny|  1005|    FR|
+|121|              Thiais|  1005|    FR|
+|122|             Trappes|  1005|    FR|
+|123|  Tremblay-en-France|  1005|    FR|
+|124|  Verneuil-sur-Seine|  1005|    FR|
+|125|Verrieres-le-Buisson|  1005|    FR|
+|126|   Vigneux-sur-Seine|  1005|    FR|
+|127|         Villemomble|  1005|    FR|
+|128|          Villepinte|  1005|    FR|
+|129|           Vincennes|  1005|    FR|
+|130|      Viry-Chatillon|  1005|    FR|
+|131|     Vitry-sur-Seine|  1005|    FR|
+|132|             Tripoli|  1005|    GR|
+|133|              Majuro|  1005|    MH|
+|134|             Honiara|  1005|    SB|
+|135|                Hope|  1005|    US|
+|136|          Moundville|  1005|    US|
+|137|             Oneonta|  1005|    US|
+|138|             Phoenix|  1005|    US|
+|139|            Prescott|  1005|    US|
+|140|              Roseau|  1005|    US|
+|141|             Russell|  1005|    US|
+|142|        Russellville|  1005|    US|
+|143|         Springville|  1005|    US|
+|144|             Tarrant|  1005|    US|
+|145|          Terryville|  1005|    US|
+|146|            Boolarra|  1006|    AU|
+|147|          Gormandale|  1006|    AU|
+|148|          Quandialla|  1006|    AU|
+|149|              Walcha|  1006|    AU|
+|150|                Jaru|  1006|    BR|
+|151|              Aylmer|  1006|    CA|
+|152|        Caledon East|  1006|    CA|
+|153|           Dunnville|  1006|    CA|
+|154|              Garson|  1006|    CA|
+|155|              Harrow|  1006|    CA|
+|156|               Madoc|  1006|    CA|
+|157|              Rexton|  1006|    CA|
+|158|          Richibucto|  1006|    CA|
+|159|       Saint-Antoine|  1006|    CA|
+|160|            Cochrane|  1006|    CL|
+|161|            Gevenich|  1006|    DE|
+|162|        Sevinghausen|  1006|    DE|
+|163|    Andorra la Vella|  1006|    FR|
+|164|              Pinson|  1006|    FR|
+|165|      Roissy-en-Brie|  1006|    FR|
+|166|              Saumur|  1006|    FR|
+|167|            Soissons|  1006|    FR|
+|168|              Moroni|  1006|    GR|
+|169|           Podgorica|  1006|    ME|
+|170|            Valletta|  1006|    MT|
+|171|          Dos Ejidos|  1006|    MX|
+|172|               Yaren|  1006|    TR|
+|173|            Funafuti|  1006|    TV|
+|174|            Arapahoe|  1006|    US|
+|175|             Chicago|  1006|    US|
+|176|              Morris|  1006|    US|
+|177|               Ozark|  1006|    US|
+|178|            Rockford|  1006|    US|
+|179|              Victor|  1006|    US|
+|180|               Viola|  1006|    US|
+|181|    Washington Mills|  1006|    US|
+|182|             Adavale|  1007|    AU|
+|183|            Isisford|  1007|    AU|
+|184|              Jeetho|  1007|    AU|
+|185|            Taggerty|  1007|    AU|
+|186|            Palotina|  1007|    BR|
+|187|              Quarai|  1007|    BR|
+|188|       Rosario Oeste|  1007|    BR|
+|189|    Sao Joao Batista|  1007|    BR|
+|190|           Beachburg|  1007|    CA|
+|191|               Cabri|  1007|    CA|
+|192|       Fenelon Falls|  1007|    CA|
+|193|            Fonthill|  1007|    CA|
+|194|           Gull Lake|  1007|    CA|
+|195|       Haley Station|  1007|    CA|
+|196|            Hubbards|  1007|    CA|
+|197|           Normandin|  1007|    CA|
+|198|          Port Perry|  1007|    CA|
+|199|             Rødklit|  1007|    DK|
+|200|              Monaco|  1007|    FR|
+|201|              Larino|  1007|    IT|
+|202|                Rome|  1007|    IT|
+|203|              Tivoli|  1007|    IT|
+|204|          Luxembourg|  1007|    LU|
+|205|            Sulechow|  1007|    PL|
+|206|         Grand Forks|  1007|    US|
+|207|             Houston|  1007|    US|
+|208|      Lincoln County|  1007|    US|
+|209|        Stewartville|  1007|    US|
+|210|              Sutton|  1007|    US|
+|211|            Sylvania|  1007|    US|
+|212|           Town Line|  1007|    US|
+|213|             Wanakah|  1007|    US|
+|214|         Warrensburg|  1007|    US|
+|215|        Vatican City|  1007|    VA|
+|216|        Buenos Aires|  1008|    AR|
+|217|              Moreno|  1008|    AR|
+|218|              Geurie|  1008|    AU|
+|219|            Gundagai|  1008|    AU|
+|220|              Illabo|  1008|    AU|
+|221|               Junee|  1008|    AU|
+|222|           Old Junee|  1008|    AU|
+|223|          Porepunkah|  1008|    AU|
+|224|   Cruzeiro do Oeste|  1008|    BR|
+|225|             Realeza|  1008|    BR|
+|226|               Allan|  1008|    CA|
+|227|             Carlyle|  1008|    CA|
+|228|             Dundurn|  1008|    CA|
+|229|             Estevan|  1008|    CA|
+|230|               Eston|  1008|    CA|
+|231|              Hanley|  1008|    CA|
+|232|           Kerrobert|  1008|    CA|
+|233|              Ottawa|  1008|    CA|
+|234|               Oxbow|  1008|    CA|
+|235|              Thurso|  1008|    CA|
+|236|              Warman|  1008|    CA|
+|237|           Waswanipi|  1008|    CA|
+|238|              Wilkie|  1008|    CA|
+|239|              Marlow|  1008|    DE|
+|240|              Reform|  1008|    DE|
+|241|         Herluflille|  1008|    DK|
+|242|               Nancy|  1008|    FR|
+|243|              Pessac|  1008|    FR|
+|244|         Saint-Avold|  1008|    FR|
+|245|       Sarreguemines|  1008|    FR|
+|246|        Casale Litta|  1008|    IT|
+|247|                Vila|  1008|    IT|
+|248|              Skopje|  1008|    MK|
+|249|       Colonia Valle|  1008|    MX|
+|250|              Panama|  1008|    PA|
+|251|        Port Moresby|  1008|    PG|
+|252|            Melekeok|  1008|    PW|
+|253|              Dillon|  1008|    US|
+|254|          Montevideo|  1008|    US|
+|255|        North Portal|  1008|    US|
+|256|            Unadilla|  1008|    US|
+|257|              Wright|  1008|    US|
+|258|               Young|  1008|    UY|
+|259|                 Ayr|  1009|    AU|
+|260|              Baldry|  1009|    AU|
+|261|         Ballendella|  1009|    AU|
+|262|         Carag Carag|  1009|    AU|
+|263|    Fitzroy Crossing|  1009|    AU|
+|264|       Mount Edwards|  1009|    AU|
+|265|             Tarzali|  1009|    AU|
+|266|           Tintenbar|  1009|    AU|
+|267|             Ungarie|  1009|    AU|
+|268|        Willow Grove|  1009|    AU|
+|269|               Sofia|  1009|    BG|
+|270|          Porto-Novo|  1009|    BJ|
+|271|           Auriflama|  1009|    BR|
+|272|             Coroata|  1009|    BR|
+|273|             Lavínia|  1009|    BR|
+|274|           Porangatu|  1009|    BR|
+|275|       Tupi Paulista|  1009|    BR|
+|276|     Buffalo Narrows|  1009|    CA|
+|277|          Cornwallis|  1009|    CA|
+|278|           Gananoque|  1009|    CA|
+|279|            La Tuque|  1009|    CA|
+|280|         Louiseville|  1009|    CA|
+|281|            Rosetown|  1009|    CA|
+|282|          Saint John|  1009|    CA|
+|283|        Saint-Jerome|  1009|    CA|
+|284|      Shawinigan-Sud|  1009|    CA|
+|285|              Ungava|  1009|    CA|
+|286|              Berlin|  1009|    DE|
+|287|          Copenhagen|  1009|    DK|
+|288|             Limoges|  1009|    FR|
+|289|        Schiltigheim|  1009|    FR|
+|290|            Selestat|  1009|    FR|
+|291|        Kuala Lumpur|  1009|    MY|
+|292|                Oshi|  1009|    NG|
+|293|              Tarawa|  1009|    NG|
+|294|             Managua|  1009|    NI|
+|295|            Valhalla|  1009|    SE|
+|296|          Brookville|  1009|    US|
+|297|         Los Angeles|  1009|    US|
+|298|           Millhaven|  1009|    US|
+|299|            Mitchell|  1009|    US|
+|300|             Munford|  1009|    US|
+|301|           Riverside|  1009|    US|
+|302|           San Diego|  1009|    US|
+|303|          San Marino|  1009|    US|
+|304|                Stow|  1009|    US|
+|305|         Tupper Lake|  1009|    US|
+|306|          Wampsville|  1009|    US|
+|307|             Whitney|  1009|    US|
+|308|              Luanda|  1010|    AO|
+|309|            Cockatoo|  1010|    AU|
+|310|       Diamond Creek|  1010|    AU|
+|311|         Halls Creek|  1010|    AU|
+|312|          Landervale|  1010|    AU|
+|313|       Millaa Millaa|  1010|    AU|
+|314|          Strathewen|  1010|    AU|
+|315|         Stuart Mill|  1010|    AU|
+|316|           Terranora|  1010|    AU|
+|317|               Tully|  1010|    AU|
+|318|            Tyagarah|  1010|    AU|
+|319|          Wonga Park|  1010|    AU|
+|320|            Woodford|  1010|    AU|
+|321|            Sarajevo|  1010|    BA|
+|322|            Buritama|  1010|    BR|
+|323|               Goias|  1010|    BR|
+|324|            Itaberai|  1010|    BR|
+|325|              Alfred|  1010|    CA|
+|326|            Asbestos|  1010|    CA|
+|327|        Chesterville|  1010|    CA|
+|328|          La Prairie|  1010|    CA|
+|329|           Lachenaie|  1010|    CA|
+|330|            Ormstown|  1010|    CA|
+|331|      Otterburn Park|  1010|    CA|
+|332|      Pointe-Calumet|  1010|    CA|
+|333|              Weedon|  1010|    CA|
+|334|              Bangui|  1010|    CF|
+|335|              Prague|  1010|    CZ|
+|336|               Cairo|  1010|    EG|
+|337|           Jakobstad|  1010|    FI|
+|338|             Kajaani|  1010|    FI|
+|339|                Suva|  1010|    FJ|
+|340|            Castries|  1010|    FR|
+|341|      Pont-a-Mousson|  1010|    FR|
+|342| Tassin-la-Demi-Lune|  1010|    FR|
+|343|          Venissieux|  1010|    FR|
+|344|              Vienne|  1010|    FR|
+|345|               Accra|  1010|    GH|
+|346|                Lome|  1010|    GH|
+|347|             Jakarta|  1010|    ID|
+|348|                Taga|  1010|    ID|
+|349|               Kochi|  1010|    IN|
+|350|           Singapore|  1010|    MY|
+|351|              Niamey|  1010|    NE|
+|352|               Abuja|  1010|    NG|
+|353|                Apia|  1010|    NG|
+|354|               Dasha|  1010|    NG|
+|355|                Oslo|  1010|    NO|
+|356|           Mogadishu|  1010|    SO|
+|357|           N'Djamena|  1010|    TD|
+|358|                Dili|  1010|    TL|
+|359|          Basseterre|  1010|    TT|
+|360|       Port of Spain|  1010|    TT|
+|361|            Sea View|  1010|    TZ|
+|362|         Trumansburg|  1010|    US|
+|363|               Vaduz|  1011|    AT|
+|364|             Axedale|  1011|    AU|
+|365|           Dalysford|  1011|    AU|
+|366|              Elmore|  1011|    AU|
+|367|           Hazledean|  1011|    AU|
+|368|             Iveragh|  1011|    AU|
+|369|                Lyal|  1011|    AU|
+|370|         Mount Perry|  1011|    AU|
+|371|            Myrniong|  1011|    AU|
+|372|         Ouagadougou|  1011|    BF|
+|373|             Dushevo|  1011|    BG|
+|374|              Milino|  1011|    BG|
+|375| Bandar Seri Begawan|  1011|    BN|
+|376|            Victoria|  1011|    BN|
+|377|            Amontada|  1011|    BR|
+|378|                Moju|  1011|    BR|
+|379|            Paicandu|  1011|    BR|
+|380|              Viamao|  1011|    BR|
+|381|           Big River|  1011|    CA|
+|382|              Biggar|  1011|    CA|
+|383|             Farnham|  1011|    CA|
+|384|         Gravelbourg|  1011|    CA|
+|385|          Hudson Bay|  1011|    CA|
+|386|             Macklin|  1011|    CA|
+|387|         Meadow Lake|  1011|    CA|
+|388|          Queensland|  1011|    CA|
+|389|            Radville|  1011|    CA|
+|390|              Roblin|  1011|    CA|
+|391|              Virden|  1011|    CA|
+|392|                Bern|  1011|    CH|
+|393|        Yamoussoukro|  1011|    CI|
+|394|          Pojanluoma|  1011|    FI|
+|395|               Rodez|  1011|    FR|
+|396|               Tulle|  1011|    FR|
+|397|          Libreville|  1011|    GA|
+|398|             Conakry|  1011|    GN|
+|399|              Bissau|  1011|    GW|
+|400|          Georgetown|  1011|    GY|
+|401|          Phnom Penh|  1011|    KH|
+|402|              Beirut|  1011|    LB|
+|403|            Monrovia|  1011|    LR|
+|404|                Lima|  1011|    PE|
+|405|           Jerusalem|  1011|    PS|
+|406|                Hede|  1011|    SE|
+|407|           Ljubljana|  1011|    SI|
+|408|          Paramaribo|  1011|    SR|
+|409|               Tunis|  1011|    TN|
+|410|              Ankara|  1011|    TR|
+|411|             Red Bay|  1011|    US|
+|412|              Shelby|  1011|    US|
+|413|         Ticonderoga|  1011|    US|
+|414|              Walton|  1011|    US|
+|415|             Caracas|  1011|    VE|
+|416|              Lusaka|  1011|    ZM|
+|417|              Nassau|  1012|    AT|
+|418|              Vienna|  1012|    AT|
+|419|          Daylesford|  1012|    AU|
+|420|           Eganstown|  1012|    AU|
+|421|            Kilkivan|  1012|    AU|
+|422|         Perwillowen|  1012|    AU|
+|423|        Bady Bassitt|  1012|    BR|
+|424|            Brasilia|  1012|    BR|
+|425|             Caapora|  1012|    BR|
+|426|          Cajazeiras|  1012|    BR|
+|427|          Camaragibe|  1012|    BR|
+|428|      Campo do Brito|  1012|    BR|
+|429|          Cercadinho|  1012|    BR|
+|430|            Coruripe|  1012|    BR|
+|431|     Delmiro Gouveia|  1012|    BR|
+|432|          Entre Rios|  1012|    BR|
+|433|             Ipameri|  1012|    BR|
+|434|                Ipua|  1012|    BR|
+|435|          Itapissuma|  1012|    BR|
+|436|       Major Isidoro|  1012|    BR|
+|437|               Picui|  1012|    BR|
+|438|      Tobias Barreto|  1012|    BR|
+|439|          Assiniboia|  1012|    CA|
+|440|        Lac La Biche|  1012|    CA|
+|441|         Brazzaville|  1012|    CD|
+|442|            Kinshasa|  1012|    CD|
+|443|              Malabo|  1012|    CD|
+|444|            San Jose|  1012|    HN|
+|445|            Kingston|  1012|    JM|
+|446|            Lilongwe|  1012|    MW|
+|447|              La Paz|  1012|    MX|
+|448|            Blenheim|  1012|    NZ|
+|449|              Kuwait|  1012|    PE|
+|450|          Candelaria|  1012|    PH|
+|451|           Cebu City|  1012|    PH|
+|452|              Manila|  1012|    PH|
+|453|             Orzesze|  1012|    PL|
+|454|              Wodąca|  1012|    PL|
+|455|            Belgrade|  1012|    RS|
+|456|            Khartoum|  1012|    SD|
+|457|             Karleby|  1012|    SE|
+|458|           Stockholm|  1012|    SE|
+|459|          Bratislava|  1012|    SK|
+|460|               Dakar|  1012|    SN|
+|461|              Dodoma|  1012|    TZ|
+|462|               Keene|  1012|    US|
+|463|       Muscle Shoals|  1012|    US|
+|464|           Sulligent|  1012|    US|
+|465|  University Gardens|  1012|    US|
+|466|             Valatie|  1012|    US|
+|467|       Village Green|  1012|    US|
+|468|       Voorheesville|  1012|    US|
+|469|          Waterville|  1012|    US|
+|470|         Meekatharra|  1013|    AU|
+|471|           Wendouree|  1013|    AU|
+|472|           Bujumbura|  1013|    BI|
+|473|           Chavantes|  1013|    BR|
+|474|               Ibate|  1013|    BR|
+|475|              Ipaucu|  1013|    BR|
+|476|         Morro Agudo|  1013|    BR|
+|477|            Orlandia|  1013|    BR|
+|478|            Belmopan|  1013|    BZ|
+|479|            McConnel|  1013|    CA|
+|480|            Djibouti|  1013|    DJ|
+|481|       Santo Domingo|  1013|    DO|
+|482|              Asmara|  1013|    ER|
+|483|              Alaior|  1013|    ES|
+|484|               Sueca|  1013|    ES|
+|485|         Hameenlinna|  1013|    FI|
+|486|             Iisalmi|  1013|    FI|
+|487|               Nokia|  1013|    FI|
+|488|              Zagreb|  1013|    HR|
+|489|            Budapest|  1013|    HU|
+|490|          Nouakchott|  1013|    MR|
+|491|      Blue Mountains|  1013|    NZ|
+|492|          Wellington|  1013|    NZ|
+|493|             Szczyrk|  1013|    PL|
+|494|             Algiers|  1013|    US|
+|495|      Mount Crawford|  1013|    US|
+|496|          New Market|  1013|    US|
+|497|              Newton|  1013|    US|
+|498|       Phil Campbell|  1013|    US|
+|499|             Thiells|  1013|    US|
+|500|             Tillson|  1013|    US|
+|501|          Vails Gate|  1013|    US|
+|502|      Valley Cottage|  1013|    US|
+|503|           Verplanck|  1013|    US|
+|504|            Wallkill|  1013|    US|
+|505|         Walton Park|  1013|    US|
+|506|    Wappingers Falls|  1013|    US|
+|507|              Harare|  1013|    ZW|
+|508|               Butia|  1014|    BR|
+|509|       Campos Gerais|  1014|    BR|
+|510|         Casa Branca|  1014|    BR|
+|511|        Vila Conrado|  1014|    BR|
+|512|         Maple Creek|  1014|    CA|
+|513|             Kaarina|  1014|    FI|
+|514|              Raisio|  1014|    FI|
+|515|      Port-au-Prince|  1014|    HT|
+|516|              Bamako|  1014|    ML|
+|517|            Kanczuga|  1014|    PL|
+|518|              Warsaw|  1014|    PL|
+|519|           Bucharest|  1014|    RO|
+|520|        San Salvador|  1014|    SV|
+|521|             Bangkok|  1014|    TH|
+|522|          Barrington|  1014|    US|
+|523|             Clifton|  1014|    US|
+|524|            Griswold|  1014|    US|
+|525|              Mosses|  1014|    US|
+|526|             Moulton|  1014|    US|
+|527|         Mount Olive|  1014|    US|
+|528|        Mount Vernon|  1014|    US|
+|529|          North Bibb|  1014|    US|
+|530|        Orange Beach|  1014|    US|
+|531|   Owens Cross Roads|  1014|    US|
+|532|        Philadelphia|  1014|    US|
+|533|           Pike Road|  1014|    US|
+|534|      Pleasant Grove|  1014|    US|
+|535|          Rainsville|  1014|    US|
+|536|         Robertsdale|  1014|    US|
+|537|         Rogersville|  1014|    US|
+|538|          Rutherford|  1014|    US|
+|539|         Sardis City|  1014|    US|
+|540|          Scottsboro|  1014|    US|
+|541|        Spanish Fort|  1014|    US|
+|542|           Stevenson|  1014|    US|
+|543|             Sumiton|  1014|    US|
+|544|      Sylvan Springs|  1014|    US|
+|545|           Tarrytown|  1014|    US|
+|546|    Upper Brookville|  1014|    US|
+|547|         Upper Nyack|  1014|    US|
+|548|        Wading River|  1014|    US|
+|549|             Warwick|  1014|    US|
+|550|          Washington|  1014|    US|
+|551|              Apsley|  1015|    AU|
+|552|            Conmurra|  1015|    AU|
+|553|             Kwinana|  1015|    AU|
+|554|            Mercunda|  1015|    AU|
+|555|              Samson|  1015|    AU|
+|556|             Wellard|  1015|    AU|
+|557|            Duartina|  1015|    BR|
+|558|           Ituverava|  1015|    BR|
+|559|            Macatuba|  1015|    BR|
+|560|        Miguelopolis|  1015|    BR|
+|561|             Orleans|  1015|    BR|
+|562|             Pirajui|  1015|    BR|
+|563|            Freetown|  1015|    BS|
+|564|               Hixon|  1015|    CA|
+|565|             Yaounde|  1015|    CM|
+|566|              Havana|  1015|    CU|
+|567|               Espoo|  1015|    FI|
+|568|            Helsinki|  1015|    FI|
+|569|         Kirkkonummi|  1015|    FI|
+|570|        Lappeenranta|  1015|    FI|
+|571|               Lohja|  1015|    FI|
+|572|          Nurmijarvi|  1015|    FI|
+|573|              Porvoo|  1015|    FI|
+|574|               Sibbo|  1015|    FI|
+|575|            Hastings|  1015|    NZ|
+|576|                Mita|  1015|    PE|
+|577|            Santiago|  1015|    PH|
+|578|        Wejsuny Małe|  1015|    PL|
+|579|            Carolina|  1015|    PR|
+|580|              Lisbon|  1015|    PT|
+|581|                Sado|  1015|    PT|
+|582|        New Brockton|  1015|    US|
+|583|            New York|  1015|    US|
+|584|           Odenville|  1015|    US|
+|585|            Ohatchee|  1015|    US|
+|586|                 Opp|  1015|    US|
+|587|           Pell City|  1015|    US|
+|588|        Rainbow City|  1015|    US|
+|589|            Rehobeth|  1015|    US|
+|590|             Roanoke|  1015|    US|
+|591|                Saks|  1015|    US|
+|592|             Slocomb|  1015|    US|
+|593|      Smiths Station|  1015|    US|
+|594|              Steele|  1015|    US|
+|595|           Sylacauga|  1015|    US|
+|596|           Tallassee|  1015|    US|
+|597|           Thomaston|  1015|    US|
+|598|            Tuckahoe|  1015|    US|
+|599|      Allendale East|  1016|    AU|
+|600|         Boyup Brook|  1016|    AU|
+|601|          Bridgetown|  1016|    AU|
+|602|           Copeville|  1016|    AU|
+|603|Karoonda East Murray|  1016|    AU|
+|604|           Mullalyup|  1016|    AU|
+|605|           Pemberton|  1016|    AU|
+|606|            Ilhabela|  1016|    BR|
+|607|           Itinga II|  1016|    BR|
+|608|                 Itu|  1016|    BR|
+|609|         Minas Novas|  1016|    BR|
+|610|      Rio dos Cedros|  1016|    BR|
+|611|         Serra Negra|  1016|    BR|
+|612|          Taiobeiras|  1016|    BR|
+|613|              Vernon|  1016|    CA|
+|614|            Qinggang|  1016|    CN|
+|615|             Tallinn|  1016|    EE|
+|616|              Madrid|  1016|    ES|
+|617|         Tegucigalpa|  1016|    HN|
+|618|               Amman|  1016|    JO|
+|619|           Naypyidaw|  1016|    MM|
+|620|              Maputo|  1016|    MZ|
+|621|          Alexandria|  1016|    RO|
+|622|    Gilchrist County|  1016|    US|
+|623|             Labelle|  1016|    US|
+|624|          Pine Level|  1016|    US|
+|625|          Smoke Rise|  1016|    US|
+|626|       Union Springs|  1016|    US|
+|627|           Woodfield|  1016|    US|
+|628|               Sanaa|  1016|    YE|
+|629|           Abu Dhabi|  1017|    AE|
+|630|               Burra|  1017|    AU|
+|631|          Coolgardie|  1017|    AU|
+|632|             Undalya|  1017|    AU|
+|633|        Aldeia Velha|  1017|    BR|
+|634|           Aparecida|  1017|    BR|
+|635|         Campo Limpo|  1017|    BR|
+|636|          Guapimirim|  1017|    BR|
+|637|      Miguel Pereira|  1017|    BR|
+|638|        Paraisopolis|  1017|    BR|
+|639|  Petrolina de Goias|  1017|    BR|
+|640|          Resplendor|  1017|    BR|
+|641|            Gaborone|  1017|    BW|
+|642|           Bengaluru|  1017|    IN|
+|643|               Dhaka|  1017|    IN|
+|644|           Reykjavik|  1017|    IS|
+|645|              Maseru|  1017|    LS|
+|646|             Vilnius|  1017|    LT|
+|647|                Riga|  1017|    LV|
+|648|              Thames|  1017|    NZ|
+|649|              Muscat|  1017|    OM|
+|650|            Damascus|  1017|    SY|
+|651|             Kampala|  1017|    UG|
+|652|              Ampere|  1017|    US|
+|653|           Cape Town|  1017|    ZA|
+|654|           Thornwood|  1017|    ZA|
+|655|              Manama|  1018|    AE|
+|656|             Lochiel|  1018|    AU|
+|657|        McLaren Flat|  1018|    AU|
+|658|         Port Moonta|  1018|    AU|
+|659|               Praia|  1018|    BR|
+|660|               Minsk|  1018|    BY|
+|661|         Cherrapunji|  1018|    IN|
+|662|             Lucknow|  1018|    IN|
+|663|           New Delhi|  1018|    IN|
+|664|    State of Manipur|  1018|    IN|
+|665|           Vientiane|  1018|    LA|
+|666|               Rabat|  1018|    MA|
+|667|            Chisinau|  1018|    MD|
+|668|                Doha|  1018|    QA|
+|669|              Protea|  1018|    ZA|
+|670|             Colombo|  1019|    BR|
+|671|          Embu Guacu|  1019|    BR|
+|672|Itapecerica da Serra|  1019|    BR|
+|673|           Jacutinga|  1019|    BR|
+|674|          Mogi Guacu|  1019|    BR|
+|675|     Taboao da Serra|  1019|    BR|
+|676|      Uzhanka-Vel’ka|  1019|    BY|
+|677|          Hall Beach|  1019|    CA|
+|678|       Lake Cowichan|  1019|    CA|
+|679|             McBride|  1019|    CA|
+|680|       Roberts Creek|  1019|    CA|
+|681|              Haikou|  1019|    CN|
+|682|            Nakanoku|  1019|    JP|
+|683|        Antananarivo|  1019|    MG|
+|684|              Kigali|  1019|    RW|
+|685|               Aysha|  1019|    SY|
+|686|              Guiren|  1019|    TW|
+|687|           Ladysmith|  1019|    ZA|
+|688|           Guiricema|  1020|    BR|
+|689|         Bobovishchi|  1020|    BY|
+|690|        Rankin Inlet|  1020|    CA|
+|691|                Naha|  1020|    CN|
+|692|             Baghdad|  1020|    IQ|
+|693|            Windhoek|  1020|    NA|
+|694|           Islamabad|  1020|    PK|
+|695|              Riyadh|  1020|    SA|
+|696|                Kiev|  1020|    UA|
+|697|  Aracoiaba da Serra|  1021|    BR|
+|698|             Thimphu|  1021|    BT|
+|699|          Kokhonovka|  1021|    BY|
+|700|        Moiseyevichi|  1021|    BY|
+|701|            Molotino|  1021|    BY|
+|702|     Fort Resolution|  1021|    CA|
+|703|           Hay River|  1021|    CA|
+|704|         San Antonio|  1021|    CL|
+|705|             Gaozhou|  1021|    CN|
+|706|             Huazhou|  1021|    CN|
+|707|             Nairobi|  1021|    KE|
+|708|            Aberdeen|  1021|    US|
+|709|          Rock Creek|  1021|    US|
+|710|               Hanoi|  1021|    VN|
+|711|             Panmure|  1022|    AU|
+|712|              Duobao|  1022|    CN|
+|713|             Encheng|  1022|    CN|
+|714|               Humen|  1022|    CN|
+|715|            Shenzhen|  1022|    CN|
+|716|         Shuangcheng|  1022|    CN|
+|717|              Banjul|  1022|    GM|
+|718|             Chabana|  1022|    JP|
+|719|            Ishigaki|  1022|    JP|
+|720|            Shimochi|  1022|    JP|
+|721|            Taketomi|  1022|    JP|
+|722|              Zamami|  1022|    JP|
+|723|            Slasteny|  1023|    BY|
+|724|      Berens Landing|  1023|    CA|
+|725|          Fort Liard|  1023|    CA|
+|726|        Fort Simpson|  1023|    CA|
+|727|             Tahltan|  1023|    CA|
+|728|              Foshan|  1023|    CN|
+|729|             Guiping|  1023|    CN|
+|730|           Huaicheng|  1023|    CN|
+|731|            Huicheng|  1023|    CN|
+|732|          Nianzishan|  1023|    CN|
+|733|          Shuangyang|  1023|    CN|
+|734|               Quito|  1023|    EC|
+|735|      Guatemala City|  1023|    GT|
+|736|               Hioki|  1023|    JP|
+|737|           Kagoshima|  1023|    JP|
+|738|            Kawatana|  1023|    JP|
+|739|            Nagasaki|  1023|    JP|
+|740|              Sasebo|  1023|    JP|
+|741|             Satsuma|  1023|    JP|
+|742|            Takaharu|  1023|    JP|
+|743|         Mexico City|  1023|    MX|
+|744|              Fokino|  1023|    RU|
+|745|            Pershino|  1023|    RU|
+|746|             Yakutsk|  1023|    RU|
+|747|             Mbabane|  1023|    SZ|
+|748|              Taipei|  1023|    TW|
+|749|                Male|  1023|    UA|
+|750|               Kabul|  1024|    AF|
+|751|             Yerevan|  1024|    AM|
+|752|               Duyun|  1024|    CN|
+|753|        Xinglongshan|  1024|    CN|
+|754|             Xinqing|  1024|    CN|
+|755|              Tehran|  1024|    IR|
+|756|                 Aso|  1024|    JP|
+|757|            Kumamoto|  1024|    JP|
+|758|            Miyazaki|  1024|    JP|
+|759|         Nakatsugawa|  1024|    JP|
+|760|             Nobeoka|  1024|    JP|
+|761|            Takanabe|  1024|    JP|
+|762|              Todaka|  1024|    JP|
+|763|          Yatsushiro|  1024|    JP|
+|764|           Kathmandu|  1024|    NP|
+|765|             Chengdu|  1025|    CN|
+|766|           Chongqing|  1025|    CN|
+|767|              Fuling|  1025|    CN|
+|768|             Hechuan|  1025|    CN|
+|769|             Dazaifu|  1025|    JP|
+|770|             Fukuoka|  1025|    JP|
+|771|            Hirokawa|  1025|    JP|
+|772|              Kurume|  1025|    JP|
+|773|              Mannen|  1025|    JP|
+|774|           Matsuyama|  1025|    JP|
+|775|              Miyako|  1025|    JP|
+|776|              Nagoya|  1025|    JP|
+|777|             Okazaki|  1025|    JP|
+|778|                Saga|  1025|    JP|
+|779|         Shimonoseki|  1025|    JP|
+|780|               Soeda|  1025|    JP|
+|781|                Toba|  1025|    JP|
+|782|              Toyota|  1025|    JP|
+|783|                 Tsu|  1025|    JP|
+|784|             Tsutsui|  1025|    JP|
+|785|           Yokkaichi|  1025|    JP|
+|786|            Yusuhara|  1025|    JP|
+|787|              Moscow|  1025|    RU|
+|788|         Podbolotnya|  1025|    RU|
+|789|            Zaytsevo|  1025|    RU|
+|790|                Baku|  1026|    AZ|
+|791|       Colville Lake|  1026|    CA|
+|792|            Feicheng|  1026|    CN|
+|793|              Guilin|  1026|    CN|
+|794|              Haimen|  1026|    CN|
+|795|             Huilong|  1026|    CN|
+|796|             Wuchang|  1026|    CN|
+|797|              Bogota|  1026|    CO|
+|798|         Addis Ababa|  1026|    ET|
+|799|           Amagasaki|  1026|    JP|
+|800|              Hamada|  1026|    JP|
+|801|           Hamamatsu|  1026|    JP|
+|802|              Himeji|  1026|    JP|
+|803|             Izuhara|  1026|    JP|
+|804|             Kanonji|  1026|    JP|
+|805|           Kashiwara|  1026|    JP|
+|806|                Kobe|  1026|    JP|
+|807|           Kurashiki|  1026|    JP|
+|808|               Kyoto|  1026|    JP|
+|809|            Marugame|  1026|    JP|
+|810|           Matsumoto|  1026|    JP|
+|811|              Nagano|  1026|    JP|
+|812|                Nara|  1026|    JP|
+|813|               Niimi|  1026|    JP|
+|814|             Okayama|  1026|    JP|
+|815|               Osaka|  1026|    JP|
+|816|                Otsu|  1026|    JP|
+|817|                Saku|  1026|    JP|
+|818|             Shimoda|  1026|    JP|
+|819|           Shimonita|  1026|    JP|
+|820|            Shiojiri|  1026|    JP|
+|821|            Shizuoka|  1026|    JP|
+|822|            Takasago|  1026|    JP|
+|823|           Tokushima|  1026|    JP|
+|824|                Ueda|  1026|    JP|
+|825|            Wakayama|  1026|    JP|
+|826|            Yabutani|  1026|    JP|
+|827|           Yamaguchi|  1026|    JP|
+|828|               Yuasa|  1026|    JP|
+|829|           Avsyunino|  1026|    RU|
+|830|            Davydovo|  1026|    RU|
+|831|            Ponarino|  1026|    RU|
+|832|              Soroki|  1026|    RU|
+|833|            Zagor’ye|  1026|    RU|
+|834|               Nhill|  1027|    AU|
+|835|           Kalinovka|  1027|    AZ|
+|836|             Gaoping|  1027|    CN|
+|837|               Chizu|  1027|    JP|
+|838|         Fukuchiyama|  1027|    JP|
+|839|           Hiroshima|  1027|    JP|
+|840|             Iwakuni|  1027|    JP|
+|841|                Seki|  1027|    JP|
+|842|              Takata|  1027|    JP|
+|843|             Tottori|  1027|    JP|
+|844|             Tsuruga|  1027|    JP|
+|845|             Tsuyama|  1027|    JP|
+|846|              Wakasa|  1027|    JP|
+|847|           Ipyang-ni|  1027|    KR|
+|848|              Astana|  1027|    KZ|
+|849|              Kin’ya|  1027|    RU|
+|850|             Polevoy|  1027|    RU|
+|851|            Ashgabat|  1027|    TM|
+|852|            Paulatuk|  1028|    CA|
+|853|             Wrigley|  1028|    CA|
+|854|             Tbilisi|  1028|    GE|
+|855|               Atami|  1028|    JP|
+|856|              Atsugi|  1028|    JP|
+|857|               Fukui|  1028|    JP|
+|858|               Hakui|  1028|    JP|
+|859|           Hiratsuka|  1028|    JP|
+|860|            Kanazawa|  1028|    JP|
+|861|             Komatsu|  1028|    JP|
+|862|              Matsue|  1028|    JP|
+|863|               Namie|  1028|    JP|
+|864|           Nishihara|  1028|    JP|
+|865|              Otsuki|  1028|    JP|
+|866|          Sagamihara|  1028|    JP|
+|867|             Saitama|  1028|    JP|
+|868|         Sakaiminato|  1028|    JP|
+|869|              Takado|  1028|    JP|
+|870|            Takayama|  1028|    JP|
+|871|              Toyama|  1028|    JP|
+|872|            Uenohara|  1028|    JP|
+|873|          Utsunomiya|  1028|    JP|
+|874|              Wajima|  1028|    JP|
+|875|              Yamada|  1028|    JP|
+|876|            Yamakita|  1028|    JP|
+|877|           Yatsuzawa|  1028|    JP|
+|878|            Yokohama|  1028|    JP|
+|879|             Yach’on|  1028|    KR|
+|880|             Il’inka|  1028|    RU|
+|881|     Lesnaya Vtoraya|  1028|    RU|
+|882|            Mazikino|  1028|    RU|
+|883|         Midyashkino|  1028|    RU|
+|884|         Murzanayevo|  1028|    RU|
+|885|         Plyasitsyno|  1028|    RU|
+|886|         Ratnitskoye|  1028|    RU|
+|887|           Todymvazh|  1028|    RU|
+|888|           Tyukhtovo|  1028|    RU|
+|889|Verkhniye Shelabolki|  1028|    RU|
+|890|              Yerovo|  1028|    RU|
+|891|            Dushanbe|  1028|    TJ|
+|892|        Norman Wells|  1029|    CA|
+|893|              Gaoyou|  1029|    CN|
+|894|           Hepingjie|  1029|    CN|
+|895|           Hongjiang|  1029|    CN|
+|896|            Huangshi|  1029|    CN|
+|897|            Wangqing|  1029|    CN|
+|898|              Xifeng|  1029|    CN|
+|899|           Xingcheng|  1029|    CN|
+|900|               Asahi|  1029|    JP|
+|901|              Bekkai|  1029|    JP|
+|902|                Biei|  1029|    JP|
+|903|               Chiba|  1029|    JP|
+|904|            Fukagawa|  1029|    JP|
+|905|              Hokota|  1029|    JP|
+|906|             Isomura|  1029|    JP|
+|907|            Kawasaki|  1029|    JP|
+|908|            Kisarazu|  1029|    JP|
+|909|            Maebashi|  1029|    JP|
+|910|                Mito|  1029|    JP|
+|911|            Moseushi|  1029|    JP|
+|912|              Narita|  1029|    JP|
+|913|              Nemuro|  1029|    JP|
+|914|               Nikko|  1029|    JP|
+|915|              Numata|  1029|    JP|
+|916|            Sunagawa|  1029|    JP|
+|917|               Tokyo|  1029|    JP|
+|918|               Busan|  1029|    KR|
+|919|            Changjon|  1029|    KR|
+|920|         Changsal-li|  1029|    KR|
+|921|            Haejeong|  1029|    KR|
+|922|             San’gok|  1029|    KR|
+|923|         Seryui-dong|  1029|    KR|
+|924|          Baryshikha|  1029|    RU|
+|925|              Gogino|  1029|    RU|
+|926|           Kumokhino|  1029|    RU|
+|927|             Aklavik|  1030|    CA|
+|928|              Tulita|  1030|    CA|
+|929|               Ezhou|  1030|    CN|
+|930|              Gaogou|  1030|    CN|
+|931|           Guangshui|  1030|    CN|
+|932|            Hanchuan|  1030|    CN|
+|933|            Hangzhou|  1030|    CN|
+|934|           Huanggang|  1030|    CN|
+|935|            Huangmei|  1030|    CN|
+|936|             Huangpi|  1030|    CN|
+|937|           Huangzhou|  1030|    CN|
+|938|            Shanghai|  1030|    CN|
+|939|               Wuhan|  1030|    CN|
+|940|             Xiaoshi|  1030|    CN|
+|941|               Akita|  1030|    JP|
+|942|             Akkeshi|  1030|    JP|
+|943|              Aomori|  1030|    JP|
+|944|                Date|  1030|    JP|
+|945|              Fukaya|  1030|    JP|
+|946|           Fukushima|  1030|    JP|
+|947|            Hakodate|  1030|    JP|
+|948|          Ishinomaki|  1030|    JP|
+|949|            Kamaishi|  1030|    JP|
+|950|             Morioka|  1030|    JP|
+|951|           Motomachi|  1030|    JP|
+|952|             Muroran|  1030|    JP|
+|953|             Nagaoka|  1030|    JP|
+|954|             Niigata|  1030|    JP|
+|955|               Piuka|  1030|    JP|
+|956|               Sagae|  1030|    JP|
+|957|             Sapporo|  1030|    JP|
+|958|              Sendai|  1030|    JP|
+|959|            Shiogama|  1030|    JP|
+|960|           Takamatsu|  1030|    JP|
+|961|            Yamagata|  1030|    JP|
+|962|            Yonezawa|  1030|    JP|
+|963|                Yuni|  1030|    JP|
+|964|      Hwanghae-bukto|  1030|    KP|
+|965|           Seisan-ri|  1030|    KR|
+|966|               Seoul|  1030|    KR|
+|967|          Tokusan-ri|  1030|    KR|
+|968|           Byl’tsino|  1030|    RU|
+|969|            Korikovo|  1030|    RU|
+|970|     Novaya Derevnya|  1030|    RU|
+|971|          Perkhurovo|  1030|    RU|
+|972|       Staryy Potash|  1030|    RU|
+|973|             Beijing|  1031|    CN|
+|974|              Fushan|  1031|    CN|
+|975|            Hancheng|  1031|    CN|
+|976|Huoqiu Chengguanzhen|  1031|    CN|
+|977|             Xicheng|  1031|    CN|
+|978|           Hachinohe|  1031|    JP|
+|979|                Kofu|  1031|    JP|
+|980|             Bishkek|  1031|    KG|
+|981|           Pyongyang|  1031|    KP|
+|982|         Komsomolets|  1031|    RU|
+|983|            Sosnovka|  1031|    RU|
+|984|        Tsiigehtchic|  1032|    CA|
+|985|             Fengrun|  1032|    CN|
+|986|              Fuyang|  1032|    CN|
+|987|                Guye|  1032|    CN|
+|988|             Tianjin|  1032|    CN|
+|989|            Tashkent|  1032|    UZ|
+|990|               Gaomi|  1033|    CN|
+|991|             Haizhou|  1033|    CN|
+|992|         Ulaanbaatar|  1033|    MN|
+|993|              Ozerki|  1033|    RU|
+|994|           Chengyang|  1034|    CN|
+|995|            Dubrovki|  1034|    RU|
+|996|         Novosibirsk|  1034|    RU|
+|997|            Voronino|  1034|    RU|
+|998|         Zavolzhskiy|  1034|    RU|
+|999|           Malinovka|  1038|    RU|
++--------------------------------------+
+11月26日 13:00現在の情報

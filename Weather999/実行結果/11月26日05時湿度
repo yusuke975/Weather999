@@ -1,0 +1,1008 @@
+java Weather999 999.csv 湿度 国  を5:00（日本時間）ごろに実行した結果です。
+湿度が低い順に並べ替えられています。
+以下は実行結果です。
+
++---------------------------------------+
+|   |        都市名       |  湿度  |  国  |
++---------------------------------------+
+|  1|              Niamey|    13%|    NE|
+|  2|                Seki|    15%|    JP|
+|  3|              Austin|    17%|    US|
+|  4|           Southside|    18%|    US|
+|  5|       Colonia Valle|    20%|    MX|
+|  6|          Dos Ejidos|    20%|    MX|
+|  7|           Jerusalem|    20%|    PS|
+|  8|              Ampere|    20%|    US|
+|  9|      Lincoln County|    20%|    US|
+| 10|            Gundagai|    21%|    AU|
+| 11|              Illabo|    21%|    AU|
+| 12|               Junee|    21%|    AU|
+| 13|           Old Junee|    21%|    AU|
+| 14|                Guye|    21%|    CN|
+| 15|              Maseru|    21%|    LS|
+| 16|               Cairo|    22%|    EG|
+| 17|         Ouagadougou|    23%|    BF|
+| 18|             Fengrun|    23%|    CN|
+| 19|           Xingcheng|    23%|    CN|
+| 20|             Ungarie|    24%|    AU|
+| 21|            Hancheng|    24%|    CN|
+| 22|               Dasha|    24%|    NG|
+| 23|              Tarawa|    24%|    NG|
+| 24|            Khartoum|    24%|    SD|
+| 25|             Bedford|    26%|    US|
+| 26|            Gaborone|    27%|    BW|
+| 27|           N'Djamena|    27%|    TD|
+| 28|            Prescott|    27%|    US|
+| 29|              Bamako|    28%|    ML|
+| 30|         Meekatharra|    29%|    AU|
+| 31|            Arapahoe|    29%|    US|
+| 32|     Delmiro Gouveia|    30%|    BR|
+| 33|         Mexico City|    31%|    MX|
+| 34|          Porepunkah|    32%|    AU|
+| 35|               Amman|    33%|    JO|
+| 36|               Aysha|    33%|    SY|
+| 37|           Riverside|    33%|    US|
+| 38|             Russell|    34%|    US|
+| 39|            Unadilla|    34%|    US|
+| 40|           Byl’tsino|    37%|    RU|
+| 41|              Gogino|    37%|    RU|
+| 42|     Novaya Derevnya|    37%|    RU|
+| 43|          Perkhurovo|    37%|    RU|
+| 44|       Staryy Potash|    37%|    RU|
+| 45|              Sutton|    37%|    US|
+| 46|              Fokino|    38%|    RU|
+| 47|             Il’inka|    38%|    RU|
+| 48|            Korikovo|    38%|    RU|
+| 49|              Yerovo|    38%|    RU|
+| 50|          Smoke Rise|    38%|    US|
+| 51|           Thomaston|    38%|    US|
+| 52|           Woodfield|    38%|    US|
+| 53|       Tupi Paulista|    39%|    BR|
+| 54|              Beirut|    39%|    LB|
+| 55|            Asuncion|    39%|    PY|
+| 56|              Kin’ya|    39%|    RU|
+| 57|              Mosses|    39%|    US|
+| 58|           Pike Road|    39%|    US|
+| 59|          Landervale|    40%|    AU|
+| 60|         Plyasitsyno|    40%|    RU|
+| 61|              Newton|    40%|    US|
+| 62|        Bady Bassitt|    41%|    BR|
+| 63|          Cajazeiras|    41%|    BR|
+| 64|         Ratnitskoye|    41%|    RU|
+| 65|              Lively|    41%|    US|
+| 66|      Mount Crawford|    41%|    US|
+| 67|        Mount Vernon|    41%|    US|
+| 68|          North Bibb|    41%|    US|
+| 69|          Pine Level|    41%|    US|
+| 70|      Pleasant Grove|    41%|    US|
+| 71|             Sumiton|    41%|    US|
+| 72|      Sylvan Springs|    41%|    US|
+| 73|            Tuckahoe|    41%|    US|
+| 74|          Washington|    41%|    US|
+| 75|           Ituverava|    42%|    BR|
+| 76|        Miguelopolis|    42%|    BR|
+| 77|              Bogota|    42%|    CO|
+| 78|           Tyukhtovo|    42%|    RU|
+| 79|               Ozark|    42%|    US|
+| 80|          Terryville|    42%|    US|
+| 81|             Adavale|    43%|    AU|
+| 82|             Axedale|    43%|    AU|
+| 83|              Elmore|    43%|    AU|
+| 84|            Paicandu|    43%|    BR|
+| 85|         Komsomolets|    43%|    RU|
+| 86|            Sosnovka|    43%|    RU|
+| 87|            Zagor’ye|    43%|    RU|
+| 88|             Roanoke|    43%|    US|
+| 89|              Shelby|    43%|    US|
+| 90|  University Gardens|    43%|    US|
+| 91|            Palotina|    44%|    BR|
+| 92|             Moulton|    44%|    US|
+| 93|       Muscle Shoals|    44%|    US|
+| 94|           Odenville|    44%|    US|
+| 95|            Ohatchee|    44%|    US|
+| 96|   Owens Cross Roads|    44%|    US|
+| 97|           Pell City|    44%|    US|
+| 98|        Rainbow City|    44%|    US|
+| 99|                Saks|    44%|    US|
+|100|         Sardis City|    44%|    US|
+|101|              Steele|    44%|    US|
+|102|           Stevenson|    44%|    US|
+|103|           Sylacauga|    44%|    US|
+|104|       Village Green|    44%|    US|
+|105|             Whitney|    44%|    US|
+|106|            Buritama|    45%|    BR|
+|107|         San Antonio|    45%|    CL|
+|108|              Banjul|    45%|    GM|
+|109|             Munford|    45%|    US|
+|110|             Red Bay|    45%|    US|
+|111|           Sulligent|    45%|    US|
+|112|               Viola|    45%|    US|
+|113|             Lavínia|    46%|    BR|
+|114|      Port-au-Prince|    46%|    HT|
+|115|           Auriflama|    47%|    BR|
+|116|             Baghdad|    47%|    IQ|
+|117|              Kuwait|    47%|    PE|
+|118|            Piedmont|    47%|    US|
+|119|      Smiths Station|    47%|    US|
+|120|           Tallassee|    47%|    US|
+|121|       Union Springs|    47%|    US|
+|122|            Macatuba|    48%|    BR|
+|123|     Lesnaya Vtoraya|    48%|    RU|
+|124|            Mazikino|    48%|    RU|
+|125|         Midyashkino|    48%|    RU|
+|126|         Murzanayevo|    48%|    RU|
+|127|           Todymvazh|    48%|    RU|
+|128|Verkhniye Shelabolki|    48%|    RU|
+|129|    Gilchrist County|    48%|    US|
+|130|        New Brockton|    48%|    US|
+|131|                 Opp|    48%|    US|
+|132|            Rehobeth|    48%|    US|
+|133|          San Marino|    48%|    US|
+|134|             Slocomb|    48%|    US|
+|135|               Quito|    49%|    EC|
+|136|            Dubrovki|    49%|    RU|
+|137|            Mitchell|    49%|    US|
+|138|         Tupper Lake|    49%|    US|
+|139|                 Itu|    50%|    BR|
+|140|               Picui|    50%|    BR|
+|141|         Serra Negra|    50%|    BR|
+|142|              Viamao|    50%|    BR|
+|143|            Feicheng|    50%|    CN|
+|144|          Barrington|    50%|    US|
+|145|             Clifton|    50%|    US|
+|146|              Dillon|    50%|    US|
+|147|         Mount Olive|    50%|    US|
+|148|          Rutherford|    50%|    US|
+|149|           Tarrytown|    50%|    US|
+|150|    Upper Brookville|    50%|    US|
+|151|         Upper Nyack|    50%|    US|
+|152|      Valley Cottage|    50%|    US|
+|153|              Walden|    50%|    US|
+|154|         Warrensburg|    50%|    US|
+|155|             Warwick|    50%|    US|
+|156|             Kwinana|    51%|    AU|
+|157|              Samson|    51%|    AU|
+|158|             Wellard|    51%|    AU|
+|159|   Cruzeiro do Oeste|    51%|    BR|
+|160|            San Jose|    51%|    HN|
+|161|            Blenheim|    51%|    NZ|
+|162|          Moundville|    51%|    US|
+|163|       Phil Campbell|    51%|    US|
+|164|          Rainsville|    51%|    US|
+|165|              Wright|    51%|    US|
+|166|              Fuyang|    52%|    CN|
+|167|             Managua|    52%|    NI|
+|168|                Male|    52%|    UA|
+|169|               Keene|    52%|    US|
+|170|        Russellville|    52%|    US|
+|171|          Waterville|    52%|    US|
+|172|            Isisford|    53%|    AU|
+|173|           Itinga II|    53%|    BR|
+|174|      Rio dos Cedros|    53%|    BR|
+|175|       Rosario Oeste|    53%|    BR|
+|176|    Sao Joao Batista|    53%|    BR|
+|177|             Beijing|    53%|    CN|
+|178|             Xicheng|    53%|    CN|
+|179|              Moscow|    53%|    RU|
+|180|           Copeville|    54%|    AU|
+|181|Karoonda East Murray|    54%|    AU|
+|182|          Quandialla|    54%|    AU|
+|183|Huoqiu Chengguanzhen|    54%|    CN|
+|184|             Wuchang|    54%|    CN|
+|185|        San Salvador|    54%|    SV|
+|186|        Philadelphia|    54%|    US|
+|187|         Rogersville|    54%|    US|
+|188|                Stow|    54%|    US|
+|189|              Walton|    54%|    US|
+|190|              Baldry|    55%|    AU|
+|191|          Cercadinho|    55%|    BR|
+|192|             Realeza|    55%|    BR|
+|193|             Algiers|    55%|    US|
+|194|         Robertsdale|    55%|    US|
+|195|        Spanish Fort|    55%|    US|
+|196|         Halls Creek|    56%|    AU|
+|197|           Aparecida|    56%|    BR|
+|198|         Campo Limpo|    56%|    BR|
+|199|          Guapimirim|    56%|    BR|
+|200|      Miguel Pereira|    56%|    BR|
+|201|                Hope|    56%|    US|
+|202|           Millhaven|    56%|    US|
+|203|            Mercunda|    57%|    AU|
+|204|             Tawonga|    57%|    AU|
+|205|        Paraisopolis|    57%|    BR|
+|206|               Praia|    57%|    BR|
+|207|         Bobovishchi|    57%|    BY|
+|208|              Tehran|    57%|    IR|
+|209|          Nouakchott|    57%|    MR|
+|210|          Baryshikha|    57%|    RU|
+|211|           Kumokhino|    57%|    RU|
+|212|            Zaytsevo|    57%|    RU|
+|213|               Dakar|    57%|    SN|
+|214|            Griswold|    57%|    US|
+|215|             Houston|    57%|    US|
+|216|            Rockford|    57%|    US|
+|217|        Wading River|    57%|    US|
+|218|          Coolgardie|    58%|    AU|
+|219|        McLaren Flat|    58%|    AU|
+|220|             Tianjin|    58%|    CN|
+|221|              Xifeng|    58%|    CN|
+|222|              Nagoya|    58%|    JP|
+|223|             Okazaki|    58%|    JP|
+|224|                Toba|    58%|    JP|
+|225|           Tokushima|    58%|    JP|
+|226|              Toyota|    58%|    JP|
+|227|                 Tsu|    58%|    JP|
+|228|           Yokkaichi|    58%|    JP|
+|229|          Scottsboro|    58%|    US|
+|230|        Stewartville|    58%|    US|
+|231|        Moiseyevichi|    59%|    BY|
+|232|              Vernon|    59%|    CA|
+|233|              Foshan|    59%|    CN|
+|234|               Dhaka|    59%|    IN|
+|235|             Phoenix|    59%|    US|
+|236|              Geurie|    60%|    AU|
+|237|                Jaru|    60%|    BR|
+|238|      Guatemala City|    60%|    GT|
+|239|              Muscat|    60%|    OM|
+|240|              Ankara|    60%|    TR|
+|241|             Tarrant|    60%|    US|
+|242|            Duartina|    61%|    BR|
+|243|             Pirajui|    61%|    BR|
+|244|            Molotino|    61%|    BY|
+|245|       Lake Cowichan|    61%|    CA|
+|246|             Haizhou|    61%|    CN|
+|247|        Xinglongshan|    61%|    CN|
+|248|              Bekkai|    61%|    JP|
+|249|              Matsue|    61%|    JP|
+|250|              Nemuro|    61%|    JP|
+|251|               Niimi|    61%|    JP|
+|252|         Sakaiminato|    61%|    JP|
+|253|              La Paz|    61%|    MX|
+|254|         Ticonderoga|    61%|    US|
+|255|           Town Line|    61%|    US|
+|256|             Valatie|    61%|    US|
+|257|       Voorheesville|    61%|    US|
+|258|    Washington Mills|    61%|    US|
+|259|       Major Isidoro|    62%|    BR|
+|260|           Porangatu|    62%|    BR|
+|261|            Belmopan|    62%|    BZ|
+|262|              Bissau|    62%|    GW|
+|263|            Kingston|    62%|    JM|
+|264|             Akkeshi|    62%|    JP|
+|265|            Hakodate|    62%|    JP|
+|266|          New Market|    62%|    US|
+|267|            New York|    62%|    US|
+|268|             Caracas|    62%|    VE|
+|269|              Oberon|    63%|    AU|
+|270|      Tobias Barreto|    63%|    BR|
+|271|      Uzhanka-Vel’ka|    63%|    BY|
+|272|        Lac La Biche|    63%|    CA|
+|273|           Abu Dhabi|    64%|    AE|
+|274|          Embu Guacu|    64%|    BR|
+|275|Itapecerica da Serra|    64%|    BR|
+|276|     Taboao da Serra|    64%|    BR|
+|277|           Chengyang|    64%|    CN|
+|278|            Huicheng|    64%|    CN|
+|279|            Helsinki|    64%|    FI|
+|280|         Tegucigalpa|    64%|    HN|
+|281|           New Delhi|    64%|    IN|
+|282|              Aomori|    64%|    JP|
+|283|           Hachinohe|    64%|    JP|
+|284|            Marugame|    64%|    JP|
+|285|           Pyongyang|    64%|    KP|
+|286|                Doha|    64%|    QA|
+|287|             Labelle|    64%|    US|
+|288|            Amontada|    65%|    BR|
+|289|               Butia|    65%|    BR|
+|290|         Casa Branca|    65%|    BR|
+|291|               Ibate|    65%|    BR|
+|292|          Mogi Guacu|    65%|    BR|
+|293|             Farnham|    65%|    CA|
+|294|         Louiseville|    65%|    CA|
+|295|      Shawinigan-Sud|    65%|    CA|
+|296|              Havana|    65%|    CU|
+|297|           Reykjavik|    65%|    IS|
+|298|          Phnom Penh|    65%|    KH|
+|299|             Yakutsk|    65%|    RU|
+|300|           Adaminaby|    66%|    AU|
+|301|    Fitzroy Crossing|    66%|    AU|
+|302|           Ironmungy|    66%|    AU|
+|303|         Port Moonta|    66%|    AU|
+|304|  Aracoiaba da Serra|    66%|    BR|
+|305|           Chavantes|    66%|    BR|
+|306|              Ipaucu|    66%|    BR|
+|307|         Shuangcheng|    66%|    CN|
+|308|          Georgetown|    66%|    GY|
+|309|           Amagasaki|    66%|    JP|
+|310|             Dazaifu|    66%|    JP|
+|311|             Fukuoka|    66%|    JP|
+|312|              Himeji|    66%|    JP|
+|313|            Hirokawa|    66%|    JP|
+|314|           Hiroshima|    66%|    JP|
+|315|             Iwakuni|    66%|    JP|
+|316|           Kashiwara|    66%|    JP|
+|317|                Kobe|    66%|    JP|
+|318|              Kurume|    66%|    JP|
+|319|              Mannen|    66%|    JP|
+|320|           Matsuyama|    66%|    JP|
+|321|              Miyako|    66%|    JP|
+|322|                Nara|    66%|    JP|
+|323|               Osaka|    66%|    JP|
+|324|                Saga|    66%|    JP|
+|325|         Shimonoseki|    66%|    JP|
+|326|               Soeda|    66%|    JP|
+|327|            Takasago|    66%|    JP|
+|328|             Tsutsui|    66%|    JP|
+|329|            Wakayama|    66%|    JP|
+|330|           Yamaguchi|    66%|    JP|
+|331|               Yuasa|    66%|    JP|
+|332|            Yusuhara|    66%|    JP|
+|333|                Mita|    66%|    PE|
+|334|          Brookville|    66%|    US|
+|335|             Thiells|    66%|    US|
+|336|             Tillson|    66%|    US|
+|337|          Vails Gate|    66%|    US|
+|338|           Verplanck|    66%|    US|
+|339|            Wallkill|    66%|    US|
+|340|         Walton Park|    66%|    US|
+|341|    Wappingers Falls|    66%|    US|
+|342|               Burra|    67%|    AU|
+|343|             Lochiel|    67%|    AU|
+|344|           O’Connell|    67%|    AU|
+|345|             Undalya|    67%|    AU|
+|346|               Sueca|    67%|    ES|
+|347|               Akita|    67%|    JP|
+|348|        Orange Beach|    67%|    US|
+|349|         Carag Carag|    68%|    AU|
+|350|       Tallygaroopna|    68%|    AU|
+|351|             Colombo|    68%|    BR|
+|352|         Meadow Lake|    68%|    CA|
+|353|           Huaicheng|    68%|    CN|
+|354|          Ishinomaki|    68%|    JP|
+|355|                Dili|    68%|    TL|
+|356|         Los Angeles|    68%|    US|
+|357|           San Diego|    68%|    US|
+|358|           Jacutinga|    69%|    BR|
+|359|         Morro Agudo|    69%|    BR|
+|360|            Orlandia|    69%|    BR|
+|361|        Vila Conrado|    69%|    BR|
+|362|            Freetown|    69%|    BS|
+|363|            Slasteny|    69%|    BY|
+|364|            McConnel|    69%|    CA|
+|365|          Nianzishan|    69%|    CN|
+|366|          Nurmijarvi|    69%|    FI|
+|367|            Kamaishi|    69%|    JP|
+|368|                Lima|    69%|    PE|
+|369|            Brasilia|    70%|    BR|
+|370|             Caapora|    70%|    BR|
+|371|          Camaragibe|    70%|    BR|
+|372|      Campo do Brito|    70%|    BR|
+|373|            Ilhabela|    70%|    BR|
+|374|          Itapissuma|    70%|    BR|
+|375|          Kokhonovka|    70%|    BY|
+|376|              Alfred|    70%|    CA|
+|377|           Gananoque|    70%|    CA|
+|378|          Queensland|    70%|    CA|
+|379|              Thurso|    70%|    CA|
+|380|         Ulaanbaatar|    70%|    MN|
+|381|               Abuja|    70%|    NG|
+|382|                Apia|    70%|    NG|
+|383|              Panama|    70%|    PA|
+|384|            Carolina|    70%|    PR|
+|385|            Damascus|    70%|    SY|
+|386|              Alpine|    70%|    US|
+|387|            Sylvania|    70%|    US|
+|388|          Trout Lake|    70%|    US|
+|389|         Trumansburg|    70%|    US|
+|390|             Wanakah|    70%|    US|
+|391|             Wyoming|    70%|    US|
+|392|         Stuart Mill|    71%|    AU|
+|393|          Entre Rios|    71%|    BR|
+|394|             Orleans|    71%|    BR|
+|395|              Fushan|    71%|    CN|
+|396|              Gaogou|    71%|    CN|
+|397|             Guiping|    71%|    CN|
+|398|               Espoo|    71%|    FI|
+|399|         Kirkkonummi|    71%|    FI|
+|400|              Porvoo|    71%|    FI|
+|401|               Sibbo|    71%|    FI|
+|402|              Monaco|    71%|    FR|
+|403|               Busan|    71%|    KR|
+|404|             Chicago|    71%|    US|
+|405|          Montevideo|    71%|    US|
+|406|             Coroata|    72%|    BR|
+|407|         Minas Novas|    72%|    BR|
+|408|            Espanola|    72%|    CA|
+|409|              Duobao|    72%|    CN|
+|410|              Hamada|    72%|    JP|
+|411|            Windhoek|    72%|    NA|
+|412|              Riyadh|    72%|    SA|
+|413|               Tunis|    72%|    TN|
+|414|         Ballendella|    73%|    AU|
+|415|             Iveragh|    73%|    AU|
+|416|         Lilli Pilli|    73%|    AU|
+|417|         Mount Perry|    73%|    AU|
+|418|               Minsk|    73%|    BY|
+|419|     Buffalo Narrows|    73%|    CA|
+|420|         Maple Creek|    73%|    CA|
+|421|               Ezhou|    73%|    CN|
+|422|           Huanggang|    73%|    CN|
+|423|           Huangzhou|    73%|    CN|
+|424|               Humen|    73%|    CN|
+|425|            Shenzhen|    73%|    CN|
+|426|             Chabana|    73%|    JP|
+|427|           Fukushima|    73%|    JP|
+|428|             Muroran|    73%|    JP|
+|429|            Yonezawa|    73%|    JP|
+|430|              Zamami|    73%|    JP|
+|431|             Bangkok|    73%|    TH|
+|432|              Morris|    73%|    US|
+|433|               Hanoi|    73%|    VN|
+|434|                Moju|    74%|    BR|
+|435|              Quarai|    74%|    BR|
+|436|             Macklin|    74%|    CA|
+|437|              Gaoyou|    74%|    CN|
+|438|             Gaozhou|    74%|    CN|
+|439|             Xinqing|    74%|    CN|
+|440|       Santo Domingo|    74%|    DO|
+|441|               Namie|    74%|    JP|
+|442|              Wajima|    74%|    JP|
+|443|            Yamagata|    74%|    JP|
+|444|               Seoul|    74%|    KR|
+|445|            Chisinau|    74%|    MD|
+|446|              Soroki|    74%|    RU|
+|447|               Tully|    75%|    AU|
+|448|           Kalinovka|    75%|    AZ|
+|449|             Ipameri|    75%|    BR|
+|450|            Fonthill|    75%|    CA|
+|451|            Hubbards|    75%|    CA|
+|452|          Priceville|    75%|    CA|
+|453|           Shelburne|    75%|    CA|
+|454|            Hangzhou|    75%|    CN|
+|455|            Shanghai|    75%|    CN|
+|456|             Xiaoshi|    75%|    CN|
+|457|               Fukui|    75%|    JP|
+|458|               Hakui|    75%|    JP|
+|459|            Kanazawa|    75%|    JP|
+|460|             Komatsu|    75%|    JP|
+|461|              Yamada|    75%|    JP|
+|462|          Wampsville|    75%|    US|
+|463|              Biggar|    76%|    CA|
+|464|          Hudson Bay|    76%|    CA|
+|465|             Morioka|    76%|    JP|
+|466|           Seisan-ri|    76%|    KR|
+|467|          Tokusan-ri|    76%|    KR|
+|468|          Rock Creek|    76%|    US|
+|469|              Manama|    77%|    AE|
+|470|          Bowraville|    77%|    AU|
+|471|            Canberra|    77%|    AU|
+|472|           Dalysford|    77%|    AU|
+|473|            Kilkivan|    77%|    AU|
+|474|              Lerida|    77%|    AU|
+|475|      Nambucca Shire|    77%|    AU|
+|476|                Ipua|    77%|    BR|
+|477|             Izuhara|    77%|    JP|
+|478|            Kawatana|    77%|    JP|
+|479|           Motomachi|    77%|    JP|
+|480|            Nagasaki|    77%|    JP|
+|481|              Sasebo|    77%|    JP|
+|482|              Sendai|    77%|    JP|
+|483|            Shiogama|    77%|    JP|
+|484|      Blue Mountains|    77%|    NZ|
+|485|          Wellington|    77%|    NZ|
+|486|              Guiren|    77%|    TW|
+|487|              Dodoma|    77%|    TZ|
+|488|           Cape Town|    77%|    ZA|
+|489|              Luanda|    78%|    AO|
+|490|           Terranora|    78%|    AU|
+|491|            Tyagarah|    78%|    AU|
+|492|            Woodford|    78%|    AU|
+|493|          Resplendor|    78%|    BR|
+|494|         Gravelbourg|    78%|    CA|
+|495|            Paulatuk|    78%|    CA|
+|496|            Radville|    78%|    CA|
+|497|       Saint-Antoine|    78%|    CA|
+|498|              Tulita|    78%|    CA|
+|499|         Brazzaville|    78%|    CD|
+|500|            Kinshasa|    78%|    CD|
+|501|              Malabo|    78%|    CD|
+|502|              Haimen|    78%|    CN|
+|503|            Huangmei|    78%|    CN|
+|504|             Huazhou|    78%|    CN|
+|505|                Taga|    78%|    ID|
+|506|               Chizu|    78%|    JP|
+|507|           Kurashiki|    78%|    JP|
+|508|            Miyazaki|    78%|    JP|
+|509|             Okayama|    78%|    JP|
+|510|            Takanabe|    78%|    JP|
+|511|             Tsuyama|    78%|    JP|
+|512|              Wakasa|    78%|    JP|
+|513|            Yabutani|    78%|    JP|
+|514|        Wejsuny Małe|    78%|    PL|
+|515|             Yerevan|    79%|    AM|
+|516|         Boyup Brook|    79%|    AU|
+|517|          Bridgetown|    79%|    AU|
+|518|           Mullalyup|    79%|    AU|
+|519|           Pemberton|    79%|    AU|
+|520|               Allan|    79%|    CA|
+|521|           Big River|    79%|    CA|
+|522|             Dundurn|    79%|    CA|
+|523|              Hanley|    79%|    CA|
+|524|          Sanikiluaq|    79%|    CA|
+|525|              Warman|    79%|    CA|
+|526|           Guangshui|    79%|    CN|
+|527|            Huangshi|    79%|    CN|
+|528|          Shuangyang|    79%|    CN|
+|529|             Tallinn|    79%|    EE|
+|530|            Sunagawa|    79%|    JP|
+|531|             Tottori|    79%|    JP|
+|532|            Ashgabat|    79%|    TM|
+|533|            Funafuti|    79%|    TV|
+|534|                Kiev|    79%|    UA|
+|535|              Victor|    79%|    US|
+|536|            Tashkent|    79%|    UZ|
+|537|               Sanaa|    79%|    YE|
+|538|             Panmure|    80%|    AU|
+|539|          Assiniboia|    80%|    CA|
+|540|           Beachburg|    80%|    CA|
+|541|          Cornwallis|    80%|    CA|
+|542|       Haley Station|    80%|    CA|
+|543|      Iroquois Falls|    80%|    CA|
+|544|           Normandin|    80%|    CA|
+|545|          Saint John|    80%|    CA|
+|546|          Schumacher|    80%|    CA|
+|547|            Wangqing|    80%|    CN|
+|548|               Lohja|    80%|    FI|
+|549|             Tbilisi|    80%|    GE|
+|550|             Conakry|    80%|    GN|
+|551|             Kanonji|    80%|    JP|
+|552|                Riga|    80%|    LV|
+|553|            Melekeok|    80%|    PW|
+|554|         Zavolzhskiy|    80%|    RU|
+|555|            Dushanbe|    80%|    TJ|
+|556|              Roseau|    80%|    US|
+|557|              Harare|    80%|    ZW|
+|558|            Brussels|    81%|    BE|
+|559|              Aylmer|    81%|    CA|
+|560|        Caledon East|    81%|    CA|
+|561|           Dunnville|    81%|    CA|
+|562|         Elliot Lake|    81%|    CA|
+|563|            Gore Bay|    81%|    CA|
+|564|        Grand Valley|    81%|    CA|
+|565|              Harrow|    81%|    CA|
+|566|      Little Current|    81%|    CA|
+|567|               Madoc|    81%|    CA|
+|568|       Roberts Creek|    81%|    CA|
+|569|              Ungava|    81%|    CA|
+|570|              Guilin|    81%|    CN|
+|571|            Soissons|    81%|    FR|
+|572|        Valenciennes|    81%|    FR|
+|573|              Takado|    81%|    JP|
+|574|          Utsunomiya|    81%|    JP|
+|575|             San’gok|    81%|    KR|
+|576|            Hastings|    81%|    NZ|
+|577|            Belgrade|    81%|    RS|
+|578|            Aberdeen|    81%|    US|
+|579|        Buenos Aires|    82%|    AR|
+|580|              Moreno|    82%|    AR|
+|581|             Crudine|    82%|    AU|
+|582|         Greigs Flat|    82%|    AU|
+|583|              Quaama|    82%|    AU|
+|584|           Wendouree|    82%|    AU|
+|585|            Coruripe|    82%|    BR|
+|586|              Ottawa|    82%|    CA|
+|587|              Virden|    82%|    CA|
+|588|            Qinggang|    82%|    CN|
+|589|           Matsumoto|    82%|    JP|
+|590|              Nagano|    82%|    JP|
+|591|              Numata|    82%|    JP|
+|592|                Saku|    82%|    JP|
+|593|            Shiojiri|    82%|    JP|
+|594|              Todaka|    82%|    JP|
+|595|                Ueda|    82%|    JP|
+|596|           Vientiane|    82%|    LA|
+|597|            Lilongwe|    82%|    MW|
+|598|              Thames|    82%|    NZ|
+|599|              Taipei|    82%|    TW|
+|600|           Tintenbar|    83%|    AU|
+|601|          Porto-Novo|    83%|    BJ|
+|602|       Campos Gerais|    83%|    BR|
+|603|              Rexton|    83%|    CA|
+|604|          Richibucto|    83%|    CA|
+|605|          Libreville|    83%|    GA|
+|606|               Accra|    83%|    GH|
+|607|                Lome|    83%|    GH|
+|608|             Jakarta|    83%|    ID|
+|609|               Kochi|    83%|    IN|
+|610|              Larino|    83%|    IT|
+|611|            Fukagawa|    83%|    JP|
+|612|            Moseushi|    83%|    JP|
+|613|            Nakanoku|    83%|    JP|
+|614|              Majuro|    83%|    MH|
+|615|           Cebu City|    83%|    PH|
+|616|              Manila|    83%|    PH|
+|617|   Dąbrowa Tarnowska|    83%|    PL|
+|618|    Powiat dąbrowski|    83%|    PL|
+|619|              Warsaw|    83%|    PL|
+|620|            Voronino|    83%|    RU|
+|621|          Basseterre|    83%|    TT|
+|622|       Port of Spain|    83%|    TT|
+|623|            Sea View|    83%|    TZ|
+|624|             Kampala|    83%|    UG|
+|625|              Lusaka|    83%|    ZM|
+|626|            Conmurra|    84%|    AU|
+|627|              Walcha|    84%|    AU|
+|628|             Aklavik|    84%|    CA|
+|629|          Hall Beach|    84%|    CA|
+|630|        Tsiigehtchic|    84%|    CA|
+|631|           Hamamatsu|    84%|    JP|
+|632|            Shizuoka|    84%|    JP|
+|633|           Takamatsu|    84%|    JP|
+|634|      Hwanghae-bukto|    84%|    KP|
+|635|         Novosibirsk|    84%|    RU|
+|636|             Oneonta|    84%|    US|
+|637|              Apsley|    85%|    AU|
+|638|                Lyal|    85%|    AU|
+|639|            Taggerty|    85%|    AU|
+|640|          Taiobeiras|    85%|    BR|
+|641|          Fort Liard|    85%|    CA|
+|642|            Hardrock|    85%|    CA|
+|643|           Hay River|    85%|    CA|
+|644|        Rankin Inlet|    85%|    CA|
+|645|            Cochrane|    85%|    CL|
+|646|             Encheng|    85%|    CN|
+|647|             Huilong|    85%|    CN|
+|648|             Bishkek|    85%|    KG|
+|649|              Astana|    85%|    KZ|
+|650|           Avsyunino|    85%|    RU|
+|651|            Davydovo|    85%|    RU|
+|652|              Ozerki|    85%|    RU|
+|653|            Pershino|    85%|    RU|
+|654|         Podbolotnya|    85%|    RU|
+|655|            Ponarino|    85%|    RU|
+|656|               Kabul|    86%|    AF|
+|657|                 Ayr|    86%|    AU|
+|658|               Nhill|    86%|    AU|
+|659|               Goias|    86%|    BR|
+|660|            Itaberai|    86%|    BR|
+|661|             Carlyle|    86%|    CA|
+|662|           Englehart|    86%|    CA|
+|663|               Eston|    86%|    CA|
+|664|               Oxbow|    86%|    CA|
+|665|              Wilkie|    86%|    CA|
+|666|               Gaomi|    86%|    CN|
+|667|            Hanchuan|    86%|    CN|
+|668|             Huangpi|    86%|    CN|
+|669|               Wuhan|    86%|    CN|
+|670|              Berlin|    86%|    DE|
+|671|            Djibouti|    86%|    DJ|
+|672|             Iisalmi|    86%|    FI|
+|673|              Zagreb|    86%|    HR|
+|674|                Biei|    86%|    JP|
+|675|            Ishigaki|    86%|    JP|
+|676|         Nakatsugawa|    86%|    JP|
+|677|             Niigata|    86%|    JP|
+|678|            Shimochi|    86%|    JP|
+|679|            Taketomi|    86%|    JP|
+|680|            Changjon|    86%|    KR|
+|681|         Changsal-li|    86%|    KR|
+|682|             Yach’on|    86%|    KR|
+|683|            Sulechow|    86%|    PL|
+|684|              Wodąca|    86%|    PL|
+|685|           Stockholm|    86%|    SE|
+|686|           Mogadishu|    86%|    SO|
+|687|          Daylesford|    87%|    AU|
+|688|           Eganstown|    87%|    AU|
+|689|           Wattrelos|    87%|    BE|
+|690|         Lorne Beach|    87%|    CA|
+|691|            Ormstown|    87%|    CA|
+|692|      Pointe-Calumet|    87%|    CA|
+|693|             Chengdu|    87%|    CN|
+|694|           Chongqing|    87%|    CN|
+|695|             Hechuan|    87%|    CN|
+|696|              Prague|    87%|    CZ|
+|697|              Alaior|    87%|    ES|
+|698|              Madrid|    87%|    ES|
+|699|            Castries|    87%|    FR|
+|700|               Nancy|    87%|    FR|
+|701|               Sedan|    87%|    FR|
+|702|           Tourcoing|    87%|    FR|
+|703|           Wasquehal|    87%|    FR|
+|704|             Maybole|    87%|    GB|
+|705|              Athens|    87%|    GR|
+|706|              Moroni|    87%|    GR|
+|707|                Rome|    87%|    IT|
+|708|              Tivoli|    87%|    IT|
+|709|             Isomura|    87%|    JP|
+|710|            Kawasaki|    87%|    JP|
+|711|            Kisarazu|    87%|    JP|
+|712|               Tokyo|    87%|    JP|
+|713|            Yokohama|    87%|    JP|
+|714|      Gemeente Veere|    87%|    NL|
+|715|           Kathmandu|    87%|    NP|
+|716|          Bratislava|    87%|    SK|
+|717|        Vatican City|    87%|    VA|
+|718|           Hazledean|    88%|    AU|
+|719|             Tarzali|    88%|    AU|
+|720|            Woolomin|    88%|    AU|
+|721|            Victoria|    88%|    BN|
+|722|  Petrolina de Goias|    88%|    BR|
+|723|        Yamoussoukro|    88%|    CI|
+|724|              Haikou|    88%|    CN|
+|725|                Suva|    88%|    FJ|
+|726|             Lucknow|    88%|    IN|
+|727|         Fukuchiyama|    88%|    JP|
+|728|               Hioki|    88%|    JP|
+|729|           Kagoshima|    88%|    JP|
+|730|                Otsu|    88%|    JP|
+|731|              Takata|    88%|    JP|
+|732|              Toyama|    88%|    JP|
+|733|             Tsuruga|    88%|    JP|
+|734|           Singapore|    88%|    MY|
+|735|              Maputo|    88%|    MZ|
+|736|                Oshi|    88%|    NG|
+|737|           Thornwood|    88%|    ZA|
+|738|              Roblin|    89%|    CA|
+|739|        Saint-Jerome|    89%|    CA|
+|740|              Fuling|    89%|    CN|
+|741|           Hepingjie|    89%|    CN|
+|742|         Addis Ababa|    89%|    ET|
+|743|    Andorra la Vella|    89%|    FR|
+|744|           Ladysmith|    89%|    ZA|
+|745|             Thimphu|    90%|    BT|
+|746|                Amos|    90%|    CA|
+|747|          La Prairie|    90%|    CA|
+|748|           Lachenaie|    90%|    CA|
+|749|      Otterburn Park|    90%|    CA|
+|750|         Cherrapunji|    90%|    IN|
+|751|               Nikko|    90%|    JP|
+|752|           Malinovka|    90%|    RU|
+|753|         Grand Forks|    90%|    US|
+|754|            Boolarra|    91%|    AU|
+|755|          Gormandale|    91%|    AU|
+|756|              Jeetho|    91%|    AU|
+|757|       Millaa Millaa|    91%|    AU|
+|758|        Willow Grove|    91%|    AU|
+|759|           Guiricema|    91%|    BR|
+|760|            La Tuque|    91%|    CA|
+|761|            Rosetown|    91%|    CA|
+|762|           Sundridge|    91%|    CA|
+|763|              Reform|    91%|    DE|
+|764|           Jakobstad|    91%|    FI|
+|765|           Ipyang-ni|    91%|    KR|
+|766|              Protea|    91%|    ZA|
+|767|           Bujumbura|    92%|    BI|
+|768|      Berens Landing|    92%|    CA|
+|769|               Cabri|    92%|    CA|
+|770|       Colville Lake|    92%|    CA|
+|771|             Estevan|    92%|    CA|
+|772|     Fort Resolution|    92%|    CA|
+|773|        Fort Simpson|    92%|    CA|
+|774|              Garson|    92%|    CA|
+|775|           Gull Lake|    92%|    CA|
+|776|               Hixon|    92%|    CA|
+|777|        Manitouwadge|    92%|    CA|
+|778|        Norman Wells|    92%|    CA|
+|779|       Paradise Cove|    92%|    CA|
+|780|           Schreiber|    92%|    CA|
+|781|         Temiscaming|    92%|    CA|
+|782|         Terrace Bay|    92%|    CA|
+|783|             Wrigley|    92%|    CA|
+|784|             Kajaani|    92%|    FI|
+|785|        Lappeenranta|    92%|    FI|
+|786|               Kyoto|    92%|    JP|
+|787|             Nagaoka|    92%|    JP|
+|788|             Nobeoka|    92%|    JP|
+|789|             Shimoda|    92%|    JP|
+|790|            Takaharu|    92%|    JP|
+|791|             Vilnius|    92%|    LT|
+|792|        Ciechanowiec|    92%|    PL|
+|793|             Polevoy|    92%|    RU|
+|794|        North Portal|    92%|    US|
+|795|              Tirana|    93%|    AL|
+|796|              Nassau|    93%|    AT|
+|797|               Vaduz|    93%|    AT|
+|798|              Vienna|    93%|    AT|
+|799|      Allendale East|    93%|    AU|
+|800|            Blaxland|    93%|    AU|
+|801|             Maroota|    93%|    AU|
+|802|         Medlow Bath|    93%|    AU|
+|803|            Menangle|    93%|    AU|
+|804|       Mount Edwards|    93%|    AU|
+|805|            Powranna|    93%|    AU|
+|806|     Sackville Reach|    93%|    AU|
+|807|            Sarajevo|    93%|    BA|
+|808|               Sofia|    93%|    BG|
+|809|             McBride|    93%|    CA|
+|810|           Waswanipi|    93%|    CA|
+|811|           Hongjiang|    93%|    CN|
+|812|            Gevenich|    93%|    DE|
+|813|              Marlow|    93%|    DE|
+|814|        Sevinghausen|    93%|    DE|
+|815|          Copenhagen|    93%|    DK|
+|816|             Rødklit|    93%|    DK|
+|817|             Limoges|    93%|    FR|
+|818|             Noisiel|    93%|    FR|
+|819|               Paris|    93%|    FR|
+|820|              Pessac|    93%|    FR|
+|821|              Pinson|    93%|    FR|
+|822|              Poissy|    93%|    FR|
+|823|      Pont-a-Mousson|    93%|    FR|
+|824|          Port Louis|    93%|    FR|
+|825|              Rennes|    93%|    FR|
+|826|                Reze|    93%|    FR|
+|827|               Rodez|    93%|    FR|
+|828|         Romainville|    93%|    FR|
+|829|         Saint-Avold|    93%|    FR|
+|830|       Saint-Gratien|    93%|    FR|
+|831|             Sannois|    93%|    FR|
+|832|           Sarcelles|    93%|    FR|
+|833|       Sarreguemines|    93%|    FR|
+|834|              Saumur|    93%|    FR|
+|835|            Selestat|    93%|    FR|
+|836|              Sevran|    93%|    FR|
+|837|              Stains|    93%|    FR|
+|838| Tassin-la-Demi-Lune|    93%|    FR|
+|839|             Taverny|    93%|    FR|
+|840|               Tulle|    93%|    FR|
+|841|          Venissieux|    93%|    FR|
+|842|  Verneuil-sur-Seine|    93%|    FR|
+|843|              Vienne|    93%|    FR|
+|844|         Villemomble|    93%|    FR|
+|845|           Vincennes|    93%|    FR|
+|846|             Cardiff|    93%|    GB|
+|847|          Llandegfan|    93%|    GB|
+|848|             Parkham|    93%|    GB|
+|849|             Preston|    93%|    GB|
+|850|              Widley|    93%|    GB|
+|851|             Tripoli|    93%|    GR|
+|852|            Budapest|    93%|    HU|
+|853|               Asahi|    93%|    JP|
+|854|               Atami|    93%|    JP|
+|855|              Atsugi|    93%|    JP|
+|856|               Chiba|    93%|    JP|
+|857|              Fukaya|    93%|    JP|
+|858|           Hiratsuka|    93%|    JP|
+|859|              Hokota|    93%|    JP|
+|860|                Kofu|    93%|    JP|
+|861|                Mito|    93%|    JP|
+|862|              Narita|    93%|    JP|
+|863|           Nishihara|    93%|    JP|
+|864|              Otsuki|    93%|    JP|
+|865|          Sagamihara|    93%|    JP|
+|866|             Saitama|    93%|    JP|
+|867|            Uenohara|    93%|    JP|
+|868|            Yamakita|    93%|    JP|
+|869|           Yatsuzawa|    93%|    JP|
+|870|             Nairobi|    93%|    KE|
+|871|               Rabat|    93%|    MA|
+|872|           Podgorica|    93%|    ME|
+|873|        Antananarivo|    93%|    MG|
+|874|            Valletta|    93%|    MT|
+|875|           Amsterdam|    93%|    NL|
+|876|                Edam|    93%|    NL|
+|877|           Islamabad|    93%|    PK|
+|878|             Orzesze|    93%|    PL|
+|879|             Szczyrk|    93%|    PL|
+|880|              Lisbon|    93%|    PT|
+|881|                Sado|    93%|    PT|
+|882|           Bucharest|    93%|    RO|
+|883|              Kigali|    93%|    RW|
+|884|            Valhalla|    93%|    SE|
+|885|           Ljubljana|    93%|    SI|
+|886|             Mbabane|    93%|    SZ|
+|887|              Tabilk|    94%|    AU|
+|888|        Aldeia Velha|    94%|    BR|
+|889|            Asbestos|    94%|    CA|
+|890|        Chesterville|    94%|    CA|
+|891|           Kerrobert|    94%|    CA|
+|892|             Tahltan|    94%|    CA|
+|893|              Bangui|    94%|    CF|
+|894|             Yaounde|    94%|    CM|
+|895|               Sagae|    94%|    JP|
+|896|            Monrovia|    94%|    LR|
+|897|           Naypyidaw|    94%|    MM|
+|898|        Kuala Lumpur|    94%|    MY|
+|899|             Honiara|    94%|    SB|
+|900|             Karleby|    94%|    SE|
+|901|          Paramaribo|    94%|    SR|
+|902|            Maebashi|    95%|    JP|
+|903|               Piuka|    95%|    JP|
+|904|           Shimonita|    95%|    JP|
+|905|            Santiago|    95%|    PH|
+|906|         Perwillowen|    96%|    AU|
+|907|              Weedon|    96%|    CA|
+|908|                Naha|    96%|    CN|
+|909|                Oslo|    96%|    NO|
+|910|          Candelaria|    96%|    PH|
+|911|               Young|    96%|    UY|
+|912|             Everard|    97%|    CA|
+|913|               Duyun|    97%|    CN|
+|914|             Gaoping|    97%|    CN|
+|915|              Asmara|    97%|    ER|
+|916|             Satsuma|    97%|    JP|
+|917|          Alexandria|    97%|    RO|
+|918|    State of Manipur|    98%|    IN|
+|919|            Takayama|    98%|    JP|
+|920|               Bobin|   100%|    AU|
+|921|            Clybucca|   100%|    AU|
+|922|            Cockatoo|   100%|    AU|
+|923|       Diamond Creek|   100%|    AU|
+|924|            Myrniong|   100%|    AU|
+|925|          Strathewen|   100%|    AU|
+|926|     Telegraph Point|   100%|    AU|
+|927|             Wingham|   100%|    AU|
+|928|          Wonga Park|   100%|    AU|
+|929|          Yerrinbool|   100%|    AU|
+|930|                Baku|   100%|    AZ|
+|931|             Dushevo|   100%|    BG|
+|932|              Milino|   100%|    BG|
+|933| Bandar Seri Begawan|   100%|    BN|
+|934|       Fenelon Falls|   100%|    CA|
+|935|         North River|   100%|    CA|
+|936|          Port Perry|   100%|    CA|
+|937|                Bern|   100%|    CH|
+|938|         Herluflille|   100%|    DK|
+|939|         Hameenlinna|   100%|    FI|
+|940|             Kaarina|   100%|    FI|
+|941|               Nokia|   100%|    FI|
+|942|          Pojanluoma|   100%|    FI|
+|943|              Raisio|   100%|    FI|
+|944|                Orly|   100%|    FR|
+|945|             Plaisir|   100%|    FR|
+|946|             Puteaux|   100%|    FR|
+|947|         Ris-Orangis|   100%|    FR|
+|948|      Roissy-en-Brie|   100%|    FR|
+|949|               Rouen|   100%|    FR|
+|950|     Rueil-Malmaison|   100%|    FR|
+|951|    Saint-Cyr-lEcole|   100%|    FR|
+|952|        Sartrouville|   100%|    FR|
+|953|              Sceaux|   100%|    FR|
+|954|        Schiltigheim|   100%|    FR|
+|955|              Senlis|   100%|    FR|
+|956|        Sucy-en-Brie|   100%|    FR|
+|957|            Suresnes|   100%|    FR|
+|958|              Thiais|   100%|    FR|
+|959|             Trappes|   100%|    FR|
+|960|  Tremblay-en-France|   100%|    FR|
+|961|Verrieres-le-Buisson|   100%|    FR|
+|962|   Vigneux-sur-Seine|   100%|    FR|
+|963|          Villepinte|   100%|    FR|
+|964|      Viry-Chatillon|   100%|    FR|
+|965|     Vitry-sur-Seine|   100%|    FR|
+|966|                Bath|   100%|    GB|
+|967|              Cawdor|   100%|    GB|
+|968|              Durham|   100%|    GB|
+|969|           Edinburgh|   100%|    GB|
+|970|          Forest Row|   100%|    GB|
+|971|           Kingstown|   100%|    GB|
+|972|              London|   100%|    GB|
+|973|          Northfield|   100%|    GB|
+|974|         Point Clear|   100%|    GB|
+|975|      Saint George's|   100%|    GB|
+|976|           Sheffield|   100%|    GB|
+|977|    Saint Peter Port|   100%|    GG|
+|978|              Dublin|   100%|    IE|
+|979|           Bengaluru|   100%|    IN|
+|980|             Alliste|   100%|    IT|
+|981|        Casale Litta|   100%|    IT|
+|982|                Vila|   100%|    IT|
+|983|                 Aso|   100%|    JP|
+|984|                Date|   100%|    JP|
+|985|            Kumamoto|   100%|    JP|
+|986|             Sapporo|   100%|    JP|
+|987|          Yatsushiro|   100%|    JP|
+|988|                Yuni|   100%|    JP|
+|989|            Haejeong|   100%|    KR|
+|990|         Seryui-dong|   100%|    KR|
+|991|          Luxembourg|   100%|    LU|
+|992|              Skopje|   100%|    MK|
+|993|               Peelo|   100%|    NL|
+|994|         Wervershoof|   100%|    NL|
+|995|        Port Moresby|   100%|    PG|
+|996|            Kanczuga|   100%|    PL|
+|997|                Hede|   100%|    SE|
+|998|               Yaren|   100%|    TR|
+|999|         Springville|   100%|    US|
++---------------------------------------+
+11月26日 05:00現在の情報

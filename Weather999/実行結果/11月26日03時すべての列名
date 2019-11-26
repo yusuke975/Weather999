@@ -1,0 +1,1008 @@
+java Weather999 999.csv 降水量 気温 風速 天気 気圧 湿度 日の出 日の入り 国  を3:00（日本時間）ごろに実行した結果です。
+降水量や国だけではなくさまざまな列名を指定することができます。以下は指定できる全ての列名を指定した場合です。
+以下は実行結果です。
+
++----------------------------------------------------------------------------------------------------------------------+
+|   |       都市名        | 降水量|   気温  | 風速 |              天気             |  気圧 |  湿度 |  日の出 | 日の入り |   国  |
++----------------------------------------------------------------------------------------------------------------------+
+|  1|             Yakutsk|   0.0|  -39.00|  2.29|                           fog|  1018|    65%|   09:00|   15:16|    RU|
+|  2|         Ulaanbaatar|   0.0|  -23.00|  2.00|                    few clouds|  1024|    69%|   08:13|   17:05|    MN|
+|  3|           Hepingjie|   0.0|  -19.23|  1.63|                     clear sky|  1036|    89%|   06:34|   16:04|    CN|
+|  4|            Voronino|   0.0|  -18.67|  1.56|                    few clouds|  1035|    83%|   09:19|   16:53|    RU|
+|  5|          Hall Beach|   0.0|  -17.58|  7.20|                 broken clouds|  1012|    83%|   10:47|   13:36|    CA|
+|  6|            Wangqing|   0.0|  -15.65|  1.08|                     clear sky|  1035|    81%|   06:27|   15:49|    CN|
+|  7|             Xinqing|   0.0|  -15.18|  3.14|                     clear sky|  1028|    76%|   06:44|   15:34|    CN|
+|  8|             Aklavik|   0.0|  -14.00|  1.50|                    light snow|  1025|    84%|   12:07|   15:26|    CA|
+|  9|         Novosibirsk|   0.0|  -14.00|  2.00|                          mist|  1036|    92%|   09:20|   17:11|    RU|
+| 10|       Colville Lake|   0.0|  -14.00|  5.70|                    light snow|  1020|    84%|   11:06|   15:16|    CA|
+| 11|            Paulatuk|   0.0|  -14.00|  6.70|                 broken clouds|  1021|    77%|   11:59|   14:07|    CA|
+| 12|            Pershino|   0.0|  -13.84|  0.86|                     clear sky|  1026|    86%|   09:23|   16:06|    RU|
+| 13|          Nianzishan|   0.0|  -13.49|  1.23|              scattered clouds|  1025|    67%|   07:08|   16:03|    CN|
+| 14|        Tsiigehtchic|   0.0|  -13.00|  1.00|                    light snow|  1027|    84%|   11:44|   15:39|    CA|
+| 15|             Polevoy|   0.0|  -13.00|  3.00|                    light snow|  1030|    92%|   08:44|   16:38|    RU|
+| 16|           Malinovka|   0.0|  -11.51|  0.95|               overcast clouds|  1040|    91%|   08:54|   17:01|    RU|
+| 17|             Tahltan|   0.0|  -11.46|  0.24|               overcast clouds|  1022|    95%|   08:52|   16:09|    CA|
+| 18|     Fort Resolution|   0.0|  -11.00|  2.60|                    light snow|  1013|    92%|   09:05|   15:37|    CA|
+| 19|              Astana|   0.0|  -11.00|  3.00|                    light snow|  1028|    85%|   08:47|   17:15|    KZ|
+| 20|             Bishkek|   0.0|  -10.00|  1.00|                           fog|  1031|    92%|   08:06|   17:31|    KG|
+| 21|              Ozerki|   0.0|  -10.00|  3.00|              scattered clouds|  1034|    85%|   09:10|   17:14|    RU|
+| 22|        Norman Wells|   0.0|  -10.00|  6.70|                    light snow|  1023|    92%|   10:41|   15:47|    CA|
+| 23|              Xifeng|   0.0|   -9.67|  2.49|                     clear sky|  1034|    64%|   06:45|   16:11|    CN|
+| 24|             Wuchang|   0.0|   -9.30|  4.73|                     clear sky|  1032|    55%|   06:42|   15:54|    CN|
+| 25|           Hay River|   0.0|   -9.00|  2.60|               overcast clouds|  1014|    85%|   09:11|   15:49|    CA|
+| 26|           Avsyunino|   0.0|   -9.00|  3.00|               overcast clouds|  1030|    78%|   08:16|   16:04|    RU|
+| 27|            Ponarino|   0.0|   -9.00|  3.00|               overcast clouds|  1030|    78%|   08:16|   16:04|    RU|
+| 28|              Tulita|   0.0|   -9.00|  4.60|                    light snow|  1021|    78%|   10:31|   15:47|    CA|
+| 29|        Xinglongshan|   0.0|   -9.00|  5.00|                     clear sky|  1030|    56%|   06:46|   16:04|    CN|
+| 30|      Berens Landing|   0.0|   -9.00|  5.70|               overcast clouds|  1016|    92%|   09:40|   16:01|    CA|
+| 31|        Fort Simpson|   0.0|   -9.00|  5.70|               overcast clouds|  1016|    92%|   09:42|   16:02|    CA|
+| 32|                Biei|   0.0|   -8.93|  1.77|                 broken clouds|  1030|    88%|   06:36|   15:57|    JP|
+| 33|        Rankin Inlet|   0.0|   -8.58|  3.10|                 broken clouds|  1014|    85%|   08:54|   14:56|    CA|
+| 34|         Zavolzhskiy|   0.0|   -7.64|  2.82|                     clear sky|  1036|    63%|   08:20|   16:58|    RU|
+| 35|            Davydovo|   0.0|   -7.47|  2.00|               overcast clouds|  1030|    72%|   08:17|   16:05|    RU|
+| 36|         Shuangcheng|   0.0|   -7.26|  5.00|                 broken clouds|  1028|    66%|   06:47|   15:56|    CN|
+| 37|          Baryshikha|   0.0|   -7.14|  4.00|               overcast clouds|  1031|    62%|   08:06|   15:42|    RU|
+| 38|         Podbolotnya|   0.0|   -7.00|  2.00|                 broken clouds|  1028|    79%|   08:20|   15:46|    RU|
+| 39|              Soroki|   0.0|   -6.99|  3.24|               overcast clouds|  1029|    67%|   07:49|   15:08|    RU|
+| 40|            Fukagawa|   0.0|   -6.22|  1.24|              scattered clouds|  1030|    88%|   06:39|   15:59|    JP|
+| 41|            Moseushi|   0.0|   -6.22|  1.24|              scattered clouds|  1030|    88%|   06:39|   15:59|    JP|
+| 42|           Kumokhino|   0.0|   -6.20|  4.00|                 broken clouds|  1031|    62%|   08:05|   15:40|    RU|
+| 43|     Buffalo Narrows|   0.0|   -6.00|  4.10|               overcast clouds|  1005|    79%|   09:09|   16:52|    CA|
+| 44|          Fort Liard|   0.0|   -6.00|  5.10|                    light snow|  1015|    85%|   09:37|   16:24|    CA|
+| 45|     Lesnaya Vtoraya|   0.0|   -6.00|  6.00|               overcast clouds|  1030|    53%|   07:42|   15:25|    RU|
+| 46|            Mazikino|   0.0|   -6.00|  6.00|               overcast clouds|  1030|    53%|   07:50|   15:29|    RU|
+| 47|Verkhniye Shelabolki|   0.0|   -6.00|  6.00|               overcast clouds|  1030|    53%|   07:50|   15:30|    RU|
+| 48|         Murzanayevo|   0.0|   -6.00|  6.00|               overcast clouds|  1030|    53%|   07:50|   15:31|    RU|
+| 49|           Todymvazh|   0.0|   -6.00|  6.00|               overcast clouds|  1030|    53%|   07:51|   15:31|    RU|
+| 50|         Midyashkino|   0.0|   -6.00|  6.00|               overcast clouds|  1030|    53%|   07:51|   15:32|    RU|
+| 51|           Tyukhtovo|   0.0|   -5.88|  2.38|               overcast clouds|  1031|    39%|   08:18|   15:59|    RU|
+| 52|         Ratnitskoye|   0.0|   -5.79|  2.76|                 broken clouds|  1031|    38%|   08:17|   15:54|    RU|
+| 53|         Plyasitsyno|   0.0|   -5.73|  2.58|                 broken clouds|  1031|    38%|   08:14|   15:53|    RU|
+| 54|              Kin’ya|   0.0|   -5.67|  3.77|              scattered clouds|  1031|    38%|   08:19|   15:57|    RU|
+| 55|              Yerovo|   0.0|   -5.59|  3.23|              scattered clouds|  1031|    39%|   08:10|   15:44|    RU|
+| 56|            Dubrovki|   0.0|   -5.56|  2.15|               overcast clouds|  1014|    45%|   07:36|   15:50|    RU|
+| 57|              Gogino|   0.0|   -5.50|  2.44|                 broken clouds|  1032|    36%|   08:08|   15:44|    RU|
+| 58|         Komsomolets|   0.0|   -5.21|  2.40|               overcast clouds|  1034|    39%|   07:54|   16:09|    RU|
+| 59|            Sosnovka|   0.0|   -5.21|  2.40|               overcast clouds|  1034|    39%|   07:56|   16:07|    RU|
+| 60|              Moscow|   0.0|   -5.19|  2.00|               overcast clouds|  1029|    53%|   08:23|   16:09|    RU|
+| 61|            Zaytsevo|   0.0|   -5.19|  4.00|               overcast clouds|  1028|    53%|   08:24|   16:12|    RU|
+| 62|             Il’inka|   0.0|   -5.12|  4.24|                 broken clouds|  1031|    34%|   08:09|   16:25|    RU|
+| 63|           Byl’tsino|   0.0|   -5.07|  3.22|                 broken clouds|  1032|    35%|   08:06|   15:47|    RU|
+| 64|       Staryy Potash|   0.0|   -5.07|  3.22|                 broken clouds|  1032|    35%|   08:06|   15:49|    RU|
+| 65|            Hardrock|   0.0|   -5.00|  4.60|                    light snow|   999|    92%|   08:14|   16:54|    CA|
+| 66|              Fokino|   0.0|   -4.96|  2.79|              scattered clouds|  1029|    34%|   08:24|   16:33|    RU|
+| 67|            Korikovo|   0.0|   -4.95|  3.20|               overcast clouds|  1033|    35%|   08:04|   15:54|    RU|
+| 68|     Novaya Derevnya|   0.0|   -4.85|  2.81|               overcast clouds|  1033|    33%|   08:02|   15:57|    RU|
+| 69|          Perkhurovo|   0.0|   -4.85|  2.81|               overcast clouds|  1033|    33%|   08:04|   15:59|    RU|
+| 70|            Slasteny|   0.0|   -4.71|  3.52|              scattered clouds|  1026|    78%|   08:42|   16:45|    BY|
+| 71|            Zagor’ye|   0.0|   -4.54|  2.71|                 broken clouds|  1029|    53%|   08:32|   16:08|    RU|
+| 72|          Hudson Bay|   0.0|   -4.51|  3.63|                 broken clouds|  1006|    74%|   08:30|   16:43|    CA|
+| 73|             Fengrun|   0.0|   -4.41|  0.84|                 broken clouds|  1033|    24%|   07:03|   16:45|    CN|
+| 74|           Motomachi|   0.0|   -4.30|  0.95|                     clear sky|  1030|    74%|   06:38|   16:10|    JP|
+| 75|          Kokhonovka|   0.0|   -4.27|  3.34|                    few clouds|  1024|    60%|   08:46|   16:57|    BY|
+| 76|             Muroran|   0.0|   -4.05|  2.00|                    few clouds|  1030|    71%|   06:39|   16:07|    JP|
+| 77|                Yuni|   0.0|   -3.97|  1.00|             light shower snow|  1030|   100%|   06:37|   16:02|    JP|
+| 78|                Date|   0.0|   -3.97|  1.00|             light shower snow|  1030|   100%|   06:40|   16:07|    JP|
+| 79|              Dillon|   0.0|   -3.96|  3.10|                 broken clouds|  1009|    67%|   07:42|   16:53|    US|
+| 80|            Molotino|   0.0|   -3.83|  3.78|                 broken clouds|  1024|    57%|   08:47|   16:57|    BY|
+| 81|        Lappeenranta|   0.0|   -3.75|  1.00|               overcast clouds|  1019|   100%|   08:36|   15:12|    FI|
+| 82|             Sapporo|   0.0|   -3.74|  1.00|             light shower snow|  1030|   100%|   06:39|   16:03|    JP|
+| 83|            Sunagawa|   0.0|   -3.73|  1.24|              scattered clouds|  1030|    79%|   06:38|   16:00|    JP|
+| 84|           Xingcheng|   0.0|   -3.62|  2.82|                    few clouds|  1032|    27%|   06:55|   16:33|    CN|
+| 85|                Male|   0.0|   -3.56|  4.62|                     clear sky|  1025|    56%|   07:15|   15:48|    UA|
+| 86|             Tallinn|   0.0|   -3.12|  2.60|               overcast clouds|  1019|    73%|   08:38|   15:38|    EE|
+| 87|          Sanikiluaq|   0.0|   -3.00|  2.60|                 broken clouds|  1003|    92%|   08:15|   15:52|    CA|
+| 88|               Minsk|   0.0|   -3.00|  4.00|               overcast clouds|  1021|    73%|   08:54|   16:59|    BY|
+| 89|               Allan|   0.0|   -2.86|  6.70|               overcast clouds|  1005|    86%|   08:40|   17:02|    CA|
+| 90|              Hanley|   0.0|   -2.86|  6.70|               overcast clouds|  1005|    86%|   08:40|   17:05|    CA|
+| 91|             Dundurn|   0.0|   -2.86|  6.70|               overcast clouds|  1005|    86%|   08:41|   17:04|    CA|
+| 92|              Warman|   0.0|   -2.85|  6.70|               overcast clouds|  1005|    86%|   08:44|   17:02|    CA|
+| 93|        Moiseyevichi|   0.0|   -2.78|  4.00|               overcast clouds|  1024|    53%|   08:48|   16:59|    BY|
+| 94|                Kiev|   0.0|   -2.72|  4.00|               overcast clouds|  1022|    79%|   07:27|   16:02|    UA|
+| 95|              Victor|   0.0|   -2.62|  2.60|                          haze|  1006|    74%|   07:30|   16:52|    US|
+| 96|               Hixon|   0.0|   -2.50|  1.00|               overcast clouds|  1018|   100%|   07:53|   16:01|    CA|
+| 97|              Roblin|   0.0|   -2.50|  4.72|               overcast clouds|  1005|    92%|   08:18|   16:46|    CA|
+| 98|              Walden|   0.0|   -2.39|  2.10|               overcast clouds|  1005|    54%|   07:03|   16:41|    US|
+| 99|             Beijing|   0.0|   -2.30|  2.00|               overcast clouds|  1033|    67%|   07:11|   16:52|    CN|
+|100|             Xicheng|   0.0|   -2.30|  2.00|               overcast clouds|  1033|    67%|   07:11|   16:52|    CN|
+|101|             Vilnius|   0.0|   -2.28|  4.10|               overcast clouds|  1019|    92%|   08:07|   16:04|    LT|
+|102|           Chengyang|   0.0|   -2.11|  0.80|                     clear sky|  1034|    63%|   06:50|   16:53|    CN|
+|103|      Iroquois Falls|   0.0|   -2.00|  1.00|                    light snow|  1003|    86%|   07:46|   16:33|    CA|
+|104|          Schumacher|   0.0|   -2.00|  1.00|                    light snow|  1003|    86%|   07:47|   16:36|    CA|
+|105|            Tashkent|   0.0|   -2.00|  1.00|                          mist|  1032|    79%|   07:22|   16:57|    UZ|
+|106|         Meadow Lake|   0.0|   -2.00|  2.60|                 broken clouds|  1005|    74%|   09:00|   17:01|    CA|
+|107|             Kajaani|   0.0|   -2.00|  2.60|                    light snow|  1015|    92%|   09:08|   14:43|    FI|
+|108|        Manitouwadge|   0.0|   -2.00|  4.60|                    light snow|   997|   100%|   08:08|   16:52|    CA|
+|109|           Schreiber|   0.0|   -2.00|  4.60|                    light snow|   997|   100%|   08:12|   16:59|    CA|
+|110|         Terrace Bay|   0.0|   -2.00|  4.60|                    light snow|   997|   100%|   08:12|   16:59|    CA|
+|111|           Gull Lake|   0.0|   -2.00|  5.70|               overcast clouds|  1005|    92%|   08:42|   17:19|    CA|
+|112|               Cabri|   0.0|   -2.00|  5.70|               overcast clouds|  1005|    92%|   08:44|   17:17|    CA|
+|113|         Bobovishchi|   0.0|   -1.92|  5.05|               overcast clouds|  1023|    57%|   08:51|   17:02|    BY|
+|114|              Wilkie|   0.0|   -1.91|  5.70|                    few clouds|  1006|    92%|   08:53|   17:10|    CA|
+|115|                Guye|   0.0|   -1.84|  1.95|                 broken clouds|  1033|    21%|   07:02|   16:44|    CN|
+|116|      Uzhanka-Vel’ka|   0.0|   -1.72|  4.53|               overcast clouds|  1022|    65%|   08:55|   17:05|    BY|
+|117|                Riga|   0.0|   -1.68|  4.10|               overcast clouds|  1020|    80%|   08:24|   15:56|    LV|
+|118|               Eston|   0.0|   -1.57|  7.20|                 broken clouds|  1006|    92%|   08:48|   17:16|    CA|
+|119|             Akkeshi|   0.0|   -1.53|  7.06|              scattered clouds|  1028|    61%|   06:25|   15:49|    JP|
+|120|           Kerrobert|   0.0|   -1.53|  7.20|                 broken clouds|  1006|    92%|   08:52|   17:14|    CA|
+|121|          Queensland|   0.0|   -1.41|  5.10|                 broken clouds|  1009|    54%|   08:08|   16:38|    CA|
+|122|             Carlyle|   0.0|   -1.33|  8.20|               overcast clouds|  1004|    86%|   08:15|   16:56|    CA|
+|123|               Oxbow|   0.0|   -1.30|  8.20|               overcast clouds|  1004|    86%|   08:14|   16:57|    CA|
+|124|           Pyongyang|   0.0|   -1.27|  0.88|                     clear sky|  1032|    54%|   07:31|   17:17|    KP|
+|125|          Assiniboia|   0.0|   -1.23|  5.28|               overcast clouds|  1010|    84%|   08:30|   17:11|    CA|
+|126|               Nokia|   0.0|   -1.21|  2.60|               overcast clouds|  1018|   100%|   08:58|   15:27|    FI|
+|127|        North Portal|   0.0|   -1.20|  7.70|               overcast clouds|  1005|    92%|   08:14|   17:00|    US|
+|128|         Hameenlinna|   0.0|   -1.19|  2.60|               overcast clouds|  1018|   100%|   08:51|   15:27|    FI|
+|129|        Ciechanowiec|   0.0|   -1.12|  3.84|              scattered clouds|  1002|   100%|   07:09|   15:25|    PL|
+|130|            Rosetown|   0.0|   -1.11|  5.74|              scattered clouds|  1003|    94%|   08:46|   17:11|    CA|
+|131|            Hancheng|   0.0|   -1.10|  2.72|                     clear sky|  1031|    24%|   07:23|   17:27|    CN|
+|132|             Estevan|   0.0|   -1.04|  7.70|               overcast clouds|  1005|    92%|   08:16|   17:01|    CA|
+|133|         Maple Creek|   0.0|   -1.03|  6.21|               overcast clouds|  1012|    76%|   08:45|   17:24|    CA|
+|134|               Gaomi|   0.0|   -1.00|  1.00|                    few clouds|  1034|    80%|   06:48|   16:47|    CN|
+|135|             Yerevan|   0.0|   -1.00|  1.50|                          mist|  1023|    74%|   07:58|   17:39|    AM|
+|136|             Iisalmi|   0.0|   -1.00|  2.60|               overcast clouds|  1017|    86%|   09:03|   14:52|    FI|
+|137|              Virden|   0.0|   -0.99|  6.11|               overcast clouds|  1005|    82%|   08:11|   16:50|    CA|
+|138|              Biggar|   0.0|   -0.90|  5.53|              scattered clouds|  1008|    78%|   08:48|   17:09|    CA|
+|139|        Lac La Biche|   0.0|   -0.80|  4.28|               overcast clouds|  1009|    70%|   08:17|   16:12|    CA|
+|140|             Morioka|   0.0|   -0.56|  0.45|               overcast clouds|  1028|    70%|   06:31|   16:13|    JP|
+|141|            McConnel|   0.0|   -0.55|  0.58|               overcast clouds|  1014|    74%|   08:10|   16:54|    CA|
+|142|          Pojanluoma|   0.0|   -0.55|  3.10|                          mist|  1016|   100%|   09:12|   15:19|    FI|
+|143|            Radville|   0.0|   -0.51|  6.28|               overcast clouds|  1009|    78%|   08:23|   17:05|    CA|
+|144|         Gravelbourg|   0.0|   -0.48|  5.53|               overcast clouds|  1010|    79%|   08:34|   17:12|    CA|
+|145|             Tianjin|   0.0|   -0.46|  2.00|               overcast clouds|  1033|    46%|   07:05|   16:51|    CN|
+|146|           Ipyang-ni|   0.0|   -0.42|  0.50|                          mist|  1032|   100%|   07:18|   17:15|    KR|
+|147|              Porvoo|   0.0|   -0.20|  1.00|                 broken clouds|  1019|    73%|   08:41|   15:27|    FI|
+|148|               Sibbo|   0.0|   -0.20|  1.00|                 broken clouds|  1019|    73%|   08:42|   15:29|    FI|
+|149|            Haejeong|   0.0|   -0.08|  0.50|                          mist|  1032|   100%|   07:21|   17:16|    KR|
+|150|          Nurmijarvi|   0.0|   -0.04|  1.00|                 broken clouds|  1019|    74%|   08:45|   15:30|    FI|
+|151|            Helsinki|   0.0|    0.00|  1.00|                 broken clouds|  1019|    58%|   08:42|   15:31|    FI|
+|152|               Espoo|   0.0|    0.00|  1.00|                 broken clouds|  1019|    61%|   08:44|   15:32|    FI|
+|153|         Kirkkonummi|   0.0|    0.00|  1.00|                 broken clouds|  1019|    61%|   08:44|   15:34|    FI|
+|154|               Lohja|   0.0|    0.00|  1.00|                 broken clouds|  1019|    69%|   08:46|   15:34|    FI|
+|155|                Amos|   0.0|    0.00|  1.50|               overcast clouds|  1002|    89%|   07:35|   16:23|    CA|
+|156|             Tbilisi|   0.0|    0.00|  2.10|                 broken clouds|  1029|    66%|   08:01|   17:34|    GE|
+|157|            Ashgabat|   0.0|    0.00|  2.10|                     clear sky|  1029|    46%|   07:57|   17:49|    TM|
+|158|        Wejsuny Małe|   0.0|    0.00|  2.60|                           fog|  1017|    82%|   07:17|   15:23|    PL|
+|159|              Garson|   0.0|    0.00|  6.20|               overcast clouds|   999|    95%|   07:55|   16:32|    CA|
+|160|             Haizhou|   0.0|    0.05|  2.29|                     clear sky|  1034|    56%|   06:47|   16:54|    CN|
+|161|           Reykjavik|   0.0|    0.11|  3.10|                     clear sky|  1015|    69%|   10:27|   16:02|    IS|
+|162|         Seryui-dong|   0.0|    0.18|  0.50|                          mist|  1032|   100%|   07:21|   17:16|    KR|
+|163|              Shelby|   0.0|    0.25|  2.10|               overcast clouds|  1009|    61%|   07:50|   16:39|    US|
+|164|           Jakobstad|   0.0|    0.28|  5.10|               overcast clouds|  1015|    92%|   09:23|   15:09|    FI|
+|165|               Seoul|   0.0|    0.30|  0.50|                          mist|  1032|   100%|   07:22|   17:16|    KR|
+|166|              Wright|   0.0|    0.45|  4.60|                     clear sky|  1009|    55%|   07:08|   16:29|    US|
+|167|              Nemuro|   0.0|    0.48|  7.96|                     clear sky|  1028|    61%|   06:23|   15:46|    JP|
+|168|              Bekkai|   0.0|    0.48|  7.96|                     clear sky|  1028|    61%|   06:25|   15:47|    JP|
+|169|      Hwanghae-bukto|   0.0|    0.53|  1.16|              scattered clouds|  1031|    80%|   07:27|   17:16|    KP|
+|170|            Valhalla|   0.0|    0.55|  1.50|               overcast clouds|  1014|    93%|   08:35|   14:29|    SE|
+|171|         Springville|   0.0|    0.65|  2.47|               overcast clouds|  1003|    80%|   07:23|   17:03|    US|
+|172|              Vernon|   0.0|    0.77|  1.00|                     clear sky|  1017|    75%|   07:26|   16:01|    CA|
+|173|              Raisio|   0.0|    0.88|  2.10|                           fog|  1018|    84%|   08:56|   15:40|    FI|
+|174|             Kaarina|   0.0|    0.88|  2.10|                           fog|  1018|    91%|   08:54|   15:40|    FI|
+|175|           Hachinohe|   0.0|    0.92|  3.10|                 broken clouds|  1029|    69%|   06:32|   16:10|    JP|
+|176|                Hede|   0.0|    0.98|  1.27|                          mist|  1015|   100%|   08:22|   15:07|    SE|
+|177|           Normandin|   0.0|    1.00|  1.00|               overcast clouds|  1000|    80%|   07:13|   16:00|    CA|
+|178|           Englehart|   0.0|    1.00|  1.50|               overcast clouds|  1003|    86%|   07:39|   16:33|    CA|
+|179|              Roseau|   0.0|    1.00|  5.10|                    light snow|   995|    80%|   07:46|   16:33|    US|
+|180|            Kanczuga|   0.0|    1.23|  5.70|                          mist|  1015|   100%|   06:58|   15:36|    PL|
+|181|              Aomori|   0.0|    1.27|  3.10|                 broken clouds|  1029|    69%|   06:35|   16:12|    JP|
+|182|                Oslo|   0.0|    1.33|  1.00|                           fog|  1014|   100%|   08:37|   15:30|    NO|
+|183|            Hakodate|   0.0|    1.40|  6.55|               overcast clouds|  1030|    64%|   06:38|   16:09|    JP|
+|184|             Thimphu|   0.0|    1.69|  0.56|                 broken clouds|  1019|    91%|   06:30|   17:07|    BT|
+|185|              Warsaw|   0.0|    1.81|  5.70|               overcast clouds|  1016|    86%|   07:13|   15:33|    PL|
+|186|            La Tuque|   0.0|    1.84|  3.08|               overcast clouds|  1003|    81%|   07:09|   16:06|    CA|
+|187|          Saint John|   0.0|    1.87|  7.70|               overcast clouds|   997|    81%|   07:35|   16:46|    CA|
+|188|          Richibucto|   0.0|    2.00|  7.70|               overcast clouds|   993|    93%|   07:35|   16:37|    CA|
+|189|              Weedon|   0.0|    2.14|  4.10|               overcast clouds|  1004|    96%|   06:58|   16:07|    CA|
+|190|            Feicheng|   0.0|    2.22|  0.84|                    few clouds|  1028|    51%|   07:00|   17:00|    CN|
+|191|              Wodąca|   0.0|    2.32|  2.24|                 broken clouds|  1014|    86%|   07:06|   15:36|    PL|
+|192|           Guangshui|   0.0|    2.34|  1.57|              scattered clouds|  1031|    85%|   07:01|   17:22|    CN|
+|193|       Saint-Antoine|   0.0|    2.45|  7.70|               overcast clouds|   993|    93%|   07:34|   16:38|    CA|
+|194|              Rexton|   0.0|    2.47|  7.70|               overcast clouds|   993|    93%|   07:35|   16:37|    CA|
+|195|             Karleby|   0.0|    2.56|  3.10|               overcast clouds|  1017|    94%|   08:11|   15:07|    SE|
+|196|            Chisinau|   0.0|    2.88|  4.10|              scattered clouds|  1020|    71%|   07:21|   16:21|    MD|
+|197|   Dąbrowa Tarnowska|   0.0|    2.89|  1.94|                 broken clouds|   980|    82%|   07:04|   15:41|    PL|
+|198|    Powiat dąbrowski|   0.0|    2.89|  1.94|                 broken clouds|   980|    82%|   07:04|   15:41|    PL|
+|199|              Fuyang|   0.0|    2.89|  3.72|              scattered clouds|  1032|    53%|   06:56|   17:11|    CN|
+|200|            Dushanbe|   0.0|    3.00|  3.00|                 broken clouds|  1028|    69%|   07:17|   17:06|    TJ|
+|201|          Cornwallis|   0.0|    3.00|  9.30|               overcast clouds|   996|    93%|   07:32|   16:47|    CA|
+|202|           Stockholm|   0.0|    3.01|  1.00|                 broken clouds|  1017|    86%|   08:04|   15:05|    SE|
+|203|          Ishinomaki|   0.0|    3.01|  5.57|               overcast clouds|  1029|    74%|   06:27|   16:16|    JP|
+|204|              Morris|   0.0|    3.01| 10.80|       light intensity drizzle|   998|    80%|   07:36|   16:45|    US|
+|205|              Fushan|   0.0|    3.40|  3.68|              scattered clouds|  1032|    67%|   06:44|   17:00|    CN|
+|206|            Shiogama|   0.0|    3.43|  2.30|               overcast clouds|  1029|    75%|   06:28|   16:17|    JP|
+|207|              Sendai|   0.0|    3.43|  2.30|               overcast clouds|  1029|    75%|   06:28|   16:18|    JP|
+|208|           Sundridge|   0.0|    3.44|  1.00|                 broken clouds|  1003|    81%|   07:30|   16:38|    CA|
+|209|            Asbestos|   0.0|    3.55|  4.10|               overcast clouds|  1004|    94%|   07:00|   16:08|    CA|
+|210|        Chesterville|   0.0|    3.57|  4.10|               overcast clouds|  1004|    94%|   07:01|   16:07|    CA|
+|211|         Temiscaming|   0.0|    3.62|  1.00|                 broken clouds|  1003|    77%|   07:32|   16:34|    CA|
+|212|             Szczyrk|   0.0|    3.88|  0.50|                     clear sky|  1013|    93%|   07:10|   15:51|    PL|
+|213|               Wuhan|   0.0|    4.00|  2.00|              scattered clouds|  1032|    80%|   06:57|   17:22|    CN|
+|214|             Huangpi|   0.0|    4.00|  2.00|              scattered clouds|  1032|    80%|   06:58|   17:21|    CN|
+|215|            Hanchuan|   0.0|    4.00|  2.00|              scattered clouds|  1032|    80%|   06:59|   17:24|    CN|
+|216|             Yach’on|   0.0|    4.00|  2.10|                 broken clouds|  1029|    76%|   07:17|   17:22|    KR|
+|217|              Marlow|   0.0|    4.11|  3.60|                          mist|  1012|    93%|   07:55|   15:57|    DE|
+|218|       Roberts Creek|   0.0|    4.15|  2.10|                    few clouds|  1020|    93%|   07:40|   16:22|    CA|
+|219|              Duobao|   0.0|    4.44|  1.88|                    few clouds|  1024|    71%|   07:04|   17:28|    CN|
+|220|            Hubbards|   0.0|    4.50|  9.30|       light intensity drizzle|   993|    86%|   07:25|   16:40|    CA|
+|221|       Lake Cowichan|   0.0|    4.52|  1.50|                    few clouds|  1021|    75%|   07:40|   16:26|    CA|
+|222|             Orzesze|   0.0|    4.56|  2.60|                          mist|  1013|   100%|   07:13|   15:50|    PL|
+|223|            Budapest|   0.0|    4.58|  0.50|                     clear sky|  1013|    93%|   07:02|   15:59|    HU|
+|224|            Sulechow|   0.0|    4.59|  1.50|                          mist|  1013|    93%|   07:33|   15:55|    PL|
+|225|             San’gok|   0.0|    4.64|  1.09|              scattered clouds|  1028|    79%|   07:13|   17:19|    KR|
+|226|           Hongjiang|   0.0|    4.67|  1.31|               overcast clouds|  1029|    94%|   07:09|   17:46|    CN|
+|227|              Berlin|   0.0|    4.67|  3.60|                          mist|  1012|    86%|   07:44|   16:02|    DE|
+|228|             Niigata|   0.0|    4.71|  1.50|                 broken clouds|  1029|    80%|   06:35|   16:26|    JP|
+|229|        Saint-Jerome|   0.0|    4.73|  7.20|              scattered clouds|  1005|    86%|   07:09|   16:17|    CA|
+|230|      Shawinigan-Sud|   0.0|    4.75|  5.70|                     clear sky|  1003|    82%|   07:06|   16:09|    CA|
+|231|             Oneonta|   0.0|    4.80|  0.45|               overcast clouds|  1009|    93%|   07:03|   16:31|    US|
+|232|              Zagreb|   0.0|    4.86|  2.10|               overcast clouds|  1012|    86%|   07:09|   16:17|    HR|
+|233|               Sofia|   0.0|    4.91|  4.10|               overcast clouds|  1009|    76%|   07:30|   16:57|    BG|
+|234|              Gaoyou|   0.0|    4.96|  0.45|                     clear sky|  1032|    71%|   06:41|   16:57|    CN|
+|235|            Yamagata|   0.0|    5.00|  0.45|               overcast clouds|  1027|    71%|   06:30|   16:20|    JP|
+|236|            Yonezawa|   0.0|    5.00|  0.45|               overcast clouds|  1027|    71%|   06:30|   16:22|    JP|
+|237|               Kabul|   0.0|    5.00|  1.50|                          mist|  1024|    75%|   06:05|   16:14|    AF|
+|238|              Prague|   0.0|    5.07|  2.10|               overcast clouds|  1011|    93%|   07:30|   16:08|    CZ|
+|239|         Louiseville|   0.0|    5.10|  5.70|                     clear sky|  1003|    74%|   07:06|   16:11|    CA|
+|240|           Beachburg|   0.0|    5.13|  1.50|                 broken clouds|  1004|    86%|   07:20|   16:28|    CA|
+|241|           Fukushima|   0.0|    5.17|  0.45|               overcast clouds|  1027|    71%|   06:29|   16:21|    JP|
+|242|          La Prairie|   0.0|    5.17|  7.20|              scattered clouds|  1005|    79%|   07:05|   16:16|    CA|
+|243|              Nassau|   0.0|    5.18|  1.00|               overcast clouds|  1012|    93%|   07:14|   16:16|    AT|
+|244|      Pointe-Calumet|   0.0|    5.21|  7.20|              scattered clouds|  1005|    79%|   07:08|   16:17|    CA|
+|245|               Vaduz|   0.0|    5.22|  1.00|                          mist|  1011|    93%|   07:39|   16:38|    AT|
+|246|             Dushevo|   0.0|    5.31|  3.60|                    light rain|  1013|   100%|   07:24|   16:49|    BG|
+|247|            Ormstown|   0.0|    5.32|  7.20|              scattered clouds|  1005|    76%|   07:07|   16:19|    CA|
+|248|      Otterburn Park|   0.0|    5.32|  7.20|              scattered clouds|  1005|    85%|   07:05|   16:14|    CA|
+|249|              Tehran|   0.0|    5.36|  2.10|                 broken clouds|  1025|    60%|   06:19|   16:23|    IR|
+|250|Huoqiu Chengguanzhen|   0.0|    5.42|  4.12|                 broken clouds|  1032|    52%|   06:53|   17:10|    CN|
+|251|              Reform|   0.0|    5.47|  2.66|               overcast clouds|  1011|    91%|   07:50|   16:11|    DE|
+|252|            Huangshi|   0.0|    5.48|  1.10|               overcast clouds|  1030|    79%|   06:54|   17:20|    CN|
+|253|       Fenelon Falls|   0.0|    5.51|  2.60|                    light rain|  1005|    81%|   07:24|   16:39|    CA|
+|254|              Vienna|   0.0|    5.51|  4.10|                 broken clouds|  1012|    93%|   07:15|   16:07|    AT|
+|255|              Numata|   0.0|    5.56|  2.24|               overcast clouds|  1029|    81%|   06:32|   16:30|    JP|
+|256|                Ueda|   0.0|    5.56|  2.24|               overcast clouds|  1029|    81%|   06:34|   16:33|    JP|
+|257|              Nagano|   0.0|    5.56|  2.24|               overcast clouds|  1029|    81%|   06:35|   16:33|    JP|
+|258|           Matsumoto|   0.0|    5.56|  2.24|               overcast clouds|  1029|    81%|   06:35|   16:35|    JP|
+|259|          Montevideo|   0.0|    5.57| 10.80|               overcast clouds|   999|    56%|   07:33|   16:46|    US|
+|260|         Herluflille|   0.0|    5.58|  3.10|                          mist|  1012|   100%|   08:05|   15:55|    DK|
+|261|             Xiaoshi|   0.0|    5.58|  4.16|               overcast clouds|  1030|    77%|   06:48|   17:13|    CN|
+|262|              Alfred|   0.0|    5.63|  3.10|                 broken clouds|  1005|    75%|   07:11|   16:21|    CA|
+|263|             Farnham|   0.0|    5.63|  7.20|              scattered clouds|  1005|    85%|   07:03|   16:14|    CA|
+|264|          Copenhagen|   0.0|    5.64|  5.10|               overcast clouds|  1013|    87%|   08:03|   15:49|    DK|
+|265|          Bratislava|   0.0|    5.72|  2.10|               overcast clouds|  1013|    87%|   07:12|   16:04|    SK|
+|266|            Sarajevo|   0.0|    5.73|  1.48|                          mist|  1010|    93%|   06:53|   16:13|    BA|
+|267|             Rødklit|   0.0|    5.73|  2.10|                          mist|  1011|    87%|   08:19|   16:01|    DK|
+|268|             Gaoping|   0.0|    5.84|  1.23|              scattered clouds|  1028|    96%|   06:49|   17:32|    CN|
+|269|            Espanola|   0.0|    5.90|  2.24|                 broken clouds|  1003|    81%|   07:41|   16:46|    CA|
+|270|          Port Perry|   0.0|    5.90|  2.60|                    light rain|  1005|    81%|   07:23|   16:42|    CA|
+|271|         Lorne Beach|   0.0|    5.94|  3.60|                   shower rain|  1003|    93%|   07:34|   16:52|    CA|
+|272|         Tupper Lake|   0.0|    5.94|  6.70|                 broken clouds|  1006|    80%|   07:06|   16:23|    US|
+|273|               Sedan|   0.0|    5.99|  4.10|              scattered clouds|  1007|    93%|   08:06|   16:47|    FR|
+|274|              Thurso|   0.0|    6.01|  3.10|                 broken clouds|  1005|    75%|   07:13|   16:22|    CA|
+|275|             Tarrant|   0.0|    6.03|  5.10|              scattered clouds|   998|    65%|   07:16|   16:32|    US|
+|276|              Gaogou|   0.0|    6.05|  2.44|               overcast clouds|  1031|    76%|   06:44|   17:06|    CN|
+|277|        Stewartville|   0.0|    6.05|  5.10|                     clear sky|  1001|    75%|   07:17|   16:37|    US|
+|278|               Peelo|   0.0|    6.12|  3.10|                          mist|  1008|   100%|   08:14|   16:27|    NL|
+|279|       Haley Station|   0.0|    6.40|  1.50|                 broken clouds|  1004|    86%|   07:19|   16:28|    CA|
+|280|          Luxembourg|   0.0|    6.41|  2.60|                          mist|  1009|   100%|   08:01|   16:43|    LU|
+|281|          Priceville|   0.0|    6.43|  5.03|                 broken clouds|  1004|    75%|   07:30|   16:48|    CA|
+|282|              Aylmer|   0.0|    6.47|  4.10|               overcast clouds|  1005|    87%|   07:27|   16:54|    CA|
+|283|           Shelburne|   0.0|    6.58|  4.70|                 broken clouds|  1004|    75%|   07:28|   16:47|    CA|
+|284|            Huangmei|   0.0|    6.60|  6.08|               overcast clouds|  1030|    81%|   06:50|   17:16|    CN|
+|285|                Bern|   0.0|    6.61|  1.00|                 broken clouds|  1011|    87%|   07:46|   16:47|    CH|
+|286|    Andorra la Vella|   0.0|    6.62|  2.00|               overcast clouds|  1007|    93%|   07:56|   17:25|    FR|
+|287|        Grand Valley|   0.0|    6.65|  5.70|                          mist|  1005|    81%|   07:28|   16:48|    CA|
+|288|              Haimen|   0.0|    6.67|  0.45|                 broken clouds|  1028|    77%|   06:32|   16:52|    CN|
+|289|              Ottawa|   0.0|    6.67|  3.60|                 broken clouds|  1005|    75%|   07:14|   16:25|    CA|
+|290|          Alexandria|   0.0|    6.67|  7.54|                 broken clouds|  1018|    98%|   07:25|   16:45|    RO|
+|291|            Shiojiri|   0.0|    6.72|  2.24|               overcast clouds|  1029|    81%|   06:35|   16:35|    JP|
+|292|          Trout Lake|   0.0|    6.80|  4.60|                 broken clouds|   999|    70%|   07:54|   16:59|    US|
+|293|            Gore Bay|   0.0|    6.81|  4.10|               overcast clouds|  1002|    65%|   07:43|   16:50|    CA|
+|294|        Caledon East|   0.0|    6.81|  5.70|                          mist|  1005|    81%|   07:26|   16:46|    CA|
+|295|      Pont-a-Mousson|   0.0|    6.83|  4.60|               overcast clouds|  1009|   100%|   07:59|   16:46|    FR|
+|296|      Little Current|   0.0|    6.84|  4.10|               overcast clouds|  1002|    65%|   07:41|   16:48|    CA|
+|297|            Aberdeen|   0.0|    6.84|  5.60|                    few clouds|  1022|    93%|   07:32|   16:32|    US|
+|298|              Fuling|   0.0|    6.90|  1.68|               overcast clouds|  1024|    89%|   07:23|   17:51|    CN|
+|299|               Madoc|   0.0|    6.90|  5.70|                          mist|  1005|    81%|   07:25|   16:46|    CA|
+|300|               Ezhou|   0.0|    6.94|  1.25|               overcast clouds|  1030|    76%|   06:55|   17:20|    CN|
+|301|           Huanggang|   0.0|    6.94|  1.25|               overcast clouds|  1030|    76%|   06:55|   17:20|    CN|
+|302|           Huangzhou|   0.0|    6.94|  1.25|               overcast clouds|  1030|    76%|   06:55|   17:20|    CN|
+|303|       Sarreguemines|   0.0|    6.98|  1.00|                 broken clouds|  1010|   100%|   07:56|   16:41|    FR|
+|304|           Kalinovka|   0.0|    7.00|  1.00|                 broken clouds|  1028|    81%|   07:38|   17:25|    AZ|
+|305|            Damascus|   0.0|    7.00|  1.50|                 broken clouds|  1018|    39%|   06:15|   16:28|    SY|
+|306|           Adaminaby|   0.0|    7.00|  3.25|              scattered clouds|  1005|    75%|   05:43|   20:00|    AU|
+|307|         Elliot Lake|   0.0|    7.00|  4.10|               overcast clouds|  1002|    65%|   07:45|   16:49|    CA|
+|308|           Ironmungy|   0.0|    7.00|  4.27|              scattered clouds|  1005|    75%|   05:41|   20:01|    AU|
+|309|         Wervershoof|   0.0|    7.01|  3.60|                          mist|  1006|   100%|   08:18|   16:34|    NL|
+|310|           Ljubljana|   0.0|    7.03|  1.50|               overcast clouds|  1011|    93%|   07:15|   16:22|    SI|
+|311|            Mitchell|   0.0|    7.03|  9.80|                     clear sky|  1005|    49%|   07:38|   16:59|    US|
+|312|          Waterville|   0.0|    7.04|  7.20|                     clear sky|  1003|    49%|   06:47|   16:03|    US|
+|313|              Takata|   0.0|    7.08|  3.72|               overcast clouds|  1026|    86%|   06:40|   16:44|    JP|
+|314|             Tsuruga|   0.0|    7.08|  3.72|               overcast clouds|  1026|    86%|   06:41|   16:44|    JP|
+|315|         Saint-Avold|   0.0|    7.09|  4.60|               overcast clouds|  1009|   100%|   07:57|   16:42|    FR|
+|316|            Gevenich|   0.0|    7.12|  3.10|                 broken clouds|  1008|    93%|   08:06|   16:37|    DE|
+|317|              Takado|   0.0|    7.13|  7.20|   light intensity shower rain|  1024|    70%|   06:25|   16:23|    JP|
+|318|              Alpine|   0.0|    7.14|  2.60|               overcast clouds|  1002|   100%|   07:47|   17:12|    US|
+|319|               Nancy|   0.0|    7.14|  2.60|               overcast clouds|  1010|    93%|   07:58|   16:46|    FR|
+|320|             Wyoming|   0.0|    7.14|  3.10|                     clear sky|  1003|    75%|   07:47|   17:12|    US|
+|321|              Cawdor|   0.0|    7.19|  1.89|                           fog|  1001|   100%|   08:20|   15:45|    GB|
+|322|          Wampsville|   0.0|    7.24|  3.10|               overcast clouds|  1007|    75%|   07:07|   16:32|    US|
+|323|       Voorheesville|   0.0|    7.32|  3.10|                 broken clouds|  1008|    61%|   06:59|   16:26|    US|
+|324|        Schiltigheim|   0.0|    7.40|  1.00|                          mist|  1011|    93%|   07:51|   16:40|    FR|
+|325|        Sevinghausen|   0.0|    7.45|  2.60|               overcast clouds|  1008|    87%|   08:05|   16:31|    DE|
+|326|                Edam|   0.0|    7.45|  4.10|                 broken clouds|  1006|    93%|   08:18|   16:35|    NL|
+|327|             Komatsu|   0.0|    7.48|  4.60|                 broken clouds|  1028|    87%|   06:41|   16:40|    JP|
+|328|              Vienne|   0.0|    7.54|  1.50|              scattered clouds|  1011|    87%|   07:52|   17:02|    FR|
+|329|           Bucharest|   0.0|    7.55|  5.10|                          mist|  1016|   100%|   07:24|   16:41|    RO|
+|330|         Trumansburg|   0.0|    7.58|  2.60|               overcast clouds|  1007|    75%|   07:09|   16:37|    US|
+|331|            Selestat|   0.0|    7.60|  1.02|                 broken clouds|  1011|   100%|   07:51|   16:42|    FR|
+|332|            Takayama|   0.0|    7.64|  1.34|               overcast clouds|  1016|    94%|   06:38|   16:38|    JP|
+|333|          Venissieux|   0.0|    7.64|  1.50|              scattered clouds|  1011|    87%|   07:53|   17:02|    FR|
+|334| Tassin-la-Demi-Lune|   0.0|    7.65|  1.50|              scattered clouds|  1011|    87%|   07:53|   17:02|    FR|
+|335|             Valatie|   0.0|    7.65|  3.10|                 broken clouds|  1008|    61%|   06:57|   16:26|    US|
+|336|              Yamada|   0.0|    7.72|  4.60|                 broken clouds|  1028|    87%|   06:39|   16:38|    JP|
+|337|               Hakui|   0.0|    7.72|  4.60|                 broken clouds|  1028|    87%|   06:41|   16:38|    JP|
+|338|            Kanazawa|   0.0|    7.72|  4.60|                 broken clouds|  1028|    87%|   06:41|   16:39|    JP|
+|339|           Dunnville|   0.0|    7.73|  6.20|               overcast clouds|  1005|    87%|   07:22|   16:48|    CA|
+|340|           Amsterdam|   0.0|    7.78|  4.10|                 broken clouds|  1006|    93%|   08:18|   16:36|    NL|
+|341|              Ungava|   0.0|    7.78|  5.36|              scattered clouds|  1004|    68%|   07:16|   16:30|    CA|
+|342|            Fonthill|   0.0|    7.96|  7.20|               overcast clouds|  1006|    81%|   07:21|   16:46|    CA|
+|343|           Seisan-ri|   0.0|    8.00|  2.10|                 broken clouds|  1031|    81%|   07:12|   17:17|    KR|
+|344|               Fukui|   0.0|    8.00|  4.60|                 broken clouds|  1028|    87%|   06:42|   16:42|    JP|
+|345|           Gananoque|   0.0|    8.00|  6.70|                 broken clouds|  1006|    81%|   07:13|   16:30|    CA|
+|346|      Allendale East|   0.0|    8.00|  7.70|   light intensity shower rain|  1008|    93%|   05:10|   19:38|    AU|
+|347|             Wanakah|   0.0|    8.02|  4.10|               overcast clouds|  1006|    75%|   07:19|   16:45|    US|
+|348|    Washington Mills|   0.0|    8.02|  4.60|                     clear sky|  1002|    66%|   07:05|   16:34|    US|
+|349|           Town Line|   0.0|    8.09|  4.10|               overcast clouds|  1006|    75%|   07:18|   16:44|    US|
+|350|            Hangzhou|   0.0|    8.16|  3.00|               overcast clouds|  1032|    75%|   06:33|   16:59|    CN|
+|351|            Brussels|   0.0|    8.23|  4.10|                    few clouds|  1007|    87%|   08:13|   16:45|    BE|
+|352|            Rockford|   0.0|    8.42|  4.10|               overcast clouds|  1001|    75%|   06:58|   16:28|    US|
+|353|      Lincoln County|   0.0|    8.43|  2.68|              scattered clouds|  1006|    37%|   07:42|   17:18|    US|
+|354|             Huilong|   0.0|    8.51|  2.25|               overcast clouds|  1024|    84%|   07:30|   17:52|    CN|
+|355|             Maybole|   0.0|    8.52|  2.10|                 broken clouds|   998|    93%|   08:10|   16:00|    GB|
+|356|            Yabutani|   0.0|    8.54|  1.67|               overcast clouds|  1028|    72%|   06:46|   16:52|    JP|
+|357|              Harrow|   0.0|    8.70|  5.10|                     clear sky|  1005|    81%|   07:33|   17:04|    CA|
+|358|            Sylvania|   0.0|    8.74|  3.60|                     clear sky|  1005|    57%|   07:35|   17:08|    US|
+|359|               Kyoto|   0.0|    8.77|  1.79|               overcast clouds|  1020|    93%|   06:41|   16:46|    JP|
+|360|               Rodez|   0.0|    8.77|  2.60|               overcast clouds|  1012|   100%|   07:58|   17:15|    FR|
+|361|             Tillson|   0.0|    8.89|  3.60|              scattered clouds|  1008|    61%|   06:57|   16:29|    US|
+|362|            Shanghai|   0.0|    8.90|  4.00|               overcast clouds|  1031|    81%|   06:30|   16:52|    CN|
+|363|                Baku|   0.0|    9.00|  1.00|   light intensity shower rain|  1027|   100%|   07:37|   17:17|    AZ|
+|364|              Guilin|   0.0|    9.00|  3.00|              scattered clouds|  1027|    76%|   07:03|   17:48|    CN|
+|365|           Chongqing|   0.0|    9.00|  4.00|              scattered clouds|  1024|    87%|   07:26|   17:55|    CN|
+|366|             Hechuan|   0.0|    9.00|  4.00|              scattered clouds|  1024|    87%|   07:28|   17:55|    CN|
+|367|            Arapahoe|   0.0|    9.00|  5.70|                     clear sky|  1008|    45%|   07:36|   17:16|    US|
+|368|          Utsunomiya|   0.0|    9.00|  7.20|   light intensity shower rain|  1024|    70%|   06:28|   16:26|    JP|
+|369|             Chicago|   0.0|    9.02|  4.10|                     clear sky|  1003|    81%|   06:51|   16:23|    US|
+|370|               Busan|   0.0|    9.04|  2.10|                 broken clouds|  1031|    81%|   07:08|   17:13|    KR|
+|371|      Gemeente Veere|   0.0|    9.06|  4.60|               overcast clouds|  1006|    87%|   08:19|   16:45|    NL|
+|372|           Kingstown|   0.0|    9.07|  3.60|                 moderate rain|   999|   100%|   08:01|   15:55|    GB|
+|373|          Tokusan-ri|   0.0|    9.13|  2.10|                 broken clouds|  1031|    81%|   07:10|   17:14|    KR|
+|374|        Valenciennes|   0.0|    9.15|  4.10|                 broken clouds|  1006|    87%|   08:15|   16:50|    FR|
+|375|              Skopje|   0.0|    9.26|  0.65|                    light rain|  1008|   100%|   06:35|   16:06|    MK|
+|376|                Mito|   0.0|    9.33|  6.70|   light intensity shower rain|  1025|    81%|   06:25|   16:24|    JP|
+|377|              Hokota|   0.0|    9.35|  6.70|   light intensity shower rain|  1025|    81%|   06:25|   16:24|    JP|
+|378|              Sutton|   0.0|    9.38|  6.20|                     clear sky|  1007|    33%|   07:29|   17:07|    US|
+|379|                Stow|   0.0|    9.40|  2.60|              scattered clouds|  1007|    65%|   07:25|   17:00|    US|
+|380|               Nhill|   0.0|    9.44|  3.58|              scattered clouds|  1020|    86%|   06:11|   20:30|    AU|
+|381|           Eganstown|   0.0|    9.45|  0.89|               overcast clouds|  1003|    88%|   05:58|   20:23|    AU|
+|382|              Himeji|   0.0|    9.46|  8.70|               overcast clouds|  1026|    62%|   06:45|   16:51|    JP|
+|383|            Soissons|   0.0|    9.47|  4.10|               overcast clouds|  1008|    87%|   08:12|   16:55|    FR|
+|384|            Wallkill|   0.0|    9.48|  3.60|              scattered clouds|  1008|    61%|   06:57|   16:30|    US|
+|385|            Belgrade|   0.0|    9.49|  5.70|                     clear sky|  1012|    76%|   06:47|   16:02|    RS|
+|386|         Stuart Mill|   0.0|    9.51|  5.32|                 broken clouds|  1004|    69%|   06:03|   20:24|    AU|
+|387|           Wattrelos|   0.0|    9.54|  4.10|               overcast clouds|  1006|    87%|   08:17|   16:50|    BE|
+|388|                Nara|   0.0|    9.54|  8.70|               overcast clouds|  1026|    62%|   06:40|   16:47|    JP|
+|389|    Wappingers Falls|   0.0|    9.59|  3.60|              scattered clouds|  1008|    61%|   06:56|   16:29|    US|
+|390|           Tourcoing|   0.0|    9.62|  4.10|               overcast clouds|  1006|    87%|   08:18|   16:50|    FR|
+|391|           Wasquehal|   0.0|    9.62|  4.10|               overcast clouds|  1006|    87%|   08:18|   16:51|    FR|
+|392|              Milino|   0.0|    9.65|  3.60|                    light rain|  1013|   100%|   07:19|   16:44|    BG|
+|393|               Asahi|   0.0|    9.70|  6.70|   light intensity shower rain|  1025|    81%|   06:23|   16:25|    JP|
+|394|            Griswold|   0.0|    9.86|  5.70|                     clear sky|  1009|    61%|   06:48|   16:21|    US|
+|395|               Burra|   0.0|    9.88| 10.39|                 broken clouds|  1012|    66%|   05:28|   19:34|    AU|
+|396|             Whitney|   0.0|    9.91|  3.10|                     clear sky|  1005|    50%|   06:26|   16:27|    US|
+|397|             Warwick|   0.0|    9.97|  5.70|                     clear sky|  1009|    61%|   06:46|   16:19|    US|
+|398|          Vails Gate|   0.0|    9.99|  3.60|              scattered clouds|  1008|    61%|   06:56|   16:30|    US|
+|399|      Roissy-en-Brie|   0.0|    9.99|  4.10|               overcast clouds|  1007|    93%|   08:12|   17:00|    FR|
+|400|             Noisiel|   0.0|    9.99|  5.10|               overcast clouds|  1007|    93%|   08:13|   17:00|    FR|
+|401|              Senlis|   0.0|    9.99|  5.10|               overcast clouds|  1007|    93%|   08:14|   16:58|    FR|
+|402|             Tsuyama|   0.0|   10.00|  1.77|               overcast clouds|  1028|    72%|   06:48|   16:53|    JP|
+|403|            Maebashi|   0.0|   10.00|  2.08|               overcast clouds|  1023|    93%|   06:31|   16:30|    JP|
+|404|              Walcha|   0.0|   10.00|  2.26|               overcast clouds|  1010|    77%|   05:43|   19:37|    AU|
+|405|              Newton|   0.0|   10.01|  4.10|              scattered clouds|  1006|    52%|   06:47|   16:16|    US|
+|406|              Ankara|   0.0|   10.02|  2.60|                 broken clouds|  1014|    52%|   07:44|   17:26|    TR|
+|407|               Rouen|   0.0|   10.02|  4.10|                    light rain|  1005|   100%|   08:21|   17:04|    FR|
+|408|      Saint George's|   0.0|   10.02|  4.10|               overcast clouds|  1001|   100%|   07:48|   15:57|    GB|
+|409|           Sheffield|   0.0|   10.02|  4.10|               overcast clouds|  1001|   100%|   07:48|   15:57|    GB|
+|410|        Wading River|   0.0|   10.02|  7.20|              scattered clouds|  1009|    61%|   06:50|   16:26|    US|
+|411|             Taverny|   0.0|   10.04|  1.50|               overcast clouds|  1006|    93%|   08:15|   17:01|    FR|
+|412|  Verneuil-sur-Seine|   0.0|   10.04|  1.50|               overcast clouds|  1006|    93%|   08:16|   17:02|    FR|
+|413|            Takasago|   0.0|   10.05|  8.70|               overcast clouds|  1026|    62%|   06:44|   16:51|    JP|
+|414|              Poissy|   0.0|   10.06|  1.50|               overcast clouds|  1006|    93%|   08:15|   17:02|    FR|
+|415|                Orly|   0.0|   10.06|  3.10|                 broken clouds|  1007|   100%|   08:13|   17:01|    FR|
+|416|         Ris-Orangis|   0.0|   10.06|  3.10|                 broken clouds|  1007|   100%|   08:13|   17:01|    FR|
+|417|             Puteaux|   0.0|   10.06|  3.10|               overcast clouds|  1006|   100%|   08:14|   17:01|    FR|
+|418|     Rueil-Malmaison|   0.0|   10.06|  3.10|               overcast clouds|  1006|   100%|   08:14|   17:01|    FR|
+|419|              Sceaux|   0.0|   10.06|  3.10|               overcast clouds|  1006|   100%|   08:14|   17:01|    FR|
+|420|        Sartrouville|   0.0|   10.06|  3.10|               overcast clouds|  1006|   100%|   08:15|   17:01|    FR|
+|421|             Plaisir|   0.0|   10.06|  4.10|               overcast clouds|  1006|    93%|   08:15|   17:02|    FR|
+|422|    Saint-Cyr-lEcole|   0.0|   10.06|  4.10|               overcast clouds|  1006|    93%|   08:15|   17:02|    FR|
+|423|         Romainville|   0.0|   10.06|  5.10|               overcast clouds|  1007|    93%|   08:13|   17:00|    FR|
+|424|           Sarcelles|   0.0|   10.06|  5.10|               overcast clouds|  1007|    93%|   08:14|   17:00|    FR|
+|425|               Paris|   0.0|   10.06|  5.10|               overcast clouds|  1007|    93%|   08:14|   17:01|    FR|
+|426|       Saint-Gratien|   0.0|   10.06|  5.10|               overcast clouds|  1007|    93%|   08:14|   17:01|    FR|
+|427|             Sannois|   0.0|   10.06|  5.10|               overcast clouds|  1007|    93%|   08:14|   17:01|    FR|
+|428|            Suresnes|   0.0|   10.08|  3.10|               overcast clouds|  1006|   100%|   08:14|   17:01|    FR|
+|429|Verrieres-le-Buisson|   0.0|   10.08|  3.10|               overcast clouds|  1006|   100%|   08:14|   17:01|    FR|
+|430|             Trappes|   0.0|   10.08|  4.10|               overcast clouds|  1006|    93%|   08:15|   17:02|    FR|
+|431|        Sucy-en-Brie|   0.0|   10.09|  3.10|                 broken clouds|  1007|   100%|   08:13|   17:00|    FR|
+|432|              Thiais|   0.0|   10.09|  3.10|                 broken clouds|  1007|   100%|   08:13|   17:01|    FR|
+|433|   Vigneux-sur-Seine|   0.0|   10.09|  3.10|                 broken clouds|  1007|   100%|   08:13|   17:01|    FR|
+|434|      Viry-Chatillon|   0.0|   10.09|  3.10|                 broken clouds|  1007|   100%|   08:13|   17:01|    FR|
+|435|     Vitry-sur-Seine|   0.0|   10.09|  3.10|                 broken clouds|  1007|   100%|   08:13|   17:01|    FR|
+|436|  Tremblay-en-France|   0.0|   10.09|  5.10|               overcast clouds|  1007|    93%|   08:13|   16:59|    FR|
+|437|              Sevran|   0.0|   10.09|  5.10|               overcast clouds|  1007|    93%|   08:13|   17:00|    FR|
+|438|         Villemomble|   0.0|   10.09|  5.10|               overcast clouds|  1007|    93%|   08:13|   17:00|    FR|
+|439|          Villepinte|   0.0|   10.09|  5.10|               overcast clouds|  1007|    93%|   08:13|   17:00|    FR|
+|440|           Vincennes|   0.0|   10.09|  5.10|               overcast clouds|  1007|    93%|   08:13|   17:00|    FR|
+|441|              Stains|   0.0|   10.09|  5.10|               overcast clouds|  1007|    93%|   08:14|   17:00|    FR|
+|442|           Kashiwara|   0.0|   10.10|  8.70|               overcast clouds|  1026|    62%|   06:41|   16:48|    JP|
+|443|               Osaka|   0.0|   10.10|  8.70|               overcast clouds|  1026|    62%|   06:41|   16:48|    JP|
+|444|           Amagasaki|   0.0|   10.12|  8.70|               overcast clouds|  1026|    62%|   06:42|   16:48|    JP|
+|445|                Kobe|   0.0|   10.12|  8.70|               overcast clouds|  1026|    62%|   06:43|   16:49|    JP|
+|446|           Wendouree|   0.0|   10.13|  0.45|               overcast clouds|  1006|    82%|   05:59|   20:24|    AU|
+|447|          Barrington|   0.0|   10.16|  5.10|                     clear sky|  1007|    50%|   06:46|   16:18|    US|
+|448|            Blenheim|   0.0|   10.20|  3.06|                    few clouds|  1015|    93%|   05:47|   20:35|    NZ|
+|449|         Walton Park|   0.0|   10.20|  3.60|              scattered clouds|  1008|    61%|   06:56|   16:31|    US|
+|450|                Kofu|   0.0|   10.23|  4.10|               overcast clouds|  1026|    87%|   06:31|   16:34|    JP|
+|451|             Parkham|   0.0|   10.24|  2.60|                    few clouds|  1000|    93%|   07:49|   16:19|    GB|
+|452|                Otsu|   0.0|   10.25|  1.34|               overcast clouds|  1022|    90%|   06:41|   16:46|    JP|
+|453|         Point Clear|   0.0|   10.28|  4.60|                 broken clouds|  1002|   100%|   07:31|   15:54|    GB|
+|454|         Rogersville|   0.0|   10.29|  1.71|                     clear sky|  1013|    66%|   07:19|   17:18|    US|
+|455|             Thiells|   0.0|   10.30|  3.60|              scattered clouds|  1008|    61%|   06:55|   16:30|    US|
+|456|           Verplanck|   0.0|   10.30|  3.60|              scattered clouds|  1008|    61%|   06:55|   16:30|    US|
+|457|           Tarrytown|   0.0|   10.31|  1.50|              scattered clouds|  1009|    50%|   06:54|   16:30|    US|
+|458|              Fukaya|   0.0|   10.33|  4.10|               overcast clouds|  1026|    87%|   06:30|   16:30|    JP|
+|459|         Upper Nyack|   0.0|   10.34|  1.50|              scattered clouds|  1009|    50%|   06:54|   16:30|    US|
+|460|             Preston|   0.0|   10.35|  3.10|                 broken clouds|   997|    93%|   07:55|   16:00|    GB|
+|461|      Valley Cottage|   0.0|   10.38|  1.50|              scattered clouds|  1009|    50%|   06:55|   16:30|    US|
+|462|              Narita|   0.0|   10.38|  6.70|   light intensity shower rain|  1025|    81%|   06:25|   16:26|    JP|
+|463|         Nakatsugawa|   0.0|   10.44|  1.34|               overcast clouds|  1023|    87%|   06:35|   16:38|    JP|
+|464|    Upper Brookville|   0.0|   10.48|  1.50|              scattered clouds|  1009|    50%|   06:52|   16:29|    US|
+|465|             Limoges|   0.0|   10.57|  2.60|               overcast clouds|  1010|   100%|   08:08|   17:16|    FR|
+|466|            Prescott|   0.0|   10.57|  5.10|                     clear sky|  1012|    29%|   07:13|   17:21|    US|
+|467|         Mount Olive|   0.0|   10.63|  3.10|                     clear sky|  1010|    50%|   06:57|   16:34|    US|
+|468|          Rutherford|   0.0|   10.69|  6.20|              scattered clouds|  1010|    57%|   06:54|   16:32|    US|
+|469|             Clifton|   0.0|   10.70|  3.10|                     clear sky|  1010|    50%|   06:55|   16:32|    US|
+|470|             Satsuma|   0.0|   10.75|  0.93|               overcast clouds|  1022|    97%|   06:55|   17:14|    JP|
+|471|            New York|   0.0|   10.75|  1.50|              scattered clouds|  1009|    50%|   06:54|   16:31|    US|
+|472|                Lyal|   0.0|   10.78|  2.24|                 broken clouds|  1003|    91%|   05:58|   20:20|    AU|
+|473|            Kawasaki|   0.0|   10.79|  9.80|                 broken clouds|  1025|    81%|   06:26|   16:29|    JP|
+|474|              Rennes|   0.0|   10.80|  1.50|                 broken clouds|  1005|   100%|   08:27|   17:20|    FR|
+|475|           Nishihara|   0.0|   10.80|  4.10|               overcast clouds|  1026|    87%|   06:28|   16:30|    JP|
+|476|          Llandegfan|   0.0|   10.81|  4.10|                    light rain|   997|    93%|   07:58|   16:09|    GB|
+|477|             Saitama|   0.0|   10.84|  4.10|               overcast clouds|  1026|    87%|   06:27|   16:29|    JP|
+|478|            Yokohama|   0.0|   10.84|  9.80|                 broken clouds|  1025|    81%|   06:26|   16:30|    JP|
+|479|               Chiba|   0.0|   10.88|  6.70|   light intensity shower rain|  1025|    81%|   06:25|   16:28|    JP|
+|480|            Yamakita|   0.0|   10.89|  4.10|               overcast clouds|  1026|    87%|   06:29|   16:32|    JP|
+|481|            Unadilla|   0.0|   10.89|  8.20|                     clear sky|  1007|    34%|   07:23|   17:01|    US|
+|482|                Bath|   0.0|   10.96|  4.10|               overcast clouds|  1000|    93%|   07:42|   16:10|    GB|
+|483|               Tokyo|   0.0|   10.98|  9.80|                 broken clouds|  1025|    81%|   06:27|   16:29|    JP|
+|484|               Niimi|   0.0|   11.00|  8.20|                 broken clouds|  1029|    66%|   06:50|   16:56|    JP|
+|485|         Sakaiminato|   0.0|   11.00|  8.20|                 broken clouds|  1029|    66%|   06:52|   16:55|    JP|
+|486|              Matsue|   0.0|   11.00|  8.20|                 broken clouds|  1029|    66%|   06:53|   16:56|    JP|
+|487|             Axedale|   0.0|   11.01|  6.07|                 broken clouds|  1000|    42%|   05:58|   20:19|    AU|
+|488|          Daylesford|   0.0|   11.03|  0.89|               overcast clouds|   976|    87%|   05:58|   20:22|    AU|
+|489|             Nobeoka|   0.0|   11.03|  1.30|               overcast clouds|  1022|    92%|   06:52|   17:08|    JP|
+|490|            Uenohara|   0.0|   11.03|  4.10|               overcast clouds|  1026|    87%|   06:29|   16:32|    JP|
+|491|           Yatsuzawa|   0.0|   11.03|  4.10|               overcast clouds|  1026|    87%|   06:29|   16:32|    JP|
+|492|              Otsuki|   0.0|   11.07|  4.10|               overcast clouds|  1026|    87%|   06:30|   16:32|    JP|
+|493|            Kisarazu|   0.0|   11.07|  9.80|                 broken clouds|  1025|    81%|   06:25|   16:29|    JP|
+|494|          Sagamihara|   0.0|   11.08|  4.10|               overcast clouds|  1026|    87%|   06:28|   16:31|    JP|
+|495|             Chengdu|   0.0|   11.09|  2.00|              scattered clouds|  1025|    71%|   07:38|   18:03|    CN|
+|496|           Hiratsuka|   0.0|   11.10|  3.10|                    light rain|  1024|    71%|   06:28|   16:31|    JP|
+|497|                Vila|   0.0|   11.12|  1.50|              scattered clouds|  1009|   100%|   07:37|   16:49|    IT|
+|498|              Atsugi|   0.0|   11.13|  3.10|                    light rain|  1024|    71%|   06:28|   16:31|    JP|
+|499|              Widley|   0.0|   11.15|  3.60|                    light rain|  1001|   100%|   07:35|   16:06|    GB|
+|500|         Cherrapunji|   0.0|   11.18|  0.88|                 broken clouds|  1016|    94%|   05:17|   16:03|    IN|
+|501|            Castries|   0.0|   11.18|  1.00|              scattered clouds|  1011|    81%|   07:50|   17:11|    FR|
+|502|        Philadelphia|   0.0|   11.22|  3.10|                     clear sky|  1010|    57%|   06:56|   16:38|    US|
+|503|        Casale Litta|   0.0|   11.28|  1.50|              scattered clouds|  1009|   100%|   07:37|   16:46|    IT|
+|504|             Russell|   0.0|   11.34| 10.80|                     clear sky|  1007|    37%|   07:28|   17:16|    US|
+|505|            Qinggang|   0.0|   11.42|  9.79|                    few clouds|  1018|    78%|   06:25|   16:59|    CN|
+|506|    Saint Peter Port|   0.0|   11.43|  5.70|              scattered clouds|  1003|   100%|   07:35|   16:18|    GG|
+|507|          Brookville|   0.0|   11.48|  4.60|                     clear sky|  1006|    66%|   07:34|   17:19|    US|
+|508|          Wellington|   0.0|   11.56|  6.20|                    few clouds|  1015|    76%|   05:45|   20:31|    NZ|
+|509|          Port Louis|   0.0|   11.58|  2.10|               overcast clouds|  1005|   100%|   08:31|   17:25|    FR|
+|510|           Tokushima|   0.0|   11.58|  8.20|                 broken clouds|  1026|    62%|   06:44|   16:53|    JP|
+|511|             Isomura|   0.0|   11.59|  9.80|                 broken clouds|  1025|    81%|   06:24|   16:29|    JP|
+|512|            Takaharu|   0.0|   11.66|  0.52|               overcast clouds|  1022|    92%|   06:53|   17:12|    JP|
+|513|                Seki|   0.0|   11.66|  2.91|               overcast clouds|  1024|    15%|   06:37|   16:41|    JP|
+|514|               Atami|   0.0|   11.79|  3.10|                    light rain|  1024|    71%|   06:28|   16:33|    JP|
+|515|            Powranna|   0.0|   11.82|  2.10|          heavy intensity rain|  1000|    93%|   05:33|   20:22|    AU|
+|516|              Walton|   0.0|   11.82|  4.10|                     clear sky|  1008|    62%|   07:31|   17:19|    US|
+|517|            Myrniong|   0.0|   11.83|  9.30|               overcast clouds|  1004|    87%|   05:57|   20:22|    AU|
+|518|               Yuasa|   0.0|   11.86|  8.70|               overcast clouds|  1026|    62%|   06:41|   16:51|    JP|
+|519|            Wakayama|   0.0|   11.86|  8.70|               overcast clouds|  1026|    62%|   06:42|   16:51|    JP|
+|520|           Pemberton|   0.0|   11.93|  0.45|              scattered clouds|  1018|    79%|   04:58|   19:08|    AU|
+|521|            Woolomin|   0.0|   11.94|  2.10|                 broken clouds|  1011|    93%|   05:44|   19:40|    AU|
+|522|              Ampere|   0.0|   11.95|  3.60|                     clear sky|  1017|    57%|   06:56|   16:47|    US|
+|523|              Saumur|   0.0|   11.97|  2.60|                 broken clouds|  1006|    93%|   08:18|   17:16|    FR|
+|524|            Hastings|   0.0|   11.99|  0.99|                     clear sky|  1018|    86%|   05:41|   20:18|    NZ|
+|525|              Tirana|   0.0|   12.00|  2.10|                 broken clouds|  1005|    93%|   06:40|   16:15|    AL|
+|526|                Reze|   0.0|   12.03|  3.60|                 broken clouds|  1007|   100%|   08:23|   17:22|    FR|
+|527|                 Tsu|   0.0|   12.05|  9.80|                 broken clouds|  1023|    66%|   06:37|   16:44|    JP|
+|528|           Yokkaichi|   0.0|   12.07|  9.80|                 broken clouds|  1023|    66%|   06:37|   16:43|    JP|
+|529|              Nagoya|   0.0|   12.11|  9.80|                 broken clouds|  1023|    66%|   06:37|   16:42|    JP|
+|530|              Pinson|   0.0|   12.12|  2.60|                 broken clouds|  1006|    93%|   08:19|   17:19|    FR|
+|531|      Blue Mountains|   0.0|   12.14|  6.20|                    few clouds|  1015|    76%|   05:44|   20:29|    NZ|
+|532|          Bridgetown|   0.0|   12.22|  0.45|                    few clouds|  1018|    79%|   04:58|   19:06|    AU|
+|533|            Mercunda|   0.0|   12.22|  8.05|              scattered clouds|  1010|    71%|   05:21|   19:32|    AU|
+|534|         Boyup Brook|   0.0|   12.23|  2.46|              scattered clouds|  1018|    77%|   04:58|   19:05|    AU|
+|535|             Lochiel|   0.0|   12.24|  6.51|              scattered clouds|  1013|    56%|   05:30|   19:38|    AU|
+|536|          Rainsville|   0.0|   12.34|  1.50|                     clear sky|  1013|    62%|   06:26|   16:34|    US|
+|537|             Roanoke|   0.0|   12.37|  1.50|                     clear sky|  1013|    57%|   07:09|   17:04|    US|
+|538|          Strathewen|   0.0|   12.41|  6.70|   light intensity shower rain|  1004|    93%|   05:53|   20:18|    AU|
+|539|              Hamada|   0.0|   12.44| 13.01|               overcast clouds|  1028|    73%|   06:55|   17:01|    JP|
+|540|           Huaicheng|   0.0|   12.45|  1.45|                     clear sky|  1023|    70%|   06:53|   17:43|    CN|
+|541|           Yamaguchi|   0.0|   12.47|  9.30|                 broken clouds|  1025|    66%|   06:56|   17:05|    JP|
+|542|             Undalya|   0.0|   12.50|  7.87|               overcast clouds|  1012|    58%|   05:28|   19:36|    AU|
+|543|      Mount Crawford|   0.0|   12.51|  2.10|                     clear sky|  1010|    46%|   07:07|   16:57|    US|
+|544|           Stevenson|   0.0|   12.52|  1.69|                     clear sky|  1012|    58%|   06:27|   16:33|    US|
+|545|        McLaren Flat|   0.0|   12.53| 10.30|              scattered clouds|  1013|    47%|   05:26|   19:39|    AU|
+|546|         Sardis City|   0.0|   12.54|  1.50|                     clear sky|  1013|    58%|   06:26|   16:36|    US|
+|547|            Cockatoo|   0.0|   12.54|  6.70|   light intensity shower rain|  1004|    93%|   05:51|   20:18|    AU|
+|548|              Tivoli|   0.0|   12.63|  1.50|                    few clouds|  1006|    82%|   07:10|   16:41|    IT|
+|549|          New Market|   0.0|   12.68|  1.50|                     clear sky|  1010|    47%|   07:07|   16:56|    US|
+|550|              Toyota|   0.0|   12.73|  9.80|                 broken clouds|  1023|    66%|   06:35|   16:40|    JP|
+|551|               Aysha|   0.0|   12.75|  3.21|              scattered clouds|  1020|    31%|   06:10|   16:08|    SY|
+|552|          Yatsushiro|   0.0|   12.78|  0.91|               overcast clouds|  1022|   100%|   06:55|   17:12|    JP|
+|553|           Matsuyama|   0.0|   12.79|  8.20|                 broken clouds|  1026|    66%|   06:50|   17:01|    JP|
+|554|             Tsutsui|   0.0|   12.80|  8.20|                 broken clouds|  1026|    66%|   06:50|   17:01|    JP|
+|555|        Vatican City|   0.0|   12.95|  1.50|                    few clouds|  1006|    82%|   07:11|   16:43|    VA|
+|556|        Rainbow City|   0.0|   12.96|  1.85|                     clear sky|  1014|    58%|   06:25|   16:36|    US|
+|557|            Tuckahoe|   0.0|   12.96|  2.10|                     clear sky|  1011|    43%|   07:00|   16:54|    US|
+|558|       Village Green|   0.0|   12.98|  3.60|                     clear sky|  1012|    62%|   06:28|   16:29|    US|
+|559|          Scottsboro|   0.0|   12.99|  2.23|                     clear sky|  1012|    58%|   06:27|   16:35|    US|
+|560|              Alaior|   0.0|   13.00|  3.10|              scattered clouds|  1012|    87%|   07:39|   17:21|    ES|
+|561|           Islamabad|   0.0|   13.00|  3.10|                         smoke|  1019|    87%|   06:48|   17:00|    PK|
+|562|                Toba|   0.0|   13.00|  9.80|                 broken clouds|  1023|    66%|   06:35|   16:43|    JP|
+|563|                Rome|   0.0|   13.03|  1.50|                    few clouds|  1006|    82%|   07:11|   16:43|    IT|
+|564|             Tripoli|   0.0|   13.07|  2.10|                    light rain|  1005|    87%|   07:20|   17:14|    GR|
+|565|           Podgorica|   0.0|   13.08|  1.00|                    light rain|  1005|    87%|   06:45|   16:14|    ME|
+|566|    State of Manipur|   0.0|   13.08|  1.46|                    few clouds|  1016|    98%|   05:07|   15:54|    IN|
+|567|                 Aso|   0.0|   13.08|  2.02|               overcast clouds|  1022|   100%|   06:55|   17:10|    JP|
+|568|            Kumamoto|   0.0|   13.09|  4.89|               overcast clouds|  1022|   100%|   06:56|   17:12|    JP|
+|569|             Alliste|   0.0|   13.10|  2.60|              scattered clouds|  1002|    93%|   06:43|   16:25|    IT|
+|570|           Hiroshima|   0.0|   13.10|  8.20|                 broken clouds|  1026|    66%|   06:53|   17:01|    JP|
+|571|               Yaren|   0.0|   13.15|  5.65|   light intensity shower rain|  1009|   100%|   08:04|   17:48|    TR|
+|572|           Mullalyup|   0.0|   13.16|  3.44|                    few clouds|  1018|    77%|   05:00|   19:06|    AU|
+|573|             Iwakuni|   0.0|   13.17|  8.20|                 broken clouds|  1026|    66%|   06:54|   17:03|    JP|
+|574|           Woodfield|   0.0|   13.18|  2.10|                     clear sky|  1014|    50%|   07:20|   17:34|    US|
+|575|         Warrensburg|   0.0|   13.19|  2.60|                     clear sky|  1005|    53%|   07:08|   16:56|    US|
+|576|              Madrid|   0.0|   13.19|  4.10|                 broken clouds|  1016|    82%|   08:12|   17:51|    ES|
+|577|        Mount Vernon|   0.0|   13.21|  2.10|                     clear sky|  1013|    47%|   07:01|   16:49|    US|
+|578|          Smoke Rise|   0.0|   13.23|  2.10|                     clear sky|  1014|    50%|   07:19|   17:35|    US|
+|579|          Washington|   0.0|   13.23|  2.60|                     clear sky|  1012|    43%|   07:01|   16:48|    US|
+|580|         Shimonoseki|   0.0|   13.24|  3.10|                 broken clouds|  1025|    71%|   06:58|   17:08|    JP|
+|581|              Miyako|   0.0|   13.25|  3.10|               overcast clouds|  1025|    71%|   06:57|   17:09|    JP|
+|582|               Soeda|   0.0|   13.25|  3.10|               overcast clouds|  1025|    71%|   06:57|   17:09|    JP|
+|583|   Owens Cross Roads|   0.0|   13.27|  1.50|                     clear sky|  1013|    58%|   06:29|   16:36|    US|
+|584|            Ohatchee|   0.0|   13.27|  1.85|                     clear sky|  1014|    58%|   06:25|   16:36|    US|
+|585|              Lively|   0.0|   13.30|  4.70|                     clear sky|  1005|    50%|   07:17|   17:29|    US|
+|586|              Steele|   0.0|   13.32|  1.85|                     clear sky|  1014|    58%|   06:26|   16:37|    US|
+|587|      Smiths Station|   0.0|   13.33|  1.00|              scattered clouds|  1014|    44%|   07:19|   17:35|    US|
+|588|                Saks|   0.0|   13.35|  2.10|                     clear sky|  1013|    50%|   06:24|   16:36|    US|
+|589|            Hirokawa|   0.0|   13.36|  3.10|               overcast clouds|  1025|    71%|   06:58|   17:11|    JP|
+|590|              Kurume|   0.0|   13.36|  3.10|               overcast clouds|  1025|    71%|   06:58|   17:11|    JP|
+|591|             Dazaifu|   0.0|   13.38|  3.10|               overcast clouds|  1025|    71%|   06:59|   17:11|    JP|
+|592|             Fukuoka|   0.0|   13.38|  3.10|               overcast clouds|  1025|    71%|   06:59|   17:11|    JP|
+|593|          Shuangyang|   0.0|   13.41|  2.40|                 broken clouds|  1023|    78%|   06:29|   17:15|    CN|
+|594|                Saga|   0.0|   13.61|  3.10|               overcast clouds|  1025|    71%|   06:59|   17:12|    JP|
+|595|           Thomaston|   0.0|   13.70|  2.60|                     clear sky|  1014|    50%|   07:16|   17:32|    US|
+|596|             Okazaki|   0.0|   13.75|  9.80|                 broken clouds|  1023|    66%|   06:35|   16:41|    JP|
+|597|            Yusuhara|   0.0|   13.89|  0.45|               overcast clouds|  1017|    61%|   06:49|   17:01|    JP|
+|598|              Mannen|   0.0|   13.89|  0.45|               overcast clouds|  1017|    61%|   06:50|   17:01|    JP|
+|599|           Kagoshima|   0.0|   13.90|  1.05|                 broken clouds|  1022|    86%|   06:54|   17:15|    JP|
+|600|               Hioki|   0.0|   13.90|  1.05|                 broken clouds|  1022|    86%|   06:55|   17:15|    JP|
+|601|              Athens|   0.0|   13.97|  1.95|                    few clouds|  1004|    87%|   07:15|   17:08|    GR|
+|602|             Phoenix|   0.0|   13.99|  3.60|                     clear sky|  1013|    76%|   07:09|   17:21|    US|
+|603|           Kathmandu|   0.0|   14.00|  1.04|                          mist|  1022|    87%|   05:47|   16:24|    NP|
+|604|            Piedmont|   0.0|   14.00|  3.60|                     clear sky|  1004|    50%|   07:16|   17:19|    US|
+|605|           Odenville|   0.0|   14.03|  1.68|                     clear sky|  1014|    58%|   06:26|   16:38|    US|
+|606|       Union Springs|   0.0|   14.03|  2.60|                     clear sky|  1014|    54%|   06:20|   16:39|    US|
+|607|           Pell City|   0.0|   14.04|  1.68|                     clear sky|  1014|    58%|   06:26|   16:38|    US|
+|608|           Sylacauga|   0.0|   14.05|  1.57|              scattered clouds|  1014|    58%|   06:25|   16:39|    US|
+|609|           Tallassee|   0.0|   14.08|  2.60|                     clear sky|  1014|    54%|   06:22|   16:39|    US|
+|610|           Pike Road|   0.0|   14.25|  1.21|                     clear sky|  1014|    54%|   06:22|   16:40|    US|
+|611|            Valletta|   0.0|   14.30|  5.10|              scattered clouds|  1007|    87%|   06:47|   16:50|    MT|
+|612|              Monaco|   0.0|   14.34|  4.10|              scattered clouds|  1008|    71%|   07:36|   16:57|    FR|
+|613|             Encheng|   0.0|   14.43|  1.24|                    few clouds|  1021|    86%|   07:11|   18:06|    CN|
+|614|            Kawatana|   0.0|   14.43|  6.70|                 broken clouds|  1023|    77%|   07:00|   17:14|    JP|
+|615|             Sumiton|   0.0|   14.44|  3.10|                    few clouds|  1014|    47%|   06:29|   16:41|    US|
+|616|              Beirut|   0.0|   14.47|  3.10|                 broken clouds|  1014|    42%|   06:19|   16:30|    LB|
+|617|          North Bibb|   0.0|   14.47|  3.10|                    few clouds|  1014|    47%|   06:28|   16:42|    US|
+|618|           Sulligent|   0.0|   14.48|  3.10|                     clear sky|  1013|    58%|   06:34|   16:45|    US|
+|619|      Pleasant Grove|   0.0|   14.48|  3.10|                    few clouds|  1014|    47%|   06:28|   16:41|    US|
+|620|         Port Moonta|   0.0|   14.51| 11.53|               overcast clouds|  1014|    65%|   05:33|   19:40|    AU|
+|621|      Sylvan Springs|   0.0|   14.53|  3.10|                    few clouds|  1014|    47%|   06:28|   16:41|    US|
+|622|             Moulton|   0.0|   14.62|  3.10|                     clear sky|  1013|    54%|   06:32|   16:40|    US|
+|623|        New Brockton|   0.0|   14.69|  2.10|                     clear sky|  1014|    51%|   06:20|   16:41|    US|
+|624|              Mosses|   0.0|   14.72|  1.07|                     clear sky|  1014|    54%|   06:24|   16:43|    US|
+|625|              Sasebo|   0.0|   14.81|  6.70|                 broken clouds|  1023|    77%|   07:01|   17:15|    JP|
+|626|            Rehobeth|   0.0|   14.85|  2.10|                     clear sky|  1014|    51%|   06:17|   16:40|    US|
+|627|          Pine Level|   0.0|   14.92|  1.50|                     clear sky|  1013|    44%|   06:58|   17:01|    US|
+|628|             Guiping|   0.0|   14.96|  0.54|              scattered clouds|  1022|    68%|   07:00|   17:53|    CN|
+|629|             Slocomb|   0.0|   14.96|  2.10|                     clear sky|  1014|    51%|   06:18|   16:40|    US|
+|630|            Cochrane|   0.0|   15.00|  2.10|                 broken clouds|   998|    47%|   05:54|   21:19|    CL|
+|631|             Baghdad|   0.0|   15.00|  2.60|               overcast clouds|  1019|    41%|   06:42|   16:56|    IQ|
+|632|       Muscle Shoals|   0.0|   15.00|  3.10|                     clear sky|  1011|    62%|   06:34|   16:41|    US|
+|633|              Moroni|   0.0|   15.00|  3.60|              scattered clouds|  1006|    87%|   07:04|   17:10|    GR|
+|634|         Addis Ababa|   0.0|   15.00|  5.10|                    few clouds|  1025|    82%|   06:22|   18:01|    ET|
+|635|            Nagasaki|   0.0|   15.00|  6.70|                 broken clouds|  1023|    77%|   07:00|   17:15|    JP|
+|636|              Lerida|   0.0|   15.04|  3.10|                     clear sky|  1004|    72%|   05:43|   19:55|    AU|
+|637|              Protea|   0.0|   15.05|  1.71|                     clear sky|  1017|    94%|   04:56|   18:47|    ZA|
+|638|             Red Bay|   0.0|   15.27|  3.60|                     clear sky|  1011|    51%|   06:35|   16:43|    US|
+|639|       Phil Campbell|   0.0|   15.29|  3.29|                     clear sky|  1013|    55%|   06:33|   16:42|    US|
+|640|                 Opp|   0.0|   15.47|  2.10|                     clear sky|  1014|    51%|   06:21|   16:43|    US|
+|641|            Canberra|   0.0|   15.51|  3.10|                     clear sky|  1004|    72%|   05:43|   19:57|    AU|
+|642|             Nairobi|   0.0|   15.57|  3.10|                 broken clouds|  1021|    93%|   06:14|   18:25|    KE|
+|643|               Rabat|   0.0|   15.58|  2.60|                     clear sky|  1018|    82%|   08:09|   18:19|    MA|
+|644|         Mount Perry|   0.0|   15.66|  1.10|                    few clouds|  1013|    98%|   04:55|   18:25|    AU|
+|645|               Viola|   0.0|   15.78|  2.60|                     clear sky|  1006|    51%|   06:55|   16:54|    US|
+|646|          Moundville|   0.0|   15.86|  4.60|                     clear sky|  1004|    48%|   07:08|   17:01|    US|
+|647|             Wingham|   0.0|   15.87|  1.00|                 broken clouds|  1007|   100%|   05:38|   19:36|    AU|
+|648|             Munford|   0.0|   15.97|  6.70|                     clear sky|  1009|    63%|   06:44|   16:48|    US|
+|649|         Greigs Flat|   0.0|   16.00|  2.10|                 broken clouds|  1001|    82%|   05:36|   19:58|    AU|
+|650|               Tunis|   0.0|   16.00|  4.10|                 broken clouds|  1009|    72%|   07:07|   17:05|    TN|
+|651|              Thames|   0.0|   16.10|  2.10|                    few clouds|  1017|    82%|   05:53|   20:16|    NZ|
+|652|     Telegraph Point|   0.0|   16.20|  1.00|                 broken clouds|  1007|   100%|   05:38|   19:33|    AU|
+|653|              Quaama|   0.0|   16.35|  2.10|              scattered clouds|  1001|    82%|   05:37|   19:57|    AU|
+|654|        Russellville|   0.0|   16.44|  6.20|                     clear sky|  1006|    63%|   06:57|   17:02|    US|
+|655|           San Diego|   0.0|   16.50|  1.50|                 broken clouds|  1015|    59%|   06:27|   16:43|    US|
+|656|               Ozark|   0.0|   16.50|  3.10|                     clear sky|  1005|    45%|   07:01|   16:58|    US|
+|657|           Riverside|   0.0|   16.53|  2.10|                     clear sky|  1014|    25%|   06:31|   16:42|    US|
+|658|               Amman|   0.0|   16.53|  3.10|                          haze|  1017|    36%|   06:13|   16:33|    JO|
+|659|            Clybucca|   0.0|   16.57|  2.10|                 broken clouds|  1009|    93%|   05:38|   19:32|    AU|
+|660|                Sado|   0.0|   16.71|  3.60|              scattered clouds|  1017|    88%|   07:27|   17:17|    PT|
+|661|              Lisbon|   0.0|   16.73|  3.60|              scattered clouds|  1017|    88%|   07:29|   17:17|    PT|
+|662|         Los Angeles|   0.0|   16.86|  3.10|              scattered clouds|  1014|    63%|   06:35|   16:45|    US|
+|663|          San Marino|   0.0|   16.97|  3.10|              scattered clouds|  1014|    63%|   06:34|   16:44|    US|
+|664|          Coolgardie|   0.0|   17.00|  7.70|                     clear sky|  1017|    51%|   04:45|   18:39|    AU|
+|665|           O’Connell|   0.0|   17.03|  3.13|                     clear sky|  1022|    63%|   05:45|   19:51|    AU|
+|666|          Bowraville|   0.0|   17.09|  2.10|               overcast clouds|  1010|    88%|   05:39|   19:32|    AU|
+|667|      Nambucca Shire|   0.0|   17.11|  2.10|               overcast clouds|  1010|    88%|   05:39|   19:32|    AU|
+|668|            Miyazaki|   0.0|   17.16|  6.09|               overcast clouds|  1022|    79%|   06:51|   17:11|    JP|
+|669|            Takanabe|   0.0|   17.16|  6.09|               overcast clouds|  1022|    79%|   06:52|   17:10|    JP|
+|670|        Orange Beach|   0.0|   17.19|  3.10|                     clear sky|  1015|    59%|   06:24|   16:50|    US|
+|671|         Robertsdale|   0.0|   17.21|  4.10|                     clear sky|  1015|    51%|   06:25|   16:50|    US|
+|672|    Gilchrist County|   0.0|   17.23|  2.60|                     clear sky|  1015|    48%|   07:04|   17:32|    US|
+|673|        Spanish Fort|   0.0|   17.23|  4.10|                     clear sky|  1015|    51%|   06:26|   16:51|    US|
+|674|          Quandialla|   0.0|   17.27|  4.92|              scattered clouds|  1003|    81%|   05:52|   19:59|    AU|
+|675|             Crudine|   0.0|   17.55|  1.00|                 broken clouds|  1009|    88%|   05:47|   19:49|    AU|
+|676|             Algiers|   0.0|   17.60|  3.60|                     clear sky|  1014|    59%|   06:33|   17:01|    US|
+|677|              Oberon|   0.0|   17.70|  2.24|                     clear sky|  1008|    71%|   05:44|   19:50|    AU|
+|678|               Young|   0.0|   17.78|  0.89|                 broken clouds|  1012|    95%|   05:37|   19:38|    UY|
+|679|     Sackville Reach|   0.0|   17.98|  2.10|                 broken clouds|  1006|    93%|   05:41|   19:46|    AU|
+|680|             Maroota|   0.0|   18.01|  2.10|                 broken clouds|  1006|    93%|   05:40|   19:45|    AU|
+|681|           Millhaven|   0.0|   18.01|  3.60|                 broken clouds|  1011|    55%|   06:46|   17:03|    US|
+|682|            Blaxland|   0.0|   18.08|  2.10|                 broken clouds|  1006|    93%|   05:41|   19:48|    AU|
+|683|              Samson|   0.0|   18.08|  4.60|                     clear sky|  1016|    55%|   05:04|   19:03|    AU|
+|684|           Guiricema|   0.0|   18.11|  2.23|               overcast clouds|  1014|    86%|   05:00|   18:15|    BR|
+|685|          Yerrinbool|   0.0|   18.13|  2.67|              scattered clouds|  1004|   100%|   05:40|   19:49|    AU|
+|686|            Menangle|   0.0|   18.15|  2.10|                 broken clouds|  1006|    93%|   05:40|   19:48|    AU|
+|687|               Sueca|   0.0|   18.16|  3.60|               overcast clouds|  1013|    59%|   07:55|   17:41|    ES|
+|688|         Lilli Pilli|   0.0|   18.17|  1.50|                     clear sky|  1005|    82%|   05:38|   19:46|    AU|
+|689|             Wellard|   0.0|   18.31|  4.60|                 broken clouds|  1016|    55%|   05:03|   19:03|    AU|
+|690|             Kwinana|   0.0|   18.32|  4.60|                 broken clouds|  1016|    55%|   05:04|   19:04|    AU|
+|691|  University Gardens|   0.0|   18.42|  3.60|                     clear sky|  1014|    59%|   06:38|   17:04|    US|
+|692|              Todaka|   0.0|   18.44|  9.41|               overcast clouds|  1021|    83%|   06:51|   17:11|    JP|
+|693|                Hope|   0.0|   18.60|  5.10|                     clear sky|  1007|    63%|   06:55|   17:07|    US|
+|694|             Bedford|   0.0|   18.64|  5.10|                 broken clouds|  1004|    34%|   07:07|   17:23|    US|
+|695|              Taipei|   0.0|   18.74| 10.80|                 broken clouds|  1023|    82%|   06:17|   17:04|    TW|
+|696|             Gaozhou|   0.0|   18.81|  1.74|                     clear sky|  1020|    72%|   06:55|   17:52|    CN|
+|697|           Tintenbar|   0.0|   18.82|  4.60|                     clear sky|  1011|    88%|   05:40|   19:25|    AU|
+|698|        Buenos Aires|   0.0|   18.84| 10.80|                    light rain|  1005|    82%|   05:35|   19:45|    AR|
+|699|              Baldry|   0.0|   18.90|  1.34|                     clear sky|  1005|    53%|   05:52|   19:54|    AU|
+|700|           Jerusalem|   0.0|   18.90|  2.10|                    few clouds|  1013|    32%|   06:15|   16:36|    PS|
+|701|              Moreno|   0.0|   18.94| 10.80|                    light rain|  1005|    82%|   05:37|   19:47|    AR|
+|702|              Kigali|   0.0|   18.95|  2.10|                    few clouds|  1019|    88%|   05:40|   17:53|    RW|
+|703|             Lucknow|   0.0|   19.00|  0.85|                          mist|  1017|    88%|   06:03|   16:43|    IN|
+|704|              Riyadh|   0.0|   19.00|  2.10|                     clear sky|  1019|    68%|   06:16|   17:04|    SA|
+|705|        Antananarivo|   0.0|   19.00|  5.10|  thunderstorm with light rain|  1020|    88%|   05:03|   18:10|    MG|
+|706|              Maseru|   0.0|   19.30|  2.16|              scattered clouds|  1014|    18%|   05:04|   18:50|    LS|
+|707|           Cape Town|   0.0|   19.35|  3.10|                     clear sky|  1018|    64%|   05:30|   19:36|    ZA|
+|708|           Vientiane|   0.0|   19.36|  1.49|                     clear sky|  1017|    69%|   06:21|   17:32|    LA|
+|709|           Southside|   0.0|   19.41|  9.30|                     clear sky|  1009|    17%|   07:26|   17:46|    US|
+|710|                Taga|   0.0|   19.51|  2.03|                     clear sky|  1008|    80%|   05:28|   18:02|    ID|
+|711|               Quito|   0.0|   19.59|  2.60|              scattered clouds|  1022|    38%|   05:57|   18:05|    EC|
+|712|              Foshan|   0.0|   19.65|  4.00|              scattered clouds|  1022|    55%|   06:48|   17:41|    CN|
+|713|         Perwillowen|   0.0|   19.77|  0.45|                    few clouds|  1015|    96%|   04:47|   18:23|    AU|
+|714|           Bengaluru|   0.0|   19.95|  3.10|                          mist|  1017|    94%|   05:52|   17:20|    IN|
+|715|           Naypyidaw|   0.0|   19.96|  1.16|                     clear sky|  1015|    91%|   05:50|   16:55|    MM|
+|716|            Huicheng|   0.0|   20.00|  1.00|                 broken clouds|  1022|    68%|   06:35|   17:28|    CN|
+|717|            Kilkivan|   0.0|   20.00|  5.10|               overcast clouds|  1014|    77%|   04:51|   18:25|    AU|
+|718|      Guatemala City|   0.0|   20.00|  6.20|                 broken clouds|  1024|    72%|   06:08|   17:30|    GT|
+|719|              Bogota|   0.0|   20.00|  7.70|                 broken clouds|  1025|    45%|   05:46|   17:40|    CO|
+|720|         San Antonio|   0.0|   20.00|  7.70|              scattered clouds|  1019|    42%|   06:30|   20:36|    CL|
+|721|         Mexico City|   0.0|   20.26|  2.10|              scattered clouds|  1025|    35%|   06:50|   17:56|    MX|
+|722|           Hazledean|   0.0|   20.39|  2.10|                 broken clouds|  1011|    82%|   05:13|   18:29|    AU|
+|723|            Tyagarah|   0.0|   20.56|  6.20|                 broken clouds|  1012|    78%|   05:41|   19:25|    AU|
+|724|       Mount Edwards|   0.0|   20.68|  0.08|                 broken clouds|  1012|    88%|   04:46|   18:27|    AU|
+|725|               Dhaka|   0.0|   20.69|  1.52|              scattered clouds|  1015|    54%|   05:45|   16:26|    IN|
+|726|           Thornwood|   0.0|   20.82|  1.00|              scattered clouds|  1015|    77%|   04:49|   18:38|    ZA|
+|727|             Labelle|   0.0|   20.84|  1.50|                     clear sky|  1014|    60%|   06:52|   17:32|    US|
+|728|                Suva|   0.0|   21.00|  1.50|              scattered clouds|  1010|    94%|   06:21|   19:25|    FJ|
+|729|            Woodford|   0.0|   21.00|  4.60|              scattered clouds|  1012|    83%|   04:47|   18:24|    AU|
+|730|              Illabo|   0.0|   21.02|  3.60|              scattered clouds|  1001|    19%|   05:50|   20:02|    AU|
+|731|               Junee|   0.0|   21.02|  3.60|              scattered clouds|  1001|    19%|   05:51|   20:02|    AU|
+|732|           Old Junee|   0.0|   21.03|  3.60|              scattered clouds|  1001|    19%|   05:51|   20:03|    AU|
+|733|          Resplendor|   0.0|   21.05|  0.82|               overcast clouds|  1014|    74%|   04:57|   18:06|    BR|
+|734|            Gundagai|   0.0|   21.10|  3.60|              scattered clouds|  1001|    19%|   05:48|   20:01|    AU|
+|735|              Zamami|   0.0|   21.11|  5.70|                 broken clouds|  1022|    68%|   06:57|   17:38|    JP|
+|736|            Ilhabela|   0.0|   21.17|  7.83|              scattered clouds|  1014|    67%|   05:06|   18:30|    BR|
+|737|               Humen|   0.0|   21.61|  7.70|                    few clouds|  1020|    73%|   06:45|   17:39|    CN|
+|738|              Manama|   0.0|   21.64|  1.50|                     clear sky|  1018|    68%|   06:40|   17:25|    AE|
+|739|             Tawonga|   0.0|   21.67|  0.89|               overcast clouds|  1001|    30%|   05:48|   20:09|    AU|
+|740|                 Ayr|   0.0|   21.67|  3.63|                     clear sky|  1011|    86%|   05:22|   18:32|    AU|
+|741|             Colombo|   0.0|   21.93|  3.60|              scattered clouds|  1017|    64%|   05:18|   18:49|    BR|
+|742|       Millaa Millaa|   0.0|   21.94|  1.81|              scattered clouds|  1007|    91%|   05:33|   18:36|    AU|
+|743|        Port Moresby|   0.0|   22.00|  1.50|                    few clouds|  1009|    94%|   05:40|   18:16|    PG|
+|744|             Kampala|   0.0|   22.00|  2.60|                    few clouds|  1016|    83%|   06:33|   18:39|    UG|
+|745|               Hanoi|   0.0|   22.00|  4.60|              scattered clouds|  1020|    68%|   06:13|   17:14|    VN|
+|746|             Chabana|   0.0|   22.00|  6.20|               overcast clouds|  1022|    73%|   06:54|   17:32|    JP|
+|747|           Terranora|   0.0|   22.05|  6.20|                 broken clouds|  1012|    78%|   05:41|   19:24|    AU|
+|748|             Ungarie|   0.0|   22.13|  6.79|              scattered clouds|  1002|    50%|   05:56|   20:02|    AU|
+|749|            Shenzhen|   0.0|   22.37|  7.70|                    few clouds|  1020|    73%|   06:43|   17:38|    CN|
+|750|           Dalysford|   0.0|   22.38|  3.10|                     clear sky|  1012|    73%|   04:54|   18:24|    AU|
+|751|        Paraisopolis|   0.0|   22.49|  2.10|                 broken clouds|  1016|    60%|   05:10|   18:30|    BR|
+|752|              Guiren|   0.0|   22.51|  2.60|                 broken clouds|  1019|    77%|   06:19|   17:12|    TW|
+|753|           Aparecida|   0.0|   22.54|  1.50|                 broken clouds|  1016|    56%|   05:07|   18:28|    BR|
+|754|             Tarzali|   0.0|   22.58|  1.00|              scattered clouds|  1010|    78%|   05:33|   18:35|    AU|
+|755|          Embu Guacu|   0.0|   22.78|  4.60|                    few clouds|  1017|    64%|   05:11|   18:36|    BR|
+|756|Itapecerica da Serra|   0.0|   22.78|  4.60|                    few clouds|  1017|    64%|   05:12|   18:36|    BR|
+|757|     Taboao da Serra|   0.0|   22.78|  4.60|                    few clouds|  1017|    64%|   05:12|   18:36|    BR|
+|758|           Jacutinga|   0.0|   23.00|  0.82|                 broken clouds|  1017|    69%|   05:13|   18:33|    BR|
+|759|           Abu Dhabi|   0.0|   23.00|  2.60|                     clear sky|  1017|    69%|   06:45|   17:33|    AE|
+|760|            Freetown|   0.0|   23.00|  5.10|                 broken clouds|  1014|    64%|   06:40|   17:20|    BS|
+|761|              Geurie|   0.0|   23.00|  5.70|                     clear sky|  1007|    49%|   05:51|   19:52|    AU|
+|762|            Nakanoku|   0.0|   23.00|  6.70|                    few clouds|  1019|    83%|   06:40|   17:23|    JP|
+|763|           New Delhi|   0.0|   23.11|  1.67|                         smoke|  1017|    60%|   06:21|   16:54|    IN|
+|764|                Doha|   0.0|   23.34|  0.50|                    few clouds|  1017|    64%|   05:57|   16:43|    QA|
+|765|             Houston|   0.0|   23.52|  3.60|               overcast clouds|  1009|    69%|   06:54|   17:22|    US|
+|766|             Iveragh|   0.0|   23.60|  2.60|               overcast clouds|  1012|    64%|   04:58|   18:24|    AU|
+|767|          Porepunkah|   0.0|   23.76|  7.70|              scattered clouds|   997|    36%|   05:49|   20:10|    AU|
+|768|              Austin|   0.0|   23.89|  5.70|                     clear sky|  1008|    41%|   07:04|   17:31|    US|
+|769|              Lusaka|   0.0|   24.00|  1.00|                 broken clouds|  1017|    69%|   05:26|   18:21|    ZM|
+|770|             Honiara|   0.0|   24.00|  1.18|                    few clouds|  1005|    94%|   05:49|   18:25|    SB|
+|771|              Muscat|   0.0|   24.00|  2.10|              scattered clouds|  1017|    57%|   06:26|   17:18|    OM|
+|772|                Lima|   0.0|   24.00|  3.10|              scattered clouds|  1011|    69%|   05:33|   18:17|    PE|
+|773|              Haikou|   0.0|   24.00|  5.00|                 broken clouds|  1018|    83%|   06:54|   17:57|    CN|
+|774|              Harare|   0.0|   24.00|  5.70|                     clear sky|  1019|    57%|   05:11|   18:14|    ZW|
+|775|         Campo Limpo|   0.0|   24.00|  6.20|              scattered clouds|  1015|    53%|   04:59|   18:18|    BR|
+|776|       Campos Gerais|   0.0|   24.02|  2.11|               overcast clouds|  1010|    72%|   05:12|   18:27|    BR|
+|777|           Itinga II|   0.0|   24.26|  6.70|                    few clouds|  1015|    53%|   05:14|   18:49|    BR|
+|778|             Orleans|   0.0|   24.28|  2.81|                     clear sky|  1013|    47%|   05:13|   18:55|    BR|
+|779|        Kuala Lumpur|   0.0|   24.35|  0.50|                          mist|  1011|    94%|   07:01|   18:59|    MY|
+|780|          Guapimirim|   0.0|   24.35|  6.20|              scattered clouds|  1015|    53%|   04:59|   18:19|    BR|
+|781|                 Itu|   0.0|   24.36|  3.10|                 broken clouds|  1014|    50%|   05:14|   18:37|    BR|
+|782|          Terryville|   0.0|   24.38|  4.10|                     clear sky|  1008|    60%|   07:00|   17:30|    US|
+|783|         Casa Branca|   0.0|   24.40|  3.10|                 broken clouds|  1014|    65%|   05:16|   18:34|    BR|
+|784|  Aracoiaba da Serra|   0.0|   24.44|  5.10|                 broken clouds|  1011|    57%|   05:15|   18:39|    BR|
+|785|         Tegucigalpa|   0.0|   24.48|  4.60|               overcast clouds|  1018|    68%|   05:54|   17:17|    HN|
+|786|         Serra Negra|   0.0|   24.50|  3.10|                 broken clouds|  1014|    50%|   05:13|   18:34|    BR|
+|787|       Colonia Valle|   0.0|   24.65|  3.60|                     clear sky|  1012|    36%|   07:06|   17:50|    MX|
+|788|          Dos Ejidos|   0.0|   24.65|  5.10|                     clear sky|  1011|    34%|   07:06|   17:50|    MX|
+|789|        Vila Conrado|   0.0|   24.66|  1.26|                 broken clouds|  1017|    69%|   05:15|   18:33|    BR|
+|790|              La Paz|   0.0|   24.69|  4.10|                 broken clouds|  1014|    60%|   06:43|   17:33|    MX|
+|791|            Djibouti|   0.0|   24.80|  3.33|              scattered clouds|  1013|    84%|   06:08|   17:40|    DJ|
+|792|      Miguel Pereira|   0.0|   24.80|  6.20|              scattered clouds|  1015|    53%|   05:01|   18:20|    BR|
+|793|      Rio dos Cedros|   0.0|   24.87|  6.70|                    few clouds|  1015|    53%|   05:16|   18:52|    BR|
+|794|             Yaounde|   0.0|   25.00|  1.50|                    few clouds|  1014|    88%|   06:03|   17:58|    CM|
+|795| Bandar Seri Begawan|   0.0|   25.00|  2.10|                    light rain|  1011|    94%|   06:11|   18:03|    BN|
+|796|              Maputo|   0.0|   25.00|  4.10|                 broken clouds|  1012|    83%|   04:50|   18:23|    MZ|
+|797|            Victoria|   0.0|   25.00|  5.47|                 broken clouds|  1010|    88%|   06:10|   18:01|    BN|
+|798|         Minas Novas|   0.0|   25.65|  4.49|                 broken clouds|  1011|    61%|   05:06|   18:08|    BR|
+|799|        Aldeia Velha|   0.0|   25.68|  4.10|              scattered clouds|  1016|    47%|   04:56|   18:16|    BR|
+|800|           Singapore|   0.0|   25.84|  4.60|                 broken clouds|  1010|    88%|   06:50|   18:53|    MY|
+|801|            Melekeok|   0.0|   26.00|  2.52|                 broken clouds|  1008|    88%|   05:56|   17:40|    PW|
+|802|          Mogi Guacu|   0.0|   26.00|  3.10|                 broken clouds|  1014|    65%|   05:15|   18:34|    BR|
+|803|               Butia|   0.0|   26.00|  3.10|                 broken clouds|  1014|    65%|   05:18|   18:36|    BR|
+|804|               Ibate|   0.0|   26.00|  3.10|                 broken clouds|  1014|    65%|   05:20|   18:38|    BR|
+|805|               Praia|   0.0|   26.00|  4.60|                 broken clouds|  1015|    57%|   05:06|   18:18|    BR|
+|806|               Cairo|   0.0|   26.00|  5.10|                     clear sky|  1011|    22%|   06:28|   16:55|    EG|
+|807|         Meekatharra|   0.0|   26.00|  5.70|               overcast clouds|  1012|    24%|   05:05|   18:41|    AU|
+|808|               Dasha|   0.0|   26.44|  0.91|                     clear sky|  1009|    24%|   06:19|   17:54|    NG|
+|809|            Isisford|   0.0|   26.47|  5.43|                     clear sky|  1007|    45%|   05:26|   18:52|    AU|
+|810|          Landervale|   0.0|   26.49|  4.60|              scattered clouds|  1000|    11%|   05:55|   20:05|    AU|
+|811|  Petrolina de Goias|   0.0|   26.53|  2.10|  thunderstorm with light rain|  1015|    65%|   05:35|   18:33|    BR|
+|812|              Manila|   0.0|   26.59|  2.10|                 broken clouds|  1011|    74%|   06:02|   17:24|    PH|
+|813|             Adavale|   0.0|   26.62|  3.58|                    few clouds|  1007|    44%|   05:22|   18:55|    AU|
+|814|             Jakarta|   0.0|   26.67|  1.50|                          haze|  1009|    83%|   05:26|   17:52|    ID|
+|815|             Bangkok|   0.0|   26.95|  2.10|              scattered clouds|  1014|    65%|   06:23|   17:47|    TH|
+|816|                Dili|   0.0|   26.98|  2.16|              scattered clouds|  1008|    74%|   06:08|   18:41|    TL|
+|817|               Kochi|   0.0|   27.00|  1.50|                          haze|  1010|    78%|   05:53|   17:30|    IN|
+|818|            Khartoum|   0.0|   27.00|  3.60|                    few clouds|  1013|    21%|   05:57|   17:16|    SD|
+|819|              Luanda|   0.0|   27.00|  4.60|              scattered clouds|  1008|    74%|   05:37|   18:11|    AO|
+|820|            Coruripe|   0.0|   27.37|  6.19|                     clear sky|  1009|    73%|   04:52|   17:30|    BR|
+|821|              Ipaucu|   0.0|   27.45|  2.51|                    few clouds|  1009|    52%|   05:24|   18:46|    BR|
+|822|           Chavantes|   0.0|   27.45|  2.51|                    few clouds|  1009|    52%|   05:25|   18:46|    BR|
+|823|            Sea View|   0.0|   27.59|  6.20|              scattered clouds|  1010|    88%|   05:55|   18:23|    TZ|
+|824|              Viamao|   0.0|   27.79|  6.70|                    few clouds|  1011|    45%|   05:16|   19:06|    BR|
+|825|              Havana|   0.0|   27.89|  3.60|                 broken clouds|  1013|    69%|   06:49|   17:43|    CU|
+|826|           Cebu City|   0.0|   28.00|  2.10|               overcast clouds|  1010|    78%|   05:43|   17:19|    PH|
+|827|          Phnom Penh|   0.0|   28.00|  3.10|                    few clouds|  1011|    58%|   06:01|   17:33|    KH|
+|828|            San Jose|   0.0|   28.00|  5.70|              scattered clouds|  1015|    54%|   05:57|   17:20|    HN|
+|829|          Nouakchott|   0.0|   28.00|  6.20|                     clear sky|  1011|    37%|   07:15|   18:26|    MR|
+|830|              Majuro|   0.0|   28.00|  6.93|               overcast clouds|  1006|    83%|   06:28|   18:14|    MH|
+|831|       Port of Spain|   0.0|   28.23|  3.10|                   shower rain|  1010|    79%|   06:05|   17:40|    TT|
+|832|          Basseterre|   0.0|   28.25|  3.10|                   shower rain|  1010|    79%|   06:04|   17:40|    TT|
+|833|    Fitzroy Crossing|   0.0|   28.38|  5.44|                     clear sky|  1008|    65%|   04:52|   17:57|    AU|
+|834|            Duartina|   0.0|   28.61|  1.50|              scattered clouds|  1013|    58%|   05:24|   18:44|    BR|
+|835|             Pirajui|   0.0|   28.63|  3.10|              scattered clouds|  1013|    61%|   05:25|   18:43|    BR|
+|836|               Dakar|   0.0|   28.89|  7.20|                     clear sky|  1010|    33%|   07:15|   18:37|    SN|
+|837|            Macatuba|   0.0|   28.95|  1.50|              scattered clouds|  1013|    58%|   05:22|   18:41|    BR|
+|838|            Kinshasa|   0.0|   29.00|  1.00|                    few clouds|  1009|    70%|   05:35|   17:55|    CD|
+|839|         Brazzaville|   0.0|   29.00|  1.00|                    few clouds|  1009|    70%|   05:35|   17:56|    CD|
+|840|              Bangui|   0.0|   29.00|  1.00|                  thunderstorm|  1008|    89%|   05:35|   17:29|    CF|
+|841|                Oshi|   0.0|   29.00|  3.60|                 broken clouds|  1008|    79%|   06:25|   18:17|    NG|
+|842|           Ituverava|   0.0|   29.00|  3.60|                 broken clouds|  1014|    51%|   05:22|   18:34|    BR|
+|843|        Miguelopolis|   0.0|   29.00|  3.60|                 broken clouds|  1014|    51%|   05:23|   18:35|    BR|
+|844|                Moju|   0.0|   29.00|  4.10|                 broken clouds|  1008|    79%|   05:55|   18:08|    BR|
+|845|          Libreville|   0.0|   29.00|  4.10|                  thunderstorm|  1009|    79%|   06:06|   18:12|    GA|
+|846|          Porto-Novo|   0.0|   29.00|  5.10|                    few clouds|  1009|    83%|   06:42|   18:30|    BJ|
+|847|               Accra|   0.0|   29.00|  5.10|                    few clouds|  1010|    79%|   05:52|   17:43|    GH|
+|848|                Lome|   0.0|   29.00|  5.10|                    few clouds|  1010|    79%|   05:54|   17:45|    GH|
+|849|            Kingston|   0.0|   29.24|  2.60|              scattered clouds|  1011|    62%|   06:18|   17:29|    JM|
+|850|              Tarawa|   0.0|   29.42|  1.57|              scattered clouds|  1008|    19%|   06:45|   18:17|    NG|
+|851|            Carolina|   0.0|   29.72|  5.70|              scattered clouds|  1012|    70%|   06:36|   17:45|    PR|
+|852|            Belmopan|   0.0|   29.83|  2.10|                    few clouds|  1014|    66%|   06:05|   17:18|    BZ|
+|853|            Monrovia|   0.0|   30.00|  3.10|              scattered clouds|  1010|    74%|   06:36|   18:24|    LR|
+|854|          Camaragibe|   0.0|   30.00|  4.10|                    few clouds|  1010|    66%|   04:51|   17:22|    BR|
+|855|            Brasilia|   0.0|   30.00|  5.70|                 broken clouds|  1010|    66%|   04:56|   17:37|    BR|
+|856|      Campo do Brito|   0.0|   30.00|  5.70|                 broken clouds|  1010|    66%|   04:56|   17:37|    BR|
+|857|        San Salvador|   0.0|   30.06|  2.60|                    few clouds|  1015|    58%|   06:01|   17:26|    SV|
+|858|          Entre Rios|   0.0|   30.32|  3.99|               overcast clouds|  1009|    52%|   04:57|   17:41|    BR|
+|859|              Quarai|   0.0|   30.44|  6.16|                 broken clouds|  1005|    58%|   05:37|   19:28|    BR|
+|860|             Caapora|   0.0|   30.45|  5.10|                 broken clouds|  1010|    58%|   04:51|   17:21|    BR|
+|861|          Paramaribo|   0.0|   30.53|  5.10|                   shower rain|  1009|    83%|   06:33|   18:22|    SR|
+|862|          Itapissuma|   0.0|   30.55|  4.10|                    few clouds|  1010|    66%|   04:51|   17:22|    BR|
+|863|       Santo Domingo|   0.0|   30.71|  4.10|                    few clouds|  1013|    74%|   06:52|   18:01|    DO|
+|864|        Yamoussoukro|   0.0|   30.78|  2.10|              scattered clouds|  1010|    62%|   06:14|   18:01|    CI|
+|865|           N'Djamena|   0.0|   31.00|  1.50|                          dust|  1008|    16%|   06:01|   17:31|    TD|
+|866|        Bady Bassitt|   0.0|   31.00|  2.10|              scattered clouds|  1011|    45%|   05:27|   18:42|    BR|
+|867|            Orlandia|   0.0|   31.00|  3.10|                 broken clouds|  1011|    45%|   05:21|   18:35|    BR|
+|868|         Morro Agudo|   0.0|   31.00|  3.10|                 broken clouds|  1011|    45%|   05:22|   18:36|    BR|
+|869|             Conakry|   0.0|   31.00|  4.10|                    few clouds|  1010|    74%|   06:52|   18:30|    GN|
+|870|              Panama|   0.0|   31.27|  4.60|              scattered clouds|  1008|    70%|   06:15|   17:55|    PA|
+|871|          Georgetown|   0.0|   31.46|  5.10|              scattered clouds|  1009|    66%|   05:46|   17:32|    GY|
+|872|   Cruzeiro do Oeste|   0.0|   31.81|  2.74|                     clear sky|  1007|    40%|   05:37|   19:01|    BR|
+|873|            Paicandu|   0.0|   31.87|  1.50|                     clear sky|  1010|    43%|   05:33|   18:57|    BR|
+|874|               Abuja|   0.0|   32.00|  2.10|                    few clouds|  1010|    59%|   06:27|   18:06|    NG|
+|875|                Apia|   0.0|   32.00|  2.10|                    few clouds|  1010|    59%|   06:28|   18:07|    NG|
+|876|      Port-au-Prince|   0.0|   32.00|  4.10|                    few clouds|  1011|    43%|   06:01|   17:11|    HT|
+|877|             Managua|   0.0|   32.00|  6.20|              scattered clouds|  1009|    55%|   05:47|   17:17|    NI|
+|878|      Tobias Barreto|   0.0|   32.05|  5.19|               overcast clouds|  1008|    43%|   04:58|   17:39|    BR|
+|879|              Kuwait|   0.0|   32.24|  2.37|                     clear sky|  1007|    44%|   05:16|   18:00|    PE|
+|880|             Realeza|   0.0|   32.72|  1.06|              scattered clouds|  1006|    38%|   05:35|   19:07|    BR|
+|881|            Palotina|   0.0|   32.77|  4.05|                     clear sky|  1006|    38%|   05:39|   19:05|    BR|
+|882|              Bissau|   0.0|   33.00|  1.50|                     clear sky|  1009|    49%|   07:03|   18:34|    GW|
+|883|            Gaborone|   0.0|   33.00|  4.10|                    few clouds|  1013|    10%|   05:19|   18:47|    BW|
+|884|           Porangatu|   0.0|   33.19|  1.72|                 broken clouds|  1006|    46%|   05:39|   18:28|    BR|
+|885|            Buritama|   0.0|   33.35|  2.60|              scattered clouds|  1006|    35%|   05:30|   18:45|    BR|
+|886|             Lavínia|   0.0|   33.50|  1.95|                    few clouds|  1006|    36%|   05:33|   18:48|    BR|
+|887|                Jaru|   0.0|   33.65|  1.37|                    few clouds|  1005|    49%|   05:37|   18:16|    BR|
+|888|             Coroata|   0.0|   33.92|  0.54|              scattered clouds|  1006|    42%|   05:31|   17:57|    BR|
+|889|              Bamako|   0.0|   34.00|  3.60|                     clear sky|  1013|    18%|   06:34|   18:03|    ML|
+|890|           Auriflama|   0.0|   34.04|  1.92|                    few clouds|  1006|    37%|   05:32|   18:46|    BR|
+|891|       Tupi Paulista|   0.0|   34.12|  2.76|                     clear sky|  1006|    32%|   05:35|   18:51|    BR|
+|892|          Cercadinho|   0.0|   34.14|  0.51|                 broken clouds|  1007|    31%|   05:00|   17:34|    BR|
+|893|               Picui|   0.0|   34.23|  5.07|                 broken clouds|  1007|    31%|   04:59|   17:25|    BR|
+|894|              Banjul|   0.0|   35.00|  4.60|                     clear sky|  1009|    30%|   07:10|   18:36|    GM|
+|895|            Amontada|   0.0|   35.10|  5.84|              scattered clouds|  1007|    37%|   05:17|   17:35|    BR|
+|896|       Rosario Oeste|   0.0|   35.78|  3.67|                     clear sky|  1004|    41%|   05:06|   17:59|    BR|
+|897|         Ouagadougou|   0.0|   35.79|  2.58|                          haze|  1008|    16%|   06:08|   17:37|    BF|
+|898|    Sao Joao Batista|   0.0|   36.28|  2.02|                    few clouds|  1005|    37%|   05:32|   17:48|    BR|
+|899|          Cajazeiras|   0.0|   36.62|  1.78|              scattered clouds|  1006|    28%|   05:07|   17:35|    BR|
+|900|              Niamey|   0.0|   37.00|  3.10|              scattered clouds|  1009|     9%|   06:55|   18:21|    NE|
+|901|     Delmiro Gouveia|   0.0|   37.00|  4.10|              scattered clouds|  1009|    30%|   05:01|   17:37|    BR|
+|902|       Major Isidoro|   0.0|   37.61|  4.82|              scattered clouds|  1007|    24%|   04:56|   17:33|    BR|
+|903|            Asuncion|   0.0|   38.00|  7.20|              scattered clouds|  1004|    37%|   05:52|   19:22|    PY|
+|904|             Nagaoka|  0.06|    5.56|  2.37|               overcast clouds|  1029|    86%|   06:34|   16:28|    JP|
+|905|            Boolarra|  0.06|   12.54|  3.13|               overcast clouds|  1001|    88%|   05:47|   20:16|    AU|
+|906|              Elmore|  0.06|   13.16|  4.47|                 broken clouds|  1002|    75%|   05:58|   20:18|    AU|
+|907|          Gormandale|  0.06|   13.33|  3.13|               overcast clouds|  1001|    88%|   05:45|   20:15|    AU|
+|908|         Ballendella|  0.06|   14.34|  7.15|                 broken clouds|   999|    76%|   05:59|   20:18|    AU|
+|909|             Shimoda|  0.12|   10.85|  1.34|                    light rain|  1022|    90%|   06:28|   16:34|    JP|
+|910|                Naha|  0.12|   14.24|  0.44|                    light rain|  1019|    92%|   07:34|   18:26|    CN|
+|911|             McBride|  0.13|  -10.21|  1.49|                    light snow|  1019|    97%|   07:43|   15:52|    CA|
+|912|               Piuka|  0.13|   -7.20|  2.01|                    light snow|  1029|    96%|   06:40|   15:55|    JP|
+|913|           Big River|  0.13|   -2.92|  3.41|                    light snow|  1007|    79%|   08:53|   16:57|    CA|
+|914|           Takamatsu|  0.13|   -2.05|  0.83|                    light snow|  1030|    89%|   06:32|   16:18|    JP|
+|915|               Akita|  0.13|    4.06|  4.71|                    light snow|  1030|    70%|   06:35|   16:18|    JP|
+|916|              Wajima|  0.13|    7.96|  7.09|                    light rain|  1029|    73%|   06:42|   16:36|    JP|
+|917|             Tottori|  0.13|    9.45|  5.86|                    light rain|  1028|    77%|   06:48|   16:51|    JP|
+|918|               Chizu|  0.13|   10.00|  5.86|                    light rain|  1028|    72%|   06:48|   16:52|    JP|
+|919|             Kanonji|  0.13|   11.46|  5.82|                    light rain|  1025|    83%|   06:47|   16:57|    JP|
+|920|Karoonda East Murray|  0.13|   12.59|  8.95|                    light rain|  1010|    58%|   05:21|   19:33|    AU|
+|921|           Copeville|  0.13|   12.59|  8.95|                    light rain|  1010|    58%|   05:22|   19:33|    AU|
+|922|         Carag Carag|  0.13|   14.27|  7.15|                    light rain|   999|    76%|   05:57|   20:17|    AU|
+|923|       Tallygaroopna|  0.13|   14.53|  6.74|                    light rain|   981|    56%|   05:56|   20:14|    AU|
+|924|               Bobin|  0.13|   15.87|  1.00|                    light rain|  1007|   100%|   05:39|   19:36|    AU|
+|925|              Malabo|  0.13|   21.16|  1.94|                    light rain|  1014|    82%|   05:44|   17:46|    CD|
+|926|            Funafuti|  0.13|   29.48|  4.43|                    light rain|  1008|    71%|   05:33|   18:07|    TV|
+|927|           Waswanipi|  0.19|    0.14|  3.05|                    light snow|  1002|    91%|   07:31|   16:11|    CA|
+|928|            Kamaishi|  0.19|    2.14|  3.03|                    light snow|  1028|    69%|   06:27|   16:12|    JP|
+|929|                Saku|  0.19|    9.33|  2.24|                    light rain|  1029|    81%|   06:33|   16:33|    JP|
+|930|              Wakasa|  0.19|   10.00|  2.79|                    light rain|  1028|    72%|   06:47|   16:51|    JP|
+|931|             Okayama|  0.19|   10.00|  5.66|                    light rain|  1028|    72%|   06:48|   16:54|    JP|
+|932|           Kurashiki|  0.19|   10.00|  5.66|                    light rain|  1028|    72%|   06:48|   16:55|    JP|
+|933|            Marugame|  0.19|   12.59|  5.66|                    light rain|  1026|    66%|   06:47|   16:56|    JP|
+|934|            Shizuoka|  0.19|   12.76|  2.68|                    light rain|  1024|    86%|   06:31|   16:36|    JP|
+|935|               Sagae|  0.25|   -2.26|  1.88|                    light snow|  1030|    92%|   06:31|   16:20|    JP|
+|936|         Grand Forks|  0.25|    0.83|  8.70|                    light rain|   996|   100%|   07:48|   16:42|    US|
+|937|           Lachenaie|  0.25|    4.80|  7.20|                    light rain|  1005|    79%|   07:07|   16:15|    CA|
+|938|         Fukuchiyama|  0.25|    5.51|  1.34|                    light rain|  1022|    90%|   06:44|   16:48|    JP|
+|939|               Namie|  0.25|    5.53|  5.75|                    light rain|  1019|    63%|   06:27|   16:20|    JP|
+|940|          Rock Creek|  0.25|    5.86|  1.26|                    light rain|  1023|   100%|   07:24|   16:33|    US|
+|941|         Ticonderoga|  0.25|    6.53|  2.60|                    light rain|  1006|    75%|   07:00|   16:20|    US|
+|942|              Pessac|  0.25|   13.00|  3.60|                    light rain|  1011|    87%|   08:12|   17:26|    FR|
+|943|               Sanaa|  0.25|   16.06|  1.65|                    light rain|  1015|    79%|   06:05|   17:30|    YE|
+|944|         Medlow Bath|  0.25|   17.92|  2.10|                    light rain|  1006|    93%|   05:43|   19:49|    AU|
+|945|            Shimochi|  0.25|   21.78| 11.95|                    light rain|  1021|    84%|   07:03|   17:50|    JP|
+|946|             Huazhou|  0.25|   22.04|  5.68|                    light rain|  1019|    73%|   06:55|   17:53|    CN|
+|947|               Tully|  0.25|   23.35|  0.59|                    light rain|  1011|    83%|   05:31|   18:35|    AU|
+|948|             Caracas|  0.25|   27.07|  2.10|                    light rain|  1011|    66%|   06:27|   18:02|    VE|
+|949|                Ipua|  0.25|   30.31|  0.91|                    light rain|  1008|    55%|   05:22|   18:35|    BR|
+|950|            Changjon|  0.31|    3.00|  3.10|                    light rain|  1031|    93%|   07:17|   17:07|    KR|
+|951|         Changsal-li|  0.31|    3.00|  3.10|                    light rain|  1031|    93%|   07:17|   17:08|    KR|
+|952|            Conmurra|  0.31|    7.37|  5.05|                    light rain|  1008|    88%|   05:14|   19:37|    AU|
+|953|              Tabilk|  0.31|   13.33|  6.12|                    light rain|   981|    56%|   05:55|   20:17|    AU|
+|954|             Izuhara|  0.31|   14.65| 15.37|                    light rain|  1026|    80%|   07:05|   17:14|    JP|
+|955|               Duyun|  0.38|    3.80|  1.08|                    light rain|  1024|    96%|   07:16|   17:57|    CN|
+|956|              Apsley|  0.38|    7.69|  6.00|                    light rain|  1008|    88%|   06:11|   20:34|    AU|
+|957|               Tulle|  0.38|    9.90|  1.50|                    light rain|  1012|    93%|   08:04|   17:15|    FR|
+|958|        Willow Grove|  0.38|   12.50|  4.92|                    light rain|  1001|    92%|   05:48|   20:16|    AU|
+|959|            Ishigaki|  0.38|   22.00| 11.62|                    light rain|  1021|    85%|   07:06|   17:54|    JP|
+|960|            Taketomi|  0.38|   22.00| 11.62|                    light rain|  1021|    85%|   07:06|   17:55|    JP|
+|961|              Larino|  0.44|   12.48|  0.89|                    light rain|  1006|    89%|   07:01|   16:33|    IT|
+|962|           Mogadishu|  0.44|   25.08|  5.37|                    light rain|  1012|    86%|   05:45|   17:46|    SO|
+|963|           Shimonita|   0.5|    9.18|  2.24|                    light rain|  1029|    81%|   06:32|   16:32|    JP|
+|964|             Mbabane|   0.5|   21.78|  4.60|                    light rain|  1020|    88%|   04:55|   18:29|    SZ|
+|965|         Halls Creek|   0.5|   26.08|  2.74|                    light rain|  1008|    53%|   04:44|   17:49|    AU|
+|966|          Northfield|  0.51|   10.69|  4.10|                    light rain|   999|   100%|   07:45|   16:04|    GB|
+|967|              London|  0.51|   10.74|  2.10|                    light rain|  1001|   100%|   07:34|   16:00|    GB|
+|968|             Cardiff|  0.51|   10.87|  3.10|                    light rain|  1000|   100%|   07:46|   16:12|    GB|
+|969|            Santiago|  0.56|   21.69|  0.28|                    light rain|  1013|    95%|   06:03|   17:18|    PH|
+|970|            Taggerty|  0.63|   12.01|  2.01|                    light rain|  1000|    84%|   05:52|   20:16|    AU|
+|971|             Macklin|  0.69|   -0.86|  6.26|                    light snow|  1009|    92%|   08:57|   17:15|    CA|
+|972|             Panmure|  0.75|   10.79|  2.68|                    light rain|  1013|    80%|   06:01|   20:31|    AU|
+|973|             Wrigley|  0.81|  -11.97|  2.97|                    light snow|  1021|    94%|   10:04|   15:57|    CA|
+|974|               Nikko|  0.81|    6.68|  1.78|                    light rain|  1027|    89%|   06:30|   16:27|    JP|
+|975|           Ladysmith|  0.88|   21.31|  3.39|                    light rain|  1016|    79%|   04:56|   18:39|    ZA|
+|976|          Wonga Park|  0.89|   12.58|  6.70|   light intensity shower rain|  1004|    93%|   05:53|   20:19|    AU|
+|977|          Taiobeiras|   1.0|   24.54|  4.63|                    light rain|  1011|    69%|   05:07|   18:04|    BR|
+|978|            Windhoek|   1.0|   24.61|  5.70|                    light rain|  1021|    38%|   05:58|   19:18|    NA|
+|979|          Forest Row|  1.02|   10.92|  2.60|                 moderate rain|  1002|   100%|   07:32|   16:01|    GB|
+|980|           Bujumbura|  1.13|   15.25|  1.20|                    light rain|  1015|    92%|   05:40|   17:58|    BI|
+|981|              Jeetho|  1.25|   12.44|  7.83|                    light rain|  1001|    91%|   05:49|   20:19|    AU|
+|982|           Hamamatsu|  1.25|   16.11|  6.02|                    light rain|  1021|    76%|   06:32|   16:39|    JP|
+|983|              Asmara|  1.25|   18.24|  2.41|                    light rain|  1013|    97%|   06:31|   17:51|    ER|
+|984|         North River|  1.27|    3.39| 10.80|                 moderate rain|   998|    93%|   07:52|   16:48|    CA|
+|985|           Edinburgh|  1.52|    8.05|  4.60|                 moderate rain|  1000|   100%|   08:08|   15:51|    GB|
+|986|              Durham|  1.52|    8.78|  2.10|       light intensity drizzle|  1000|   100%|   07:55|   15:51|    GB|
+|987|       Diamond Creek|  1.52|   12.41|  6.70|   light intensity shower rain|  1004|    93%|   05:53|   20:19|    AU|
+|988|              Toyama|  1.78|    7.64|  1.34|                 moderate rain|  1016|    94%|   06:39|   16:37|    JP|
+|989|       Paradise Cove|  1.88|    3.89|  0.45|                    light rain|   993|    91%|   08:07|   16:49|    CA|
+|990|             Ipameri|  1.94|   28.27|  0.36|                    light rain|  1008|    59%|   05:28|   18:31|    BR|
+|991|                Mita|  2.19|   10.65|  3.23|                    light rain|  1011|    68%|   05:40|   18:15|    PE|
+|992|               Keene|   2.2|    7.14|  6.20|                 moderate rain|  1006|    52%|   06:53|   16:18|    US|
+|993|             Everard|  2.31|   -0.42|  4.38|                          snow|   997|    96%|   08:17|   17:03|    CA|
+|994|          Candelaria|  2.44|   25.00|  1.79|                    light rain|  1010|    96%|   05:59|   17:23|    PH|
+|995|            Lilongwe|  2.56|   20.84|  0.65|                    light rain|  1012|    75%|   05:06|   17:57|    MW|
+|996|              Dublin|  2.79|   10.43|  1.50|                 moderate rain|   995|   100%|   08:07|   16:16|    IE|
+|997|              Dodoma|  3.81|   22.11|  1.12|                 moderate rain|  1013|    79%|   06:11|   18:36|    TZ|
+|998|            Itaberai|  3.94|   27.81|  4.09|                 moderate rain|  1007|    69%|   05:37|   18:35|    BR|
+|999|               Goias|  3.94|   27.81|  4.09|                 moderate rain|  1007|    69%|   05:39|   18:36|    BR|
++----------------------------------------------------------------------------------------------------------------------+
+11月26日 03:00現在の情報
